@@ -1,0 +1,2968 @@
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 08:02:05
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.4s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_080210.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.9s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.5s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 08:01:43
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_080147.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.0s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.6s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 07:01:48
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.4s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_070152.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.9s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.4s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 07:01:25
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_070130.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.1s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.6s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 06:01:19
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.3s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_060124.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 6.1s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 10.8s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 06:00:57
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_060101.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.8s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.4s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 05:00:48
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 5.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_050054.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.0s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 10.6s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 05:00:26
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.2s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_050031.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.1s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.8s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 04:00:41
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.8s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_040046.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.4s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 04:00:21
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_040025.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.4s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.8s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 03:00:27
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_030032.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.3s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.9s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-19 03:00:07
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.6s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260419_030012.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.1s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-18 08:01:48
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.6s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260418_080152.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.0s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.7s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-18 08:01:48
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.6s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260418_080152.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.8s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.4s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-18 07:01:31
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.6s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260418_070136.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.1s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.7s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-18 07:01:31
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.6s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260418_070136.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.9s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.5s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-18 06:01:04
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.5s
+  Yükselenler: 38 | Düşenler: 8
+  Ort. Değişim: +1.02%
+  En Güçlü 5: HOOD(+4.5%) | HD(+3.6%) | COIN(+3.2%) | MRK(+3.1%) | TSLA(+3.0%)
+  En Zayıf 5: MU(-0.5%) | CVX(-2.2%) | XOM(-3.6%) | COP(-4.5%) | OXY(-5.4%)
+  RSI Aşırı Alım (≥70): MSFT(71.7) NVDA(71.4) GOOGL(72.6) AMZN(76.6) MS(70.9) UNH(73.4)
+  MACD Pozitif: 39 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +2.44%
+    ▲ Tüketim              +1.81%
+    ▲ Sanayi               +1.80%
+    ▲ Teknoloji            +1.66%
+    ▲ ETF                  +1.56%
+    ▲ Sağlık               +1.31%
+    ▲ Finans               +0.84%
+    ▲ Yarı İletkenler      +0.58%
+    ▼ Enerji               -3.96%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        710.14   +1.21%   73.6    +6.5124  YUKARI
+  QQQ        648.85   +1.31%   74.5    +7.4494  YUKARI
+  AAPL       270.23   +2.59%   64.2    +1.8232   ASAGI
+  MSFT       422.79   +0.60%   71.7    +7.3946   ASAGI
+  NVDA       201.68   +1.68%   71.4    +3.0139  YUKARI
+  TSLA       400.62   +3.01%   60.3    +6.1695   ASAGI
+  AMZN       250.56   +0.34%   76.6    +4.2976  YUKARI
+  META       688.55   +1.73%   69.8   +14.2300   ASAGI
+  JPM        310.29   +0.11%   62.1    +1.8247  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +66.04%
+      #2 Periyot:14 AA:70 AS:35 → Getiri: +48.64%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +47.29%
+      #4 Periyot:14 AA:75 AS:25 → Getiri: +43.94%
+      #5 Periyot:21 AA:75 AS:35 → Getiri: +40.09%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +11.03%
+      #2 H:8 Y:17 S:9 → Getiri: +4.93%
+      #3 H:12 Y:26 S:7 → Getiri: +3.79%
+      #4 H:10 Y:26 S:9 → Getiri: +2.59%
+      #5 H:10 Y:22 S:7 → Getiri: +2.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +21.36%
+      #2 Kısa:10 Uzun:30 → Getiri: +10.00%
+      #3 Kısa:9 Uzun:21 → Getiri: +9.74%
+      #4 Kısa:20 Uzun:100 → Getiri: +9.38%
+      #5 Kısa:20 Uzun:50 → Getiri: +9.10%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260418_060109.json
+  En İyi Strateji: RSI (+66.04%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.8s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.9s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+
+
+
+
+
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 34 | Düşenler: 13
+  Ort. Değişim: +0.95%
+  En Güçlü 5: HOOD(+9.0%) | MU(+7.3%) | COIN(+5.2%) | AMZN(+5.0%) | META(+4.8%)
+  En Zayıf 5: XOM(-3.1%) | INTC(-3.5%) | COP(-4.1%) | WFC(-4.4%) | OXY(-4.9%)
+  RSI Aşırı Alım (≥70): AMZN(77.4) BAC(70.8) MS(72.7) AMD(73.3) INTC(71.7) AVGO(73.3)
+  RSI Aşırı Satım (≤30): NKE(28.4)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.16%
+    ▲ Teknoloji            +3.02%
+    ▲ Yarı İletkenler      +1.47%
+    ▲ ETF                  +1.32%
+    ▲ Sağlık               +0.55%
+    ▲ Sanayi               +0.44%
+    ▲ Tüketim              +0.19%
+    ▲ Finans               +0.10%
+    ▼ Enerji               -3.80%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        693.79   +1.12%   67.3    +5.6834   ASAGI
+  QQQ        627.37   +1.62%   67.5    +5.8931   ASAGI
+  AAPL       258.79   -0.16%   53.0    +1.2177   ASAGI
+  MSFT       391.31   +1.81%   56.6    +3.3239   ASAGI
+  NVDA       194.82   +2.91%   66.8    +2.4602   ASAGI
+  TSLA       363.83   +3.24%   45.7    +0.4142   ASAGI
+  AMZN       251.99   +5.04%   77.4    +4.8339  YUKARI
+  META       664.77   +4.77%   65.3   +11.9904   ASAGI
+  JPM        312.01   -0.53%   66.7    +3.1379  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.4s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +45.34%
+      #2 Periyot:21 AA:75 AS:35 → Getiri: +34.38%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +32.42%
+      #4 Periyot:14 AA:75 AS:30 → Getiri: +28.13%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +25.88%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +6.31%
+      #2 H:8 Y:17 S:9 → Getiri: +1.49%
+      #3 H:12 Y:26 S:7 → Getiri: -1.50%
+      #4 H:10 Y:22 S:7 → Getiri: -1.70%
+      #5 H:10 Y:26 S:9 → Getiri: -1.86%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +18.16%
+      #2 Kısa:20 Uzun:50 → Getiri: +8.01%
+      #3 Kısa:20 Uzun:100 → Getiri: +7.55%
+      #4 Kısa:10 Uzun:30 → Getiri: +6.97%
+      #5 Kısa:9 Uzun:50 → Getiri: +6.42%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260414_210806.json
+  En İyi Strateji: RSI (+45.34%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.3s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.8s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 20:54:56
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.1s
+  Yükselenler: 33 | Düşenler: 14
+  Ort. Değişim: +0.98%
+  En Güçlü 5: HOOD(+9.5%) | MU(+6.9%) | COIN(+6.0%) | META(+4.8%) | SOFI(+4.8%)
+  En Zayıf 5: XOM(-3.3%) | INTC(-3.8%) | COP(-4.2%) | WFC(-4.5%) | OXY(-5.0%)
+  RSI Aşırı Alım (≥70): AMZN(77.1) BAC(70.7) MS(72.8) AMD(73.2) INTC(71.2) AVGO(73.4)
+  RSI Aşırı Satım (≤30): NKE(28.6)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.83%
+    ▲ Teknoloji            +3.09%
+    ▲ Yarı İletkenler      +1.36%
+    ▲ ETF                  +1.35%
+    ▲ Sağlık               +0.47%
+    ▲ Sanayi               +0.37%
+    ▲ Tüketim              +0.11%
+    ▲ Finans               +0.06%
+    ▼ Enerji               -3.97%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        693.72   +1.11%   67.3    +5.6793   ASAGI
+  QQQ        627.43   +1.63%   67.6    +5.8969   ASAGI
+  AAPL       258.19   -0.39%   52.1    +1.1795   ASAGI
+  MSFT       394.14   +2.54%   58.4    +3.5045   ASAGI
+  NVDA       194.81   +2.91%   66.8    +2.4592   ASAGI
+  TSLA       364.95   +3.56%   46.3    +0.4857   ASAGI
+  AMZN       251.16   +4.70%   77.1    +4.7810  YUKARI
+  META       665.14   +4.82%   65.4   +12.0140   ASAGI
+  JPM        311.78   -0.61%   66.4    +3.1235  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.4s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +45.39%
+      #2 Periyot:21 AA:75 AS:35 → Getiri: +34.48%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +32.48%
+      #4 Periyot:14 AA:75 AS:30 → Getiri: +28.21%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +25.97%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +6.38%
+      #2 H:8 Y:17 S:9 → Getiri: +1.57%
+      #3 H:12 Y:26 S:7 → Getiri: -1.42%
+      #4 H:10 Y:22 S:7 → Getiri: -1.62%
+      #5 H:10 Y:26 S:9 → Getiri: -1.78%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +18.11%
+      #2 Kısa:20 Uzun:50 → Getiri: +8.01%
+      #3 Kısa:20 Uzun:100 → Getiri: +7.55%
+      #4 Kısa:10 Uzun:30 → Getiri: +6.92%
+      #5 Kısa:9 Uzun:50 → Getiri: +6.42%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260414_205500.json
+  En İyi Strateji: RSI (+45.39%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.6s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.1s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 20:53:55
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 3.8s
+  Yükselenler: 32 | Düşenler: 15
+  Ort. Değişim: +0.96%
+  En Güçlü 5: HOOD(+9.4%) | MU(+6.9%) | COIN(+5.9%) | AMZN(+4.7%) | SOFI(+4.7%)
+  En Zayıf 5: CVX(-3.3%) | INTC(-3.9%) | COP(-4.2%) | WFC(-4.6%) | OXY(-5.0%)
+  RSI Aşırı Alım (≥70): AMZN(77.2) BAC(70.7) MS(72.8) AMD(73.2) INTC(71.0) AVGO(73.4)
+  RSI Aşırı Satım (≤30): NKE(28.6)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.77%
+    ▲ Teknoloji            +3.05%
+    ▲ ETF                  +1.33%
+    ▲ Yarı İletkenler      +1.32%
+    ▲ Sağlık               +0.49%
+    ▲ Sanayi               +0.34%
+    ▲ Tüketim              +0.10%
+    ▲ Finans               +0.04%
+    ▼ Enerji               -3.93%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        693.64   +1.10%   67.2    +5.6735   ASAGI
+  QQQ        627.32   +1.61%   67.5    +5.8899   ASAGI
+  AAPL       258.10   -0.42%   51.9    +1.1737   ASAGI
+  MSFT       393.95   +2.49%   58.3    +3.4920   ASAGI
+  NVDA       194.73   +2.86%   66.8    +2.4541   ASAGI
+  TSLA       364.80   +3.51%   46.2    +0.4762   ASAGI
+  AMZN       251.26   +4.74%   77.2    +4.7870  YUKARI
+  META       664.51   +4.72%   65.3   +11.9738   ASAGI
+  JPM        311.80   -0.60%   66.4    +3.1245  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.4s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +45.34%
+      #2 Periyot:21 AA:75 AS:35 → Getiri: +34.45%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +32.44%
+      #4 Periyot:14 AA:75 AS:30 → Getiri: +28.18%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +25.95%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +6.35%
+      #2 H:8 Y:17 S:9 → Getiri: +1.54%
+      #3 H:12 Y:26 S:7 → Getiri: -1.45%
+      #4 H:10 Y:22 S:7 → Getiri: -1.66%
+      #5 H:10 Y:26 S:9 → Getiri: -1.81%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +18.08%
+      #2 Kısa:20 Uzun:50 → Getiri: +8.01%
+      #3 Kısa:20 Uzun:100 → Getiri: +7.55%
+      #4 Kısa:10 Uzun:30 → Getiri: +6.90%
+      #5 Kısa:9 Uzun:50 → Getiri: +6.41%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260414_205359.json
+  En İyi Strateji: RSI (+45.34%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 6.3s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 10.5s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 20:07:34
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 4.0s
+  Yükselenler: 30 | Düşenler: 17
+  Ort. Değişim: +0.90%
+  En Güçlü 5: HOOD(+9.6%) | COIN(+6.3%) | MU(+5.4%) | META(+4.4%) | SOFI(+4.3%)
+  En Zayıf 5: CVX(-3.3%) | COP(-3.9%) | WFC(-4.3%) | INTC(-4.5%) | OXY(-4.7%)
+  RSI Aşırı Alım (≥70): AMZN(76.6) BAC(70.6) MS(72.7) AMD(72.9) INTC(70.1) AVGO(72.8)
+  RSI Aşırı Satım (≤30): NKE(29.0)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.62%
+    ▲ Teknoloji            +2.98%
+    ▲ ETF                  +1.27%
+    ▲ Yarı İletkenler      +0.75%
+    ▲ Sağlık               +0.47%
+    ▲ Sanayi               +0.41%
+    ▲ Tüketim              +0.25%
+    ▼ Finans               -0.02%
+    ▼ Enerji               -3.71%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        693.23   +1.04%   67.1    +5.6477   ASAGI
+  QQQ        626.51   +1.48%   67.2    +5.8382   ASAGI
+  AAPL       259.53   +0.13%   54.1    +1.2650   ASAGI
+  MSFT       394.00   +2.51%   58.3    +3.4955   ASAGI
+  NVDA       194.53   +2.76%   66.6    +2.4415   ASAGI
+  TSLA       364.89   +3.54%   46.2    +0.4816   ASAGI
+  AMZN       249.63   +4.06%   76.6    +4.6833  YUKARI
+  META       662.17   +4.36%   64.8   +11.8244   ASAGI
+  JPM        311.46   -0.71%   65.9    +3.1031  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.5s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:10 AA:75 AS:30 → Getiri: +45.42%
+      #2 Periyot:21 AA:75 AS:35 → Getiri: +34.54%
+      #3 Periyot:10 AA:70 AS:30 → Getiri: +32.53%
+      #4 Periyot:14 AA:75 AS:30 → Getiri: +28.26%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +26.12%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: +6.41%
+      #2 H:8 Y:17 S:9 → Getiri: +1.60%
+      #3 H:12 Y:26 S:7 → Getiri: -1.40%
+      #4 H:10 Y:22 S:7 → Getiri: -1.60%
+      #5 H:10 Y:26 S:9 → Getiri: -1.75%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:50 Uzun:200 → Getiri: +18.13%
+      #2 Kısa:20 Uzun:50 → Getiri: +8.01%
+      #3 Kısa:20 Uzun:100 → Getiri: +7.55%
+      #4 Kısa:10 Uzun:30 → Getiri: +6.95%
+      #5 Kısa:9 Uzun:50 → Getiri: +6.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  Backtest kayıt → /Users/kiraz/Projects/johny/backtest/optimize_20260414_200739.json
+  En İyi Strateji: RSI (+45.42%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.6s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.1s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 19:06:53
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 47
+  Başarılı: 47 | Hatalı: 0
+  Süre: 5.2s
+  Yükselenler: 32 | Düşenler: 15
+  Ort. Değişim: +0.92%
+  En Güçlü 5: HOOD(+9.7%) | COIN(+6.9%) | SOFI(+4.6%) | META(+4.5%) | MU(+3.8%)
+  En Zayıf 5: CVX(-2.9%) | INTC(-3.8%) | COP(-4.0%) | OXY(-4.5%) | WFC(-4.8%)
+  RSI Aşırı Alım (≥70): AMZN(76.0) BAC(70.5) MS(72.6) UNH(70.1) AMD(72.7) INTC(71.2)
+  RSI Aşırı Satım (≤30): NKE(29.0)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.64%
+    ▲ Teknoloji            +2.80%
+    ▲ ETF                  +1.28%
+    ▲ Sanayi               +0.77%
+    ▲ Sağlık               +0.60%
+    ▲ Yarı İletkenler      +0.52%
+    ▲ Tüketim              +0.26%
+    ▼ Finans               -0.06%
+    ▼ Enerji               -3.48%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        692.95   +1.00%   67.0    +5.6299   ASAGI
+  QQQ        625.67   +1.34%   66.9    +5.7847   ASAGI
+  AAPL       257.61   -0.62%   51.2    +1.1421   ASAGI
+  MSFT       393.57   +2.39%   58.1    +3.4680   ASAGI
+  NVDA       194.25   +2.61%   66.4    +2.4234   ASAGI
+  TSLA       365.58   +3.74%   46.6    +0.5267   ASAGI
+  AMZN       248.27   +3.49%   76.0    +4.5960  YUKARI
+  META       663.23   +4.52%   65.0   +11.8912   ASAGI
+  JPM        311.85   -0.58%   66.5    +3.1279  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +2.46%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.92%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +1.91%
+      #4 Periyot:10 AA:70 AS:30 → Getiri: +1.58%
+      #5 Periyot:14 AA:65 AS:30 → Getiri: +1.41%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -2.57%
+      #2 H:8 Y:17 S:9 → Getiri: -3.08%
+      #3 H:10 Y:22 S:7 → Getiri: -3.35%
+      #4 H:12 Y:26 S:7 → Getiri: -3.90%
+      #5 H:12 Y:30 S:9 → Getiri: -4.04%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -4.26%
+      #5 Kısa:9 Uzun:21 → Getiri: -4.57%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+2.46%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 10.7s
+  Veri: ✓ (47/47 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 18:06:56
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.7s
+  Yükselenler: 30 | Düşenler: 17
+  Ort. Değişim: +0.68%
+  En Güçlü 5: HOOD(+9.5%) | COIN(+6.0%) | SOFI(+4.2%) | META(+3.5%) | PLTR(+2.8%)
+  En Zayıf 5: XOM(-2.6%) | COP(-3.6%) | INTC(-3.7%) | OXY(-4.3%) | WFC(-4.7%)
+  RSI Aşırı Alım (≥70): AMZN(75.3) BAC(70.1) MS(72.3) UNH(70.4) AMD(71.4) INTC(71.3)
+  RSI Aşırı Satım (≤30): NKE(27.7)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.49%
+    ▲ Teknoloji            +1.99%
+    ▲ ETF                  +0.95%
+    ▲ Sanayi               +0.86%
+    ▲ Sağlık               +0.72%
+    ▲ Tüketim              +0.13%
+    ▼ Finans               -0.18%
+    ▼ Yarı İletkenler      -0.35%
+    ▼ Enerji               -3.26%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        690.95   +0.71%   66.1    +5.5022   ASAGI
+  QQQ        622.88   +0.89%   65.9    +5.6066   ASAGI
+  AAPL       257.92   -0.50%   51.7    +1.1619   ASAGI
+  MSFT       391.32   +1.81%   56.6    +3.3241   ASAGI
+  NVDA       192.74   +1.81%   65.1    +2.3267   ASAGI
+  TSLA       361.18   +2.49%   44.3    +0.2455   ASAGI
+  AMZN       246.52   +2.77%   75.3    +4.4849  YUKARI
+  META       656.58   +3.48%   63.7   +11.4669   ASAGI
+  JPM        312.85   -0.27%   68.0    +3.1913  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +2.34%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.72%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +1.51%
+      #4 Periyot:10 AA:70 AS:30 → Getiri: +1.24%
+      #5 Periyot:14 AA:65 AS:30 → Getiri: +1.16%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -2.95%
+      #2 H:8 Y:17 S:9 → Getiri: -3.46%
+      #3 H:10 Y:22 S:7 → Getiri: -3.73%
+      #4 H:12 Y:26 S:7 → Getiri: -4.27%
+      #5 H:12 Y:30 S:9 → Getiri: -4.40%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -4.52%
+      #5 Kısa:9 Uzun:21 → Getiri: -4.83%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+2.34%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.9s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.7s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 17:06:51
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.5s
+  Yükselenler: 30 | Düşenler: 17
+  Ort. Değişim: +0.51%
+  En Güçlü 5: HOOD(+8.4%) | COIN(+5.8%) | SOFI(+4.9%) | PLTR(+3.1%) | AMZN(+2.5%)
+  En Zayıf 5: CVX(-2.6%) | COP(-2.6%) | XOM(-2.7%) | OXY(-3.6%) | WFC(-4.7%)
+  RSI Aşırı Alım (≥70): AMZN(75.1) BAC(70.0) MS(72.0) UNH(70.4) AMD(71.1) INTC(73.4)
+  RSI Aşırı Satım (≤30): NKE(26.1)
+  MACD Pozitif: 37 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +4.30%
+    ▲ Teknoloji            +1.67%
+    ▲ ETF                  +0.73%
+    ▲ Sanayi               +0.57%
+    ▲ Sağlık               +0.29%
+    ▼ Tüketim              -0.06%
+    ▼ Yarı İletkenler      -0.29%
+    ▼ Finans               -0.31%
+    ▼ Enerji               -2.90%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        689.86   +0.55%   65.6    +5.4327   ASAGI
+  QQQ        622.04   +0.75%   65.5    +5.5530   ASAGI
+  AAPL       260.11   +0.35%   54.9    +1.3020   ASAGI
+  MSFT       390.83   +1.68%   56.3    +3.2932   ASAGI
+  NVDA       191.85   +1.34%   64.4    +2.2702   ASAGI
+  TSLA       358.08   +1.61%   42.6    +0.0475   ASAGI
+  AMZN       245.92   +2.51%   75.1    +4.4463  YUKARI
+  META       649.48   +2.36%   62.3   +11.0141   ASAGI
+  JPM        313.07   -0.20%   68.3    +3.2054  YUKARI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +2.32%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.67%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +1.51%
+      #4 Periyot:10 AA:70 AS:30 → Getiri: +1.27%
+      #5 Periyot:14 AA:65 AS:30 → Getiri: +1.08%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -2.95%
+      #2 H:8 Y:17 S:9 → Getiri: -3.45%
+      #3 H:10 Y:22 S:7 → Getiri: -3.73%
+      #4 H:12 Y:26 S:7 → Getiri: -4.28%
+      #5 H:12 Y:30 S:9 → Getiri: -4.39%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -4.50%
+      #5 Kısa:9 Uzun:21 → Getiri: -4.81%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+2.32%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.1s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 16:04:11
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 5.4s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 10.3s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 15.9s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 15:03:56
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 4.5s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 9.1s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 14:03:19
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.3s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.8s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.2s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 13:03:11
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.3s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.6s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 7.9s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 12:02:09
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.2s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 7.9s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 11:01:07
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.3s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.4s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 7.8s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 10:00:02
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 5.4s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 5.5s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 11.0s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 08:59:07
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.3s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.7s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.1s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+======================================================================
+JOHNY — SAATLİK OPTİMİZASYON RAPORU
+Tarih/Saat (İstanbul): 2026-04-14 03:00:02
+Çalıştırma: Otomatik Cron
+======================================================================
+
+─── 1. VERİ GÜNCELLEME ─────────────────────────────────────────────
+  Sembol sayısı: 48
+  Başarılı: 47 | Hatalı: 1
+  Süre: 3.3s
+  Yükselenler: 37 | Düşenler: 10
+  Ort. Değişim: +1.20%
+  En Güçlü 5: SOFI(+5.1%) | INTC(+4.5%) | COIN(+4.0%) | RBLX(+3.7%) | MSFT(+3.6%)
+  En Zayıf 5: ABBV(-0.7%) | MRK(-1.1%) | WMT(-1.7%) | COST(-1.8%) | GS(-1.9%)
+  RSI Aşırı Alım (≥70): AMZN(72.2) BAC(70.2) MS(70.1) AMD(70.8) INTC(77.8) AVGO(73.1)
+  RSI Aşırı Satım (≤30): NKE(24.3)
+  MACD Pozitif: 36 hisse
+  Sektörel Performans:
+    ▲ Büyüme               +3.95%
+    ▲ Yarı İletkenler      +2.27%
+    ▲ ETF                  +1.15%
+    ▲ Finans               +1.14%
+    ▲ Teknoloji            +1.02%
+    ▲ Enerji               +0.71%
+    ▲ Sanayi               +0.54%
+    ▲ Sağlık               +0.49%
+    ▼ Tüketim              -0.19%
+
+  Temel Göstergeler (Seçili Hisseler):
+  Sembol      Fiyat    Değ%    RSI       MACD   Trend
+  -------------------------------------------------------
+  SPY        686.10   +0.98%   63.8    +5.1089   ASAGI
+  QQQ        617.39   +1.03%   63.5    +5.1351   ASAGI
+  AAPL       259.20   -0.49%   53.7    +1.3673   ASAGI
+  MSFT       384.37   +3.64%   51.5    +2.3591   ASAGI
+  NVDA       189.31   +0.36%   62.0    +2.0455   ASAGI
+  TSLA       352.42   +0.99%   39.2    -0.9588   ASAGI
+  AMZN       239.89   +0.63%   72.2    +4.0023  YUKARI
+  META       634.53   +0.74%   58.7    +9.7243   ASAGI
+  JPM        313.68   +1.23%   69.3    +3.3246   ASAGI
+
+─── 2. BACKTEST & OPTİMİZASYON ────────────────────────────────────
+  Test sembolleri: SPY, QQQ, NVDA, AAPL, MSFT
+  Süre: 0.1s
+
+  RSI En İyi Parametreler:
+    ★ #1 Periyot:14 AA:65 AS:25 → Getiri: +1.99%
+      #2 Periyot:10 AA:70 AS:25 → Getiri: +1.23%
+      #3 Periyot:10 AA:75 AS:30 → Getiri: +0.61%
+      #4 Periyot:14 AA:70 AS:25 → Getiri: +0.61%
+      #5 Periyot:14 AA:75 AS:25 → Getiri: +0.61%
+
+  MACD En İyi Parametreler:
+    ★ #1 H:8 Y:21 S:5 → Getiri: -3.83%
+      #2 H:8 Y:17 S:9 → Getiri: -4.32%
+      #3 H:10 Y:22 S:7 → Getiri: -4.60%
+      #4 H:12 Y:26 S:7 → Getiri: -5.14%
+      #5 H:12 Y:30 S:9 → Getiri: -5.25%
+
+  MA Crossover En İyi Parametreler:
+    ★ #1 Kısa:20 Uzun:100 → Getiri: +0.00%
+      #2 Kısa:21 Uzun:55 → Getiri: -2.60%
+      #3 Kısa:20 Uzun:50 → Getiri: -3.92%
+      #4 Kısa:10 Uzun:30 → Getiri: -5.04%
+      #5 Kısa:9 Uzun:21 → Getiri: -5.35%
+
+  johny_config.py → ✓ Config başarıyla güncellendi
+  En İyi Strateji: RSI (+1.99%)
+
+─── 3. HABER TARAMA ────────────────────────────────────────────────
+  Toplam haber: 0 | Süre: 4.9s
+  Sentiment → Pozitif: 0 | Negatif: 0 | Nötr: 0
+  Piyasa Duygu: NOTR (Skor: +0.0)
+
+  Son Haberler (0 adet):
+
+─── ÖZET ───────────────────────────────────────────────────────────
+  Toplam süre: 8.3s
+  Veri: ✓ (47/48 sembol)
+  Backtest: ✓ (RSI/MACD/MA grid search tamamlandı)
+  Haberler: ✓ (0 haber, NOTR)
+  Config: ✓ Güncellendi
+  Telegram: ✗ (Devre dışı — sadece dosyaya log)
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+
+
+======================================================================
+JOHNY — Saatlik Optimizasyon (HABER TAMAMLAMA)
+Zaman: 2026-04-14 09:59 (Istanbul) / 06:59 UTC
+======================================================================
+
+─── 3B. MANUEL HABER TARAMA (CNBC RSS) ────────────────────────────
+
+  Kaynak: CNBC US Top News RSS Feed
+  Tarama zamanı: 2026-04-14 09:59 Istanbul
+
+  ★ MAKRO / FED:
+  [NOTR→POZİTİF] Fed aday Warsh, Senato onay süreci için gerekli etik
+    belgelerini teslim etti. Onay süreci devam ediyor.
+    → Faiz belirsizliği sürüyor; Warsh'ın görüşleri hawkish olabilir.
+
+  ★ JEOPOLİTİK / PETROL:
+  [POZİTİF] Vance: İran-ABD barış müzakereleri için "top İran'ın
+    sahasında." ABD limanları blokajı yürürlükte.
+    → Petrol düşüyor (Hormuz riski azalıyor); enerji hisselerine
+      kısa vadede baskı (XOM, CVX, COP, OXY).
+  [POZİTİF] Avrupa ve Asya piyasaları İran barış umuduyla yükseliyor.
+    → Risk iştahı artıyor; SPY/QQQ pozitif öncü sinyal.
+
+  ★ TEKNOLOJİ / YAPAY ZEKA:
+  [POZİTİF] Novo Nordisk + OpenAI ortaklığı: AI ile ilaç keşfi.
+    → AI sektörü momentum devam ediyor. MSFT (OpenAI yatırımcısı)
+      dolaylı olumlu etki.
+  [POZİTİF] Çin AI gözlükleri Meta'ya rakip oluyor (Rokid vs Ray-Ban).
+    → META için rekabet baskısı.
+
+  ★ KÜRESEL TICARET:
+  [NEGATİF] Çin ihracat büyümesi Mart'ta beklentilerin altında kaldı;
+    ithalat 4+ yılın en yüksek artışıyla şaşırttı.
+    → İran savaşının enerji maliyetlerini artırması etkili.
+    → Yarı iletken ve tech tedarik zinciri risk altında.
+
+  ★ KURUMSAL:
+  [POZİTİF] Oracle, Bloom Energy ile genişletilmiş enerji anlaşması
+    imzaladı ($400M hisse senedi varantı sonrası).
+    → Veri merkezi enerji talebi artışı: AI altyapı teması güçlü.
+
+  ★ PİYASA DUYGUSU:
+  [POZİTİF] Jim Cramer: "Faiz oranları yükselmediği için borsa
+    İran savaşını görmezden geliyor."
+    → Düşük faiz ortamı = büyüme hisseleri lehine.
+
+  Haber Özeti:
+    Pozitif sinyaller: 4 (Fed süreci, İran barış umudu, AI ortaklıklar,
+                           düşük faiz ortamı)
+    Negatif sinyaller: 2 (Çin ihracat, META rekabet baskısı)
+    Nötr: 1 (Oracle/Bloom Energy)
+    Piyasa Duygu: POZİTİF-IHTIYATLI (Skor: +0.57)
+
+  ★ SEKTÖR TAVSİYELERİ (Haber+Teknik Kombinasyonu):
+    ↑ GÜÇLÜ: Büyüme (+3.95%), Yarı İletkenler (+2.27%)
+    ↑ POZİTİF: Teknoloji (+1.02%), Finans (+1.14%)
+    → NÖTR: Sanayi (+0.54%), Enerji (+0.71%) [jeopolitik riskli]
+    ↓ DİKKAT: Tüketim (-0.19%), Enerji [petrol düşüşü]
+
+  ★ DİKKAT EDİLECEK HİSSELER:
+    RSI Aşırı Alım (≥70) → Dikkat: INTC(77.8), AVGO(73.1), AMZN(72.2)
+    RSI Aşırı Satım (≤30) → Fırsat: NKE(24.3)
+    Güçlü momentum: SOFI(+5.1%), INTC(+4.5%), COIN(+4.0%)
+
+─── GÜNCEL CONFIG DURUMU ───────────────────────────────────────────
+  RSI: Periyot=14 | Aşırı Alım=65 | Aşırı Satım=25 ✓
+  MACD: Hızlı=8 | Yavaş=21 | Sinyal=5 ✓
+  MA: Kısa=20 | Uzun=100 ✓
+  En iyi backtest getirisi: RSI +1.99%
+
+─── TAM ÖZET ───────────────────────────────────────────────────────
+  Veri güncelleme: ✓ 47/48 sembol (VIX delistlendi)
+  Backtest optimizasyonu: ✓ johny_config.py güncellendi
+  Haber tarama: ✓ 7 haber analiz edildi (CNBC RSS)
+  Telegram: ✗ DEVRE DIŞI (sadece dosyaya log)
+
+  Genel Piyasa Görünümü: POZİTİF-IHTIYATLI
+  → İran barış umudu + düşük faiz = risk iştahı açık
+  → Enerji sektörüne kısa vadeli dikkat
+  → AI/Büyüme hisseleri momentum taşıyor
+
+  Durum: TAMAMLANDI ✓
+======================================================================
+[2026-04-14 19:42:05] SKIP — Piyasa açık (19:41 Istanbul, 16:30-23:00 penceresi içinde). Optimizasyon atlandı.
+[2026-04-14 21:43 Istanbul] Saat kontrol: 21:43 — Piyasa açık aralığında (16:30-23:00). Optimizasyon atlandı.
+[2026-04-14 22:43:59] SKIP — Piyasa açık (22:43 Istanbul, 16:30-23:00 penceresi içinde). Optimizasyon atlandı.
+[2026-04-15 17:49:04] SKIP — Piyasa açık (17:48 Istanbul, 16:30-23:00 penceresi içinde). Optimizasyon atlandı.
+[2026-04-15 18:49:11] Saat 18:48 Istanbul — piyasa açık (16:30-23:00). Optimizasyon atlandı.
+[2026-04-15 19:48 Istanbul] ATLANDI — Piyasa açık (19:48, 16:30-23:00 penceresi içinde). Optimizasyon çalıştırılmadı.
+[2026-04-15 20:48 Istanbul] ATLANDI — Piyasa açık (20:48, 16:30-23:00 penceresi içinde). Optimizasyon çalıştırılmadı.
+[2026-04-15 21:49:49] Saat 21:49 Istanbul — Piyasa AÇIK (16:30-23:00 penceresi). Optimizasyon atlandı.
+[2026-04-15 22:49:50] [SKIP] Piyasa açık (22:49 Istanbul — 16:30-23:00 penceresi içinde). Optimizasyon atlandı.

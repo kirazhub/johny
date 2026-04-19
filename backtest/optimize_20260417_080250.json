@@ -1,0 +1,265 @@
+{
+  "zaman": "2026-04-17 08:02:46",
+  "optimizasyon": {
+    "rsi": {
+      "en_iyi": {
+        "params": {
+          "periyot": 10,
+          "aa": 75,
+          "asat": 30
+        },
+        "ort_getiri": 44.56,
+        "ort_max_dd": 24.79
+      },
+      "top5": [
+        {
+          "params": {
+            "periyot": 10,
+            "aa": 75,
+            "asat": 30
+          },
+          "ort_getiri": 44.56,
+          "ort_max_dd": 24.79
+        },
+        {
+          "params": {
+            "periyot": 21,
+            "aa": 75,
+            "asat": 35
+          },
+          "ort_getiri": 38.26,
+          "ort_max_dd": 20.41
+        },
+        {
+          "params": {
+            "periyot": 10,
+            "aa": 70,
+            "asat": 30
+          },
+          "ort_getiri": 33.1,
+          "ort_max_dd": 23.32
+        },
+        {
+          "params": {
+            "periyot": 14,
+            "aa": 75,
+            "asat": 30
+          },
+          "ort_getiri": 30.77,
+          "ort_max_dd": 20.44
+        },
+        {
+          "params": {
+            "periyot": 14,
+            "aa": 70,
+            "asat": 35
+          },
+          "ort_getiri": 30.01,
+          "ort_max_dd": 25.4
+        }
+      ]
+    },
+    "macd": {
+      "en_iyi": {
+        "params": {
+          "hizli": 8,
+          "yavas": 21,
+          "sinyal": 5
+        },
+        "ort_getiri": 9.57
+      },
+      "top5": [
+        {
+          "params": {
+            "hizli": 8,
+            "yavas": 21,
+            "sinyal": 5
+          },
+          "ort_getiri": 9.57
+        },
+        {
+          "params": {
+            "hizli": 8,
+            "yavas": 17,
+            "sinyal": 9
+          },
+          "ort_getiri": 3.38
+        },
+        {
+          "params": {
+            "hizli": 12,
+            "yavas": 26,
+            "sinyal": 7
+          },
+          "ort_getiri": 2.24
+        },
+        {
+          "params": {
+            "hizli": 10,
+            "yavas": 26,
+            "sinyal": 9
+          },
+          "ort_getiri": 1.14
+        },
+        {
+          "params": {
+            "hizli": 10,
+            "yavas": 22,
+            "sinyal": 7
+          },
+          "ort_getiri": 0.9
+        }
+      ]
+    },
+    "ma": {
+      "en_iyi": {
+        "params": {
+          "kisa": 50,
+          "uzun": 200
+        },
+        "ort_getiri": 19.66
+      },
+      "top5": [
+        {
+          "params": {
+            "kisa": 50,
+            "uzun": 200
+          },
+          "ort_getiri": 19.66
+        },
+        {
+          "params": {
+            "kisa": 10,
+            "uzun": 30
+          },
+          "ort_getiri": 8.42
+        },
+        {
+          "params": {
+            "kisa": 9,
+            "uzun": 21
+          },
+          "ort_getiri": 8.18
+        },
+        {
+          "params": {
+            "kisa": 20,
+            "uzun": 50
+          },
+          "ort_getiri": 8.06
+        },
+        {
+          "params": {
+            "kisa": 20,
+            "uzun": 100
+          },
+          "ort_getiri": 7.92
+        }
+      ]
+    },
+    "test_sembolleri": [
+      "SPY",
+      "QQQ",
+      "NVDA",
+      "AAPL",
+      "MSFT"
+    ]
+  },
+  "piyasa_ozeti": {
+    "toplam_sembol": 47,
+    "yukselenler": 31,
+    "dusenler": 16,
+    "ort_degisim_pct": 0.34,
+    "asiri_alim": [
+      [
+        "MSFT",
+        70.8
+      ],
+      [
+        "GOOGL",
+        70.2
+      ],
+      [
+        "AMZN",
+        76.2
+      ],
+      [
+        "AMD",
+        80.2
+      ],
+      [
+        "INTC",
+        78.2
+      ],
+      [
+        "AVGO",
+        77.4
+      ],
+      [
+        "SPY",
+        70.4
+      ],
+      [
+        "QQQ",
+        72.0
+      ]
+    ],
+    "asiri_satim": [],
+    "macd_pozitif_sayisi": 38,
+    "en_guclu": [
+      [
+        "AMD",
+        7.8
+      ],
+      [
+        "INTC",
+        5.48
+      ],
+      [
+        "COP",
+        2.23
+      ],
+      [
+        "MSFT",
+        2.2
+      ],
+      [
+        "COIN",
+        2.01
+      ]
+    ],
+    "en_zayif": [
+      [
+        "JNJ",
+        -1.73
+      ],
+      [
+        "MRK",
+        -2.07
+      ],
+      [
+        "MS",
+        -2.24
+      ],
+      [
+        "BA",
+        -2.26
+      ],
+      [
+        "GE",
+        -4.98
+      ]
+    ],
+    "sektor_performans": {
+      "Teknoloji": 0.14,
+      "Finans": -0.24,
+      "Sağlık": -0.53,
+      "Enerji": 1.96,
+      "Tüketim": 0.1,
+      "Sanayi": -1.88,
+      "Yarı İletkenler": 3.0,
+      "Büyüme": 0.85,
+      "ETF": 0.31
+    }
+  }
+}

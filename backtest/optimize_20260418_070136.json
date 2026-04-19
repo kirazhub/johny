@@ -1,0 +1,281 @@
+{
+  "zaman": "2026-04-18 07:01:31",
+  "optimizasyon": {
+    "rsi": {
+      "en_iyi": {
+        "params": {
+          "periyot": 10,
+          "aa": 75,
+          "asat": 30
+        },
+        "ort_getiri": 66.04,
+        "ort_max_dd": 24.79
+      },
+      "top5": [
+        {
+          "params": {
+            "periyot": 10,
+            "aa": 75,
+            "asat": 30
+          },
+          "ort_getiri": 66.04,
+          "ort_max_dd": 24.79
+        },
+        {
+          "params": {
+            "periyot": 14,
+            "aa": 70,
+            "asat": 35
+          },
+          "ort_getiri": 48.64,
+          "ort_max_dd": 25.4
+        },
+        {
+          "params": {
+            "periyot": 10,
+            "aa": 70,
+            "asat": 30
+          },
+          "ort_getiri": 47.29,
+          "ort_max_dd": 23.32
+        },
+        {
+          "params": {
+            "periyot": 14,
+            "aa": 75,
+            "asat": 25
+          },
+          "ort_getiri": 43.94,
+          "ort_max_dd": 16.67
+        },
+        {
+          "params": {
+            "periyot": 21,
+            "aa": 75,
+            "asat": 35
+          },
+          "ort_getiri": 40.09,
+          "ort_max_dd": 24.74
+        }
+      ]
+    },
+    "macd": {
+      "en_iyi": {
+        "params": {
+          "hizli": 8,
+          "yavas": 21,
+          "sinyal": 5
+        },
+        "ort_getiri": 11.03
+      },
+      "top5": [
+        {
+          "params": {
+            "hizli": 8,
+            "yavas": 21,
+            "sinyal": 5
+          },
+          "ort_getiri": 11.03
+        },
+        {
+          "params": {
+            "hizli": 8,
+            "yavas": 17,
+            "sinyal": 9
+          },
+          "ort_getiri": 4.93
+        },
+        {
+          "params": {
+            "hizli": 12,
+            "yavas": 26,
+            "sinyal": 7
+          },
+          "ort_getiri": 3.79
+        },
+        {
+          "params": {
+            "hizli": 10,
+            "yavas": 26,
+            "sinyal": 9
+          },
+          "ort_getiri": 2.59
+        },
+        {
+          "params": {
+            "hizli": 10,
+            "yavas": 22,
+            "sinyal": 7
+          },
+          "ort_getiri": 2.39
+        }
+      ]
+    },
+    "ma": {
+      "en_iyi": {
+        "params": {
+          "kisa": 50,
+          "uzun": 200
+        },
+        "ort_getiri": 21.36
+      },
+      "top5": [
+        {
+          "params": {
+            "kisa": 50,
+            "uzun": 200
+          },
+          "ort_getiri": 21.36
+        },
+        {
+          "params": {
+            "kisa": 10,
+            "uzun": 30
+          },
+          "ort_getiri": 10.0
+        },
+        {
+          "params": {
+            "kisa": 9,
+            "uzun": 21
+          },
+          "ort_getiri": 9.74
+        },
+        {
+          "params": {
+            "kisa": 20,
+            "uzun": 100
+          },
+          "ort_getiri": 9.38
+        },
+        {
+          "params": {
+            "kisa": 20,
+            "uzun": 50
+          },
+          "ort_getiri": 9.1
+        }
+      ]
+    },
+    "test_sembolleri": [
+      "SPY",
+      "QQQ",
+      "NVDA",
+      "AAPL",
+      "MSFT"
+    ]
+  },
+  "piyasa_ozeti": {
+    "toplam_sembol": 47,
+    "yukselenler": 38,
+    "dusenler": 8,
+    "ort_degisim_pct": 1.02,
+    "asiri_alim": [
+      [
+        "MSFT",
+        71.7
+      ],
+      [
+        "NVDA",
+        71.4
+      ],
+      [
+        "GOOGL",
+        72.6
+      ],
+      [
+        "AMZN",
+        76.6
+      ],
+      [
+        "MS",
+        70.9
+      ],
+      [
+        "UNH",
+        73.4
+      ],
+      [
+        "AMD",
+        80.2
+      ],
+      [
+        "INTC",
+        78.2
+      ],
+      [
+        "AVGO",
+        79.1
+      ],
+      [
+        "SPY",
+        73.6
+      ],
+      [
+        "QQQ",
+        74.5
+      ],
+      [
+        "IWM",
+        73.0
+      ]
+    ],
+    "asiri_satim": [],
+    "macd_pozitif_sayisi": 39,
+    "en_guclu": [
+      [
+        "HOOD",
+        4.49
+      ],
+      [
+        "HD",
+        3.63
+      ],
+      [
+        "COIN",
+        3.25
+      ],
+      [
+        "MRK",
+        3.13
+      ],
+      [
+        "TSLA",
+        3.01
+      ]
+    ],
+    "en_zayif": [
+      [
+        "MU",
+        -0.47
+      ],
+      [
+        "CVX",
+        -2.21
+      ],
+      [
+        "XOM",
+        -3.65
+      ],
+      [
+        "COP",
+        -4.55
+      ],
+      [
+        "OXY",
+        -5.42
+      ]
+    ],
+    "sektor_performans": {
+      "Teknoloji": 1.66,
+      "Finans": 0.84,
+      "Sağlık": 1.31,
+      "Enerji": -3.96,
+      "Tüketim": 1.81,
+      "Sanayi": 1.8,
+      "Yarı İletkenler": 0.58,
+      "Büyüme": 2.44,
+      "ETF": 1.56
+    }
+  }
+}

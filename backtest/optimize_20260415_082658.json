@@ -1,0 +1,257 @@
+{
+  "zaman": "2026-04-15 08:26:53",
+  "optimizasyon": {
+    "rsi": {
+      "en_iyi": {
+        "params": {
+          "periyot": 10,
+          "aa": 75,
+          "asat": 30
+        },
+        "ort_getiri": 45.91,
+        "ort_max_dd": 24.79
+      },
+      "top5": [
+        {
+          "params": {
+            "periyot": 10,
+            "aa": 75,
+            "asat": 30
+          },
+          "ort_getiri": 45.91,
+          "ort_max_dd": 24.79
+        },
+        {
+          "params": {
+            "periyot": 21,
+            "aa": 75,
+            "asat": 35
+          },
+          "ort_getiri": 34.56,
+          "ort_max_dd": 18.99
+        },
+        {
+          "params": {
+            "periyot": 10,
+            "aa": 70,
+            "asat": 30
+          },
+          "ort_getiri": 32.9,
+          "ort_max_dd": 23.32
+        },
+        {
+          "params": {
+            "periyot": 14,
+            "aa": 75,
+            "asat": 30
+          },
+          "ort_getiri": 28.3,
+          "ort_max_dd": 20.44
+        },
+        {
+          "params": {
+            "periyot": 14,
+            "aa": 75,
+            "asat": 25
+          },
+          "ort_getiri": 25.99,
+          "ort_max_dd": 9.29
+        }
+      ]
+    },
+    "macd": {
+      "en_iyi": {
+        "params": {
+          "hizli": 8,
+          "yavas": 21,
+          "sinyal": 5
+        },
+        "ort_getiri": 6.65
+      },
+      "top5": [
+        {
+          "params": {
+            "hizli": 8,
+            "yavas": 21,
+            "sinyal": 5
+          },
+          "ort_getiri": 6.65
+        },
+        {
+          "params": {
+            "hizli": 8,
+            "yavas": 17,
+            "sinyal": 9
+          },
+          "ort_getiri": 1.79
+        },
+        {
+          "params": {
+            "hizli": 12,
+            "yavas": 26,
+            "sinyal": 7
+          },
+          "ort_getiri": -1.19
+        },
+        {
+          "params": {
+            "hizli": 10,
+            "yavas": 22,
+            "sinyal": 7
+          },
+          "ort_getiri": -1.42
+        },
+        {
+          "params": {
+            "hizli": 10,
+            "yavas": 26,
+            "sinyal": 9
+          },
+          "ort_getiri": -1.55
+        }
+      ]
+    },
+    "ma": {
+      "en_iyi": {
+        "params": {
+          "kisa": 50,
+          "uzun": 200
+        },
+        "ort_getiri": 18.48
+      },
+      "top5": [
+        {
+          "params": {
+            "kisa": 50,
+            "uzun": 200
+          },
+          "ort_getiri": 18.48
+        },
+        {
+          "params": {
+            "kisa": 20,
+            "uzun": 50
+          },
+          "ort_getiri": 8.01
+        },
+        {
+          "params": {
+            "kisa": 20,
+            "uzun": 100
+          },
+          "ort_getiri": 7.55
+        },
+        {
+          "params": {
+            "kisa": 10,
+            "uzun": 30
+          },
+          "ort_getiri": 7.19
+        },
+        {
+          "params": {
+            "kisa": 9,
+            "uzun": 50
+          },
+          "ort_getiri": 6.64
+        }
+      ]
+    },
+    "test_sembolleri": [
+      "SPY",
+      "QQQ",
+      "NVDA",
+      "AAPL",
+      "MSFT"
+    ]
+  },
+  "piyasa_ozeti": {
+    "toplam_sembol": 47,
+    "yukselenler": 33,
+    "dusenler": 13,
+    "ort_degisim_pct": 1.21,
+    "asiri_alim": [
+      [
+        "AMZN",
+        76.3
+      ],
+      [
+        "BAC",
+        70.2
+      ],
+      [
+        "MS",
+        72.0
+      ],
+      [
+        "AMD",
+        73.7
+      ],
+      [
+        "INTC",
+        74.0
+      ],
+      [
+        "AVGO",
+        73.3
+      ]
+    ],
+    "asiri_satim": [],
+    "macd_pozitif_sayisi": 37,
+    "en_guclu": [
+      [
+        "HOOD",
+        10.35
+      ],
+      [
+        "MU",
+        9.17
+      ],
+      [
+        "COIN",
+        5.66
+      ],
+      [
+        "SOFI",
+        5.04
+      ],
+      [
+        "META",
+        4.41
+      ]
+    ],
+    "en_zayif": [
+      [
+        "XOM",
+        -2.23
+      ],
+      [
+        "CVX",
+        -2.48
+      ],
+      [
+        "COP",
+        -3.91
+      ],
+      [
+        "OXY",
+        -4.62
+      ],
+      [
+        "WFC",
+        -5.7
+      ]
+    ],
+    "sektor_performans": {
+      "Teknoloji": 3.01,
+      "Finans": -0.24,
+      "Sağlık": 0.42,
+      "Enerji": -3.31,
+      "Tüketim": 0.64,
+      "Sanayi": 0.71,
+      "Yarı İletkenler": 2.38,
+      "Büyüme": 4.94,
+      "ETF": 1.47
+    }
+  }
+}
