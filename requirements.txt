@@ -1,0 +1,32 @@
+# JOHNY — US Stock Market Agent Dependencies
+# Python 3.9+
+
+# Veri
+yfinance>=0.2.36
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Dashboard
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# Teknik Analiz (opsiyonel — yfinance ile native hesaplama da var)
+# ta>=0.11.0
+
+# HTTP
+requests>=2.31.0
+
+# Veritabanı
+# sqlite3 — Python stdlib
+
+# Risk (scipy VaR için)
+scipy>=1.11.0
+
+# Zaman dilimi
+pytz>=2023.3
+
+# Telegram (opsiyonel)
+# python-telegram-bot>=20.0
+
+# Geliştirme
+# pytest>=7.4.0
