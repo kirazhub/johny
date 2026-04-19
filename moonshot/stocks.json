@@ -1,0 +1,751 @@
+{
+  "meta": {
+    "generated": "2026-04-20T02:33:00+03:00",
+    "analyst": "Kiraz AI Research",
+    "disclaimer": "Bu rapor simülasyon amaçlıdır. Yatırım tavsiyesi değildir. Gerçek para için bağımsız araştırma yapın.",
+    "dataSource": "yfinance (Yahoo Finance API), analyst consensus, market knowledge",
+    "horizon": "3 ay (Nisan - Temmuz 2026)"
+  },
+  "stocks": [
+    {
+      "rank": 1,
+      "symbol": "MSTR",
+      "name": "Strategy Inc (eski MicroStrategy)",
+      "sector": "Technology / Bitcoin Proxy",
+      "currentPrice": 166.52,
+      "targetPrice3M": 310.0,
+      "analystTargetMean": 371.07,
+      "upsidePct": 86.2,
+      "marketCapM": 57744,
+      "momentum5d": 29.45,
+      "momentum30d": 24.71,
+      "recommendation": "strong_buy",
+      "analystCount": 14,
+      "catalysts": [
+        "Bitcoin fiyatı %10 artışı MSTR'yi 3x etkiler (BTC holding leverajı)",
+        "Q1 2026 earnings beklentisi - BTC değer artışı bilançoya yansıyacak",
+        "Saylor'ın süregelen BTC satın alma stratejisi kurumsal güven artırıyor",
+        "ETF ve kurumsal BTC adaptasyonu hızlanıyor"
+      ],
+      "risks": [
+        "Bitcoin %30+ düşerse şiddetli kayıp",
+        "Yüksek short float (%11) - short squeeze olabilir ama manipülasyon riski var",
+        "Şirket temel iş modeli Bitcoin'e tamamen bağımlı",
+        "Regülasyon riski (kripto)"
+      ],
+      "entryPoint": "Şu an veya Bitcoin $80K altına çekilirse daha agresif",
+      "entryStrategy": "Şimdi %50 pozisyon, $140 altına çekilirse %50 ekle",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü yükseliş trendi",
+        "rsiEstimate": "65-70 (aşırı alım sınırına yakın)",
+        "macdSignal": "Pozitif",
+        "support": 140.0,
+        "resistance": 200.0
+      }
+    },
+    {
+      "rank": 2,
+      "symbol": "SERV",
+      "name": "Serve Robotics Inc.",
+      "sector": "Industrials / Autonomous Delivery",
+      "currentPrice": 9.57,
+      "targetPrice3M": 18.0,
+      "analystTargetMean": 19.0,
+      "upsidePct": 88.1,
+      "marketCapM": 724,
+      "momentum5d": 15.86,
+      "momentum30d": 1.38,
+      "recommendation": "strong_buy",
+      "analystCount": 7,
+      "catalysts": [
+        "NVIDIA destekli otonom teslimat robotu - kurumsal meşruiyet",
+        "Uber Eats ile genişleyen ortaklık anlaşması",
+        "Los Angeles ve San Francisco'da hızlı büyüme",
+        "Gıda teslimat pazarı için AI/robotik çözüm - büyük adreslenebilir pazar"
+      ],
+      "risks": [
+        "Çok küçük piyasa değeri ($724M) - yüksek volatilite",
+        "Short float yüksek (%27.6) - sıkışma riski ama ani düşüş de olabilir",
+        "Henüz kârlı değil",
+        "Rekabet (Amazon, Starship Technologies)"
+      ],
+      "entryPoint": "Şimdi - momentum düşük, birikim fırsatı",
+      "entryStrategy": "$8-10 aralığında kademeli giriş",
+      "riskLevel": "ÇOK YÜKSEK",
+      "technicalSignals": {
+        "trend": "Birikim fazında, önceki dip üstünde",
+        "rsiEstimate": "50-55 (nötr - iyi giriş)",
+        "macdSignal": "Nötr-Pozitif geçiş",
+        "support": 8.0,
+        "resistance": 12.0
+      }
+    },
+    {
+      "rank": 3,
+      "symbol": "SOUN",
+      "name": "SoundHound AI, Inc.",
+      "sector": "Technology / Voice AI",
+      "currentPrice": 8.08,
+      "targetPrice3M": 14.0,
+      "analystTargetMean": 14.625,
+      "upsidePct": 73.3,
+      "marketCapM": 3444,
+      "momentum5d": 25.66,
+      "momentum30d": 0.12,
+      "recommendation": "strong_buy",
+      "analystCount": 8,
+      "catalysts": [
+        "Hyundai, Honda, Stellantis otomotiv ortaklıkları büyüyor",
+        "Restoranlar ve drive-through AI voice ordering - yüksek büyüme",
+        "NVIDIA Jetson platformuyla entegrasyon",
+        "Q2 2026 earnings - gelir artışı beklentisi"
+      ],
+      "risks": [
+        "Çok yüksek short float (%36) - volatilite riski",
+        "Piyasa değerine göre henüz düşük gelir",
+        "Google, Amazon, Apple ile sesli asistan rekabeti",
+        "Burn rate - nakit tükenmesi riski"
+      ],
+      "entryPoint": "$7-8 aralığı ideal, 5 günlük rally sonrası küçük pullback beklenilebilir",
+      "entryStrategy": "$7.50 altında agresif giriş, şu an temkinli giriş",
+      "riskLevel": "ÇOK YÜKSEK",
+      "technicalSignals": {
+        "trend": "Kısa vadeli güçlü",
+        "rsiEstimate": "65+ (dikkat)",
+        "macdSignal": "Pozitif",
+        "support": 6.5,
+        "resistance": 10.0
+      }
+    },
+    {
+      "rank": 4,
+      "symbol": "QUBT",
+      "name": "Quantum Computing Inc.",
+      "sector": "Technology / Quantum Computing",
+      "currentPrice": 9.57,
+      "targetPrice3M": 16.0,
+      "analystTargetMean": 17.4,
+      "upsidePct": 67.2,
+      "marketCapM": 2149,
+      "momentum5d": 35.55,
+      "momentum30d": 25.92,
+      "recommendation": "speculative_buy",
+      "analystCount": 5,
+      "catalysts": [
+        "NASA ile kuantum hesaplama ortaklığı",
+        "QUBT'nin foton tabanlı kuantum işlemci geliştirme haberleri",
+        "Hükümet kuantum yatırımları - 2026 bütçesi",
+        "IBM, Google kuantum rekabeti sektöre ilgi artırıyor"
+      ],
+      "risks": [
+        "Short float %28.6 - çok spekülatif",
+        "Analist sayısı az (5), kurumsal kapsam düşük",
+        "Ticari kuantum bilgisayar hâlâ yıllar uzakta",
+        "5 günde %35 rally - aşırı alım sinyali"
+      ],
+      "entryPoint": "5 günlük ralliden sonra %15-20 geri çekilme bekle ($8 civarı)",
+      "entryStrategy": "$8-8.50 aralığında giriş ideal",
+      "riskLevel": "ÇILGIN YÜKSEK",
+      "technicalSignals": {
+        "trend": "Aşırı güçlü kısa vadeli - dikkat",
+        "rsiEstimate": "80+ (aşırı alım)",
+        "macdSignal": "Aşırı pozitif",
+        "support": 7.5,
+        "resistance": 12.0
+      }
+    },
+    {
+      "rank": 5,
+      "symbol": "IONQ",
+      "name": "IonQ, Inc.",
+      "sector": "Technology / Quantum Computing",
+      "currentPrice": 46.09,
+      "targetPrice3M": 62.0,
+      "analystTargetMean": 65.29,
+      "upsidePct": 34.5,
+      "marketCapM": 16946,
+      "momentum5d": 60.09,
+      "momentum30d": 29.0,
+      "recommendation": "buy",
+      "analystCount": 13,
+      "catalysts": [
+        "5 günde %60 rally - güçlü kurumsal ilgi",
+        "ABD Savunma Bakanlığı ile kuantum kontratları",
+        "Microsoft ve AWS entegrasyonları",
+        "IONQ tuzak iyon teknolojisi - sektör lideri"
+      ],
+      "risks": [
+        "5 günde %60 - KESİNLİKLE geri çekilme bekle",
+        "Short float %22 - volatil",
+        "PE yok (kârsız şirket)",
+        "Kuantum computing henüz erken aşamada"
+      ],
+      "entryPoint": "BEKLE - %60 ralliden sonra %20-25 pullback bekleniyor ($37-40 hedef giriş)",
+      "entryStrategy": "$38-42 aralığında giriş",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Aşırı alım bölgesi",
+        "rsiEstimate": "85+ (aşırı alım - tehlike)",
+        "macdSignal": "Güçlü pozitif ama reversal riski",
+        "support": 36.0,
+        "resistance": 55.0
+      }
+    },
+    {
+      "rank": 6,
+      "symbol": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "sector": "Technology / Quantum Computing",
+      "currentPrice": 19.81,
+      "targetPrice3M": 30.0,
+      "analystTargetMean": 31.54,
+      "upsidePct": 51.4,
+      "marketCapM": 6580,
+      "momentum5d": 34.95,
+      "momentum30d": 16.46,
+      "recommendation": "buy",
+      "analystCount": 11,
+      "catalysts": [
+        "Kuantum teknoloji sektörü genel yükseliş dalgası",
+        "Yeni kuantum işlemci nesli duyurusu beklentisi",
+        "Hükümet kuantum programları",
+        "IONQ rallisinin kuantum sektörüne bulaşma etkisi"
+      ],
+      "risks": [
+        "5 günde %35 - aşırı alım",
+        "IONQ ile sektör bağlantısı - birlikte düşebilir",
+        "Kârsız şirket",
+        "Short float %14.9"
+      ],
+      "entryPoint": "$17-18 pullback seviyesinde giriş ideal",
+      "entryStrategy": "Geri çekilme bekle",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü momentum, geri çekilme olası",
+        "rsiEstimate": "78-82",
+        "macdSignal": "Pozitif",
+        "support": 16.0,
+        "resistance": 25.0
+      }
+    },
+    {
+      "rank": 7,
+      "symbol": "APLD",
+      "name": "Applied Digital Corporation",
+      "sector": "Technology / AI Data Centers",
+      "currentPrice": 31.53,
+      "targetPrice3M": 47.0,
+      "analystTargetMean": 50.09,
+      "upsidePct": 49.1,
+      "marketCapM": 9010,
+      "momentum5d": 20.07,
+      "momentum30d": 25.42,
+      "recommendation": "strong_buy",
+      "analystCount": 11,
+      "catalysts": [
+        "AI veri merkezi talep patlaması - NVIDIA GPU hosting büyümesi",
+        "Microsoft ve büyük teknoloji şirketleri ile veri merkezi anlaşmaları",
+        "Kuzey Dakota'daki büyük ölçekli tesis genişlemesi",
+        "Q1 earnings - gelir artışı beklentisi"
+      ],
+      "risks": [
+        "Kârsız, yüksek capex",
+        "Short float yüksek (%29)",
+        "Enerji maliyetleri riski",
+        "Hyperscaler müşteri konsantrasyonu"
+      ],
+      "entryPoint": "$28-30 pullback'te giriş daha iyi, şimdi de girilir",
+      "entryStrategy": "$29-32 aralığı",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü yükseliş trendi",
+        "rsiEstimate": "68-72",
+        "macdSignal": "Güçlü pozitif",
+        "support": 27.0,
+        "resistance": 38.0
+      }
+    },
+    {
+      "rank": 8,
+      "symbol": "APP",
+      "name": "AppLovin Corporation",
+      "sector": "Communication Services / Ad Tech AI",
+      "currentPrice": 477.2,
+      "targetPrice3M": 580.0,
+      "analystTargetMean": 646.86,
+      "upsidePct": 21.5,
+      "marketCapM": 161272,
+      "momentum5d": 21.93,
+      "momentum30d": -4.97,
+      "recommendation": "strong_buy",
+      "analystCount": 28,
+      "catalysts": [
+        "AI destekli reklam hedefleme platformu - e-commerce'e genişleme",
+        "Axon 2.0 AI motoru - reklam getirisini 2-3x artırıyor",
+        "Q1 2026 earnings May'da - güçlü büyüme beklentisi",
+        "Gaming dışına genişleme: e-commerce, fintech vertikaller"
+      ],
+      "risks": [
+        "Short seller raporları geçmişte hisse sert düşürdü",
+        "5 günde %22 - aşırı alım bölgesi",
+        "PE yüksek (47x)",
+        "Reklam sektörü makro hassasiyeti"
+      ],
+      "entryPoint": "$440-460 pullback beklenir, şimdi temkinli",
+      "entryStrategy": "$450 altında agresif giriş",
+      "riskLevel": "ORTA-YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü yükseliş, pullback olası",
+        "rsiEstimate": "72-75",
+        "macdSignal": "Güçlü pozitif",
+        "support": 430.0,
+        "resistance": 520.0
+      }
+    },
+    {
+      "rank": 9,
+      "symbol": "RXRX",
+      "name": "Recursion Pharmaceuticals, Inc.",
+      "sector": "Healthcare / AI Drug Discovery",
+      "currentPrice": 3.78,
+      "targetPrice3M": 6.5,
+      "analystTargetMean": 6.71,
+      "upsidePct": 72.0,
+      "marketCapM": 1997,
+      "momentum5d": 15.24,
+      "momentum30d": 9.25,
+      "recommendation": "buy",
+      "analystCount": 7,
+      "catalysts": [
+        "NVIDIA iş birliği - BioNeMo AI platform entegrasyonu",
+        "Pipeline: multiple Phase 1/2 trial readouts 2026'da",
+        "Roche ile ilaç keşfi ortaklığı genişliyor",
+        "Yapay zeka ile ilaç keşfi alanında sector leader konumu"
+      ],
+      "risks": [
+        "Short float ÇARPICI: %34.9 - en riskli metrik",
+        "Klinik denemeler başarısız olabilir",
+        "Nakit yakma hızı yüksek",
+        "Henüz onaylanmış ilaç yok"
+      ],
+      "entryPoint": "$3.50-4.00 aralığı - şu an iyi bölge",
+      "entryStrategy": "Küçük pozisyon, stop-loss $2.80",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Birikim, taban oluşturma",
+        "rsiEstimate": "52-58",
+        "macdSignal": "Nötr-Pozitif",
+        "support": 3.2,
+        "resistance": 5.0
+      }
+    },
+    {
+      "rank": 10,
+      "symbol": "HOOD",
+      "name": "Robinhood Markets, Inc.",
+      "sector": "Financial Services / Fintech",
+      "currentPrice": 90.75,
+      "targetPrice3M": 105.0,
+      "analystTargetMean": 101.40,
+      "upsidePct": 15.7,
+      "marketCapM": 81703,
+      "momentum5d": 31.16,
+      "momentum30d": 17.72,
+      "recommendation": "buy",
+      "analystCount": 24,
+      "catalysts": [
+        "Kripto trading hacmi artışı (Bitcoin rallisinde doğrudan kazanan)",
+        "Robinhood Gold - premium abonelik büyümesi",
+        "UK ve Avrupa genişlemesi",
+        "Prediction markets ve options büyümesi"
+      ],
+      "risks": [
+        "5 günde %31 - geri çekilme riski yüksek",
+        "Kripto duyarlılığına bağımlı",
+        "Regülasyon riski (SEC, FINRA)",
+        "Rekabet (Schwab, eToro)"
+      ],
+      "entryPoint": "5 günlük %31 ralliden sonra $80-85 pullback bekle",
+      "entryStrategy": "$82-88 aralığında giriş",
+      "riskLevel": "ORTA-YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü - ama aşırı alım",
+        "rsiEstimate": "75-80",
+        "macdSignal": "Güçlü pozitif",
+        "support": 78.0,
+        "resistance": 105.0
+      }
+    },
+    {
+      "rank": 11,
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "sector": "Technology / AI Government & Enterprise",
+      "currentPrice": 146.39,
+      "targetPrice3M": 185.0,
+      "analystTargetMean": 186.47,
+      "upsidePct": 26.4,
+      "marketCapM": 350117,
+      "momentum5d": 14.31,
+      "momentum30d": -6.85,
+      "recommendation": "buy",
+      "analystCount": 25,
+      "catalysts": [
+        "ABD Savunma Bakanlığı yapay zeka kontratları artıyor",
+        "AIP (Artificial Intelligence Platform) kurumsal satış ivmesi",
+        "Q1 2026 earnings - gelir büyümesi güçlü bekleniyor",
+        "S&P 500 endeks ağırlığı artışı - pasif fon alımları"
+      ],
+      "risks": [
+        "PE çok yüksek (232x)",
+        "30 günde -%7 - zayıf orta vadeli momentum",
+        "CEO Alex Karp'ın unpredictable açıklamaları",
+        "Hükümet kontrat döngüsü bağımlılığı"
+      ],
+      "entryPoint": "Şimdi - 30 günlük düşüş sonrası birikim fırsatı, 5 günde toparlanma başladı",
+      "entryStrategy": "$140-150 aralığında kademeli giriş",
+      "riskLevel": "ORTA-YÜKSEK",
+      "technicalSignals": {
+        "trend": "Kısa vadeli dönüş sinyali",
+        "rsiEstimate": "55-60",
+        "macdSignal": "Geçiş aşamasında",
+        "support": 130.0,
+        "resistance": 170.0
+      }
+    },
+    {
+      "rank": 12,
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology / AI Semiconductors",
+      "currentPrice": 201.68,
+      "targetPrice3M": 255.0,
+      "analystTargetMean": 268.61,
+      "upsidePct": 26.5,
+      "marketCapM": 4901832,
+      "momentum5d": 6.92,
+      "momentum30d": 13.42,
+      "recommendation": "strong_buy",
+      "analystCount": 56,
+      "catalysts": [
+        "Blackwell GB200 NVL72 küme siparişleri rekord seviyede",
+        "GTC 2026 konferansı - yeni ürün açıklamaları",
+        "Q1 FY2027 earnings Mayıs 2026 - $8-9B gelir beklentisi",
+        "Çin yasağı riskine rağmen diğer pazarlarda güçlü talep"
+      ],
+      "risks": [
+        "Çin ihracat kısıtlamaları",
+        "AMD ve Intel rekabeti artıyor",
+        "Piyasa değeri $4.9T - büyüme beklentisi çok yüksek",
+        "ABD-Çin ticaret savaşı"
+      ],
+      "entryPoint": "Şimdi - güçlü 5 günlük momentum, 30 gün trend pozitif",
+      "entryStrategy": "$195-210 aralığı ideal",
+      "riskLevel": "ORTA",
+      "technicalSignals": {
+        "trend": "Güçlü yükseliş trendi",
+        "rsiEstimate": "60-65",
+        "macdSignal": "Pozitif",
+        "support": 185.0,
+        "resistance": 230.0
+      }
+    },
+    {
+      "rank": 13,
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "sector": "Technology / Semiconductor Manufacturing",
+      "currentPrice": 370.5,
+      "targetPrice3M": 440.0,
+      "analystTargetMean": 457.73,
+      "upsidePct": 18.8,
+      "marketCapM": 1921561,
+      "momentum5d": -0.03,
+      "momentum30d": 9.64,
+      "recommendation": "strong_buy",
+      "analystCount": 18,
+      "catalysts": [
+        "Arizona 2nm fab üretimi başlıyor - ABD üretim çeşitlendirmesi",
+        "Apple, NVIDIA, AMD N2/N3 çip siparişleri rekord",
+        "Q2 2026 rehberi güçlü olacak beklentisi",
+        "Jeopolitik risk azalmasıyla değerleme dekompresi"
+      ],
+      "risks": [
+        "Tayvan jeopolitik riski (Çin-Tayvan gerilimi)",
+        "5 günde neredeyse düz - momentum zayıf kısa vadede",
+        "Tariff/gümrük vergileri riskleri",
+        "Amerikan rakiplerinin (Intel, SMIC) yetişme çabası"
+      ],
+      "entryPoint": "Şimdi - 5 günlük duraksamadan sonra temiz giriş",
+      "entryStrategy": "$360-375 aralığı",
+      "riskLevel": "ORTA",
+      "technicalSignals": {
+        "trend": "Orta vadeli güçlü, kısa vadeli konsolidasyon",
+        "rsiEstimate": "55-60",
+        "macdSignal": "Nötr-Pozitif",
+        "support": 340.0,
+        "resistance": 420.0
+      }
+    },
+    {
+      "rank": 14,
+      "symbol": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "sector": "Industrials / Space Launch",
+      "currentPrice": 84.8,
+      "targetPrice3M": 95.0,
+      "analystTargetMean": 86.56,
+      "upsidePct": 12.0,
+      "marketCapM": 49018,
+      "momentum5d": 24.61,
+      "momentum30d": 20.95,
+      "recommendation": "buy",
+      "analystCount": 15,
+      "catalysts": [
+        "Neutron roket geliştirme ilerleme güncellemeleri bekleniyor",
+        "ABD Uzay Kuvvetleri ve NASA kontratları",
+        "Küçük uydu lansmanlarında pazar payı büyümesi",
+        "SpaceX refahının taşmasıyla sektör büyümesi"
+      ],
+      "risks": [
+        "5 günde %24.6 - aşırı alım",
+        "Analist hedefi mevcut fiyata yakın (sadece %2 upside)",
+        "Yüksek capex (Neutron geliştirme)",
+        "SpaceX rekabeti"
+      ],
+      "entryPoint": "Pullback bekle: $75-80 aralığı",
+      "entryStrategy": "Acele etme, %25 ralliden sonra geri çekilme olası",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü momentum - ama aşırı alım",
+        "rsiEstimate": "75-80",
+        "macdSignal": "Güçlü pozitif",
+        "support": 72.0,
+        "resistance": 100.0
+      }
+    },
+    {
+      "rank": 15,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "Technology / AI Semiconductors",
+      "currentPrice": 278.39,
+      "targetPrice3M": 310.0,
+      "analystTargetMean": 291.52,
+      "upsidePct": 11.4,
+      "marketCapM": 453890,
+      "momentum5d": 13.61,
+      "momentum30d": 44.67,
+      "recommendation": "buy",
+      "analystCount": 46,
+      "catalysts": [
+        "MI300X AI hızlandırıcı satışları ivmeleniyor - NVIDIA alternatifleri arıyor",
+        "EPYC sunucu CPU pazarında Intel'den pay alımı devam ediyor",
+        "Q1 2026 earnings - AI geliri beklentileri yukarı",
+        "Xilinx entegrasyonu sinerjileri: FPGA AI çözümleri"
+      ],
+      "risks": [
+        "30 günde %44.7 - çok büyük rally, geri çekilme riski",
+        "PE 106x - yüksek değerleme",
+        "NVIDIA'nın baskın konumu",
+        "Analist hedefi çok yakın ($291 vs $278)"
+      ],
+      "entryPoint": "Büyük ralliden sonra $260-270 geri çekilme bekle",
+      "entryStrategy": "$265-275 aralığında giriş",
+      "riskLevel": "ORTA",
+      "technicalSignals": {
+        "trend": "Aşırı güçlü - konsolidasyon beklenebilir",
+        "rsiEstimate": "72-76",
+        "macdSignal": "Güçlü pozitif",
+        "support": 255.0,
+        "resistance": 320.0
+      }
+    },
+    {
+      "rank": 16,
+      "symbol": "ARM",
+      "name": "Arm Holdings plc",
+      "sector": "Technology / Chip Architecture & IP",
+      "currentPrice": 166.73,
+      "targetPrice3M": 185.0,
+      "analystTargetMean": 169.59,
+      "upsidePct": 11.0,
+      "marketCapM": 177067,
+      "momentum5d": 11.95,
+      "momentum30d": 45.77,
+      "recommendation": "buy",
+      "analystCount": 36,
+      "catalysts": [
+        "Yapay zeka cihazları (AI PC, akıllı telefon) için ARM mimarisi dominant",
+        "NVIDIA, Qualcomm, Apple ARM lisansları büyüyor",
+        "Q4 FY2026 earnings Mayıs'ta - royalty geliri büyümesi",
+        "Veri merkezi ARM CPU'ları (Graviton, Cobalt) büyüme katalizörü"
+      ],
+      "risks": [
+        "30 günde %45.8 - çok büyük rally",
+        "Short float %11 - dikkat",
+        "Analist hedefi çok yakın (sadece %1.7 upside)",
+        "Yüksek PE (222x)"
+      ],
+      "entryPoint": "$155-165 geri çekilmede giriş ideal",
+      "entryStrategy": "Şu an fiyattan uzak, bekle",
+      "riskLevel": "ORTA-YÜKSEK",
+      "technicalSignals": {
+        "trend": "Güçlü ama overbought",
+        "rsiEstimate": "73-77",
+        "macdSignal": "Pozitif",
+        "support": 150.0,
+        "resistance": 200.0
+      }
+    },
+    {
+      "rank": 17,
+      "symbol": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology / Cybersecurity",
+      "currentPrice": 423.95,
+      "targetPrice3M": 480.0,
+      "analystTargetMean": 489.86,
+      "upsidePct": 13.2,
+      "marketCapM": 107520,
+      "momentum5d": 11.85,
+      "momentum30d": -1.17,
+      "recommendation": "buy",
+      "analystCount": 50,
+      "catalysts": [
+        "Siber saldırılar artıyor - güvenlik harcamaları zorunlu",
+        "Charlotte AI (yapay zeka güvenlik asistanı) kurumsal kabulü",
+        "Q1 FY2027 earnings Mayıs/Haziran 2026",
+        "Fortune 500 müşteri retansiyonu en yüksek sektörde"
+      ],
+      "risks": [
+        "Temmuz 2024 global IT kesintisi - itibar hasarı hâlâ etkili",
+        "Yüksek değerleme (kârsız)",
+        "Microsoft Defender rekabeti",
+        "Makroekonomik baskıda kurumsal IT kesintileri"
+      ],
+      "entryPoint": "Şimdi - 30 günde neredeyse düz, toparlanma başladı",
+      "entryStrategy": "$410-435 aralığı temiz giriş",
+      "riskLevel": "ORTA",
+      "technicalSignals": {
+        "trend": "Taban oluşturma tamamlandı, kısa vadeli yükseliş",
+        "rsiEstimate": "58-62",
+        "macdSignal": "Pozitif geçiş",
+        "support": 390.0,
+        "resistance": 470.0
+      }
+    },
+    {
+      "rank": 18,
+      "symbol": "LUNR",
+      "name": "Intuitive Machines, Inc.",
+      "sector": "Industrials / Space / Lunar",
+      "currentPrice": 27.58,
+      "targetPrice3M": 30.0,
+      "analystTargetMean": 23.78,
+      "upsidePct": 8.8,
+      "marketCapM": 4395,
+      "momentum5d": 17.01,
+      "momentum30d": 56.44,
+      "recommendation": "speculative_buy",
+      "analystCount": 9,
+      "catalysts": [
+        "NASA Artemis programı - ay yüzeyi varlık anlaşmaları",
+        "CLPS (Commercial Lunar Payload Services) kontratlar genişliyor",
+        "IM-3 lunar mission 2026'da planlanıyor",
+        "Ay ekonomisi hype - spekülatif momentum güçlü"
+      ],
+      "risks": [
+        "30 günde %56 - aşırı alım, ANALIST HEDEFİNİN ÜSTÜNDE işlem görüyor",
+        "Short float %20.8",
+        "Çok spekülatif - ay misyonları riskli",
+        "Kârsız, küçük şirket"
+      ],
+      "entryPoint": "DİKKAT: Analist hedefinin üstünde, %57 ralliden sonra $22-24'e geri çekilme beklenir",
+      "entryStrategy": "$22-25 aralığında değerlendir",
+      "riskLevel": "ÇOK YÜKSEK",
+      "technicalSignals": {
+        "trend": "Aşırı alım - reversal riski yüksek",
+        "rsiEstimate": "80+",
+        "macdSignal": "Aşırı pozitif",
+        "support": 22.0,
+        "resistance": 35.0
+      }
+    },
+    {
+      "rank": 19,
+      "symbol": "SMCI",
+      "name": "Super Micro Computer, Inc.",
+      "sector": "Technology / AI Server Hardware",
+      "currentPrice": 28.56,
+      "targetPrice3M": 38.0,
+      "analystTargetMean": 33.2,
+      "upsidePct": 33.1,
+      "marketCapM": 17150,
+      "momentum5d": 13.06,
+      "momentum30d": -8.78,
+      "recommendation": "hold",
+      "analystCount": 15,
+      "catalysts": [
+        "AI sunucu talebinden faydalanma - NVIDIA GPU sistemleri",
+        "Muhasebe sorunlarının çözülmesi - denetim firması değişikliği",
+        "Müşteri tabanını geri kazanma çabaları",
+        "5 günde %13 toparlanma - taban sinyali"
+      ],
+      "risks": [
+        "Short float YÜKSEK (%18.5) - spekülatif baskı",
+        "Muhasebe skandalı itibar hasarı devam ediyor",
+        "Hold recommendation - analistler temkinli",
+        "30 günde -%8.8 - zayıf orta vadeli momentum"
+      ],
+      "entryPoint": "$26-29 aralığında kademeli giriş (taban bölgesi)",
+      "entryStrategy": "Küçük pozisyon, stop-loss $24",
+      "riskLevel": "YÜKSEK",
+      "technicalSignals": {
+        "trend": "Taban arayışında, toparlanma sinyali",
+        "rsiEstimate": "45-52",
+        "macdSignal": "Negatiften geçiş",
+        "support": 24.0,
+        "resistance": 35.0
+      }
+    },
+    {
+      "rank": 20,
+      "symbol": "CAVA",
+      "name": "CAVA Group, Inc.",
+      "sector": "Consumer Cyclical / Fast Casual Restaurant",
+      "currentPrice": 94.78,
+      "targetPrice3M": 105.0,
+      "analystTargetMean": 85.83,
+      "upsidePct": 10.8,
+      "marketCapM": 11030,
+      "momentum5d": 11.58,
+      "momentum30d": 20.6,
+      "recommendation": "buy",
+      "analystCount": 24,
+      "catalysts": [
+        "Hızlı büyüme - yıllık %25+ yeni restoran açılışları",
+        "Chipotle'ın Akdeniz versiyonu - güçlü marka konumlanması",
+        "Same-store sales büyümesi güçlü",
+        "Q1 2026 earnings - büyüme beklentileri güçlü"
+      ],
+      "risks": [
+        "Analist hedefinin %10 üstünde işlem görüyor",
+        "PE 175x - aşırı değerleme",
+        "Tüketici harcama zayıflığı riski",
+        "Restoran sektörü rekabeti artıyor"
+      ],
+      "entryPoint": "$88-95 aralığı - şu an hâlâ girilir ama ucuz değil",
+      "entryStrategy": "$88-90 pullbackte daha iyi giriş",
+      "riskLevel": "ORTA",
+      "technicalSignals": {
+        "trend": "Güçlü orta vadeli trend",
+        "rsiEstimate": "62-66",
+        "macdSignal": "Pozitif",
+        "support": 85.0,
+        "resistance": 115.0
+      }
+    }
+  ]
+}
