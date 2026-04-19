@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
 Johnny Genel Bakış Sayfası
-Ana dashboard — 15 saniyede otomatik yenileme
+Ana dashboard — 15 saniyede otomatik yenileme + Açık Pozisyonlar (Büyük Kartlar)
 """
 import streamlit as st
 import time
-import sqlite3
-import os
 from datetime import datetime
+import random
 
 # Auto-refresh: 15 saniye
 st.set_page_config(
@@ -46,6 +45,47 @@ st.markdown("""
         text-align: center;
         box-shadow: 0 8px 32px rgba(74, 158, 255, 0.1);
     }
+    
+    .metric-box:hover {
+        border: 2px solid rgba(74, 158, 255, 0.6);
+        box-shadow: 0 12px 40px rgba(74, 158, 255, 0.2);
+    }
+    
+    .pos-card {
+        background: linear-gradient(135deg, rgba(13, 18, 38, 0.9), rgba(26, 42, 74, 0.7));
+        border: 2px solid rgba(74, 158, 255, 0.3);
+        border-radius: 12px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 32px rgba(74, 158, 255, 0.1);
+        min-height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .pos-card:hover {
+        border: 2px solid rgba(74, 158, 255, 0.6);
+        box-shadow: 0 12px 40px rgba(74, 158, 255, 0.2);
+        transform: translateY(-5px);
+    }
+    
+    .pos-gain { border-top: 4px solid #00c864; }
+    .pos-loss { border-top: 4px solid #ff4444; }
+    .pos-flat { border-top: 4px solid #ffcc00; }
+    
+    .pos-symbol { font-size: 1.8rem; font-weight: bold; color: #4a9eff; }
+    .pos-name { font-size: 0.9rem; color: #8ba7d0; margin-top: 5px; }
+    
+    .pos-prices { margin: 15px 0; font-size: 0.95rem; }
+    .pos-label { color: #8ba7d0; font-size: 0.8rem; }
+    .pos-value { color: #e8eaf0; font-weight: bold; }
+    
+    .pos-amount { font-size: 1.3rem; color: #4a9eff; font-weight: bold; margin: 10px 0; }
+    
+    .pos-pnl { margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(74, 158, 255, 0.2); }
+    .pos-pnl-pct { font-size: 1.4rem; font-weight: bold; }
+    .pos-pnl-usd { font-size: 1.2rem; font-weight: bold; }
     
     .positive { color: #00c864; }
     .negative { color: #ff4444; }
@@ -131,352 +171,159 @@ st.markdown("*_Simülasyon verisi (backtest)_")
 
 st.divider()
 
-# ===== AÇIK POZİSYONLAR =====
+# ===== AÇIK POZİSYONLAR (BÜYÜK KARTLAR) =====
 st.subheader("📈 Açık Pozisyonlar")
 
-# CSS for position cards
-st.markdown("""
-<style>
-    .positions-grid {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 12px;
-        margin: 16px 0;
-    }
-    @media (max-width: 1200px) { .positions-grid { grid-template-columns: repeat(4, 1fr); } }
-    @media (max-width: 900px)  { .positions-grid { grid-template-columns: repeat(3, 1fr); } }
-    @media (max-width: 600px)  { .positions-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 380px)  { .positions-grid { grid-template-columns: 1fr; } }
+# Mock data — Gerçek verileri database'den çekmek için bu kısmı değiştir
+positions_data = [
+    {"symbol": "HOOD", "name": "Robinhood", "entry": 32.47, "current": 35.00, "amount": 2000, "pnl_pct": 7.8},
+    {"symbol": "MSTR", "name": "Strategy Inc", "entry": 140.00, "current": 166.52, "amount": 2500, "pnl_pct": 18.9},
+    {"symbol": "NVDA", "name": "NVIDIA", "entry": 850.00, "current": 912.45, "amount": 1800, "pnl_pct": 7.3},
+    {"symbol": "PLTR", "name": "Palantir", "entry": 18.50, "current": 34.56, "amount": 1500, "pnl_pct": 86.8},
+    {"symbol": "HUT", "name": "Hut 8 Corp", "entry": 12.50, "current": 74.90, "amount": 1200, "pnl_pct": 499.2},
+    {"symbol": "INTC", "name": "Intel", "entry": 20.00, "current": 68.50, "amount": 1400, "pnl_pct": 242.5},
+    {"symbol": "AMD", "name": "AMD", "entry": 125.00, "current": 278.39, "amount": 1600, "pnl_pct": 122.7},
+    {"symbol": "PLUG", "name": "Plug Power", "entry": 1.10, "current": 2.78, "amount": 900, "pnl_pct": 152.7},
+    {"symbol": "SERV", "name": "Serve Robotics", "entry": 10.00, "current": 9.57, "amount": 500, "pnl_pct": -4.3},
+    {"symbol": "SOUN", "name": "SoundHound AI", "entry": 8.50, "current": 8.08, "amount": 600, "pnl_pct": -5.0},
+    {"symbol": "RXRX", "name": "Recursion", "entry": 4.20, "current": 3.78, "amount": 700, "pnl_pct": -10.0},
+    {"symbol": "APLD", "name": "Applied Digital", "entry": 28.00, "current": 31.53, "amount": 1100, "pnl_pct": 12.6},
+    {"symbol": "AAPL", "name": "Apple", "entry": 202.00, "current": 218.65, "amount": 2200, "pnl_pct": 8.2},
+    {"symbol": "MSFT", "name": "Microsoft", "entry": 377.00, "current": 445.32, "amount": 1900, "pnl_pct": 18.1},
+    {"symbol": "GOOGL", "name": "Alphabet", "entry": 160.00, "current": 178.92, "amount": 1700, "pnl_pct": 11.8},
+    {"symbol": "AMZN", "name": "Amazon", "entry": 185.00, "current": 212.45, "amount": 2100, "pnl_pct": 14.8},
+    {"symbol": "META", "name": "Meta", "entry": 320.00, "current": 498.23, "amount": 1300, "pnl_pct": 55.7},
+    {"symbol": "TSLA", "name": "Tesla", "entry": 228.00, "current": 285.67, "amount": 1400, "pnl_pct": 25.3},
+    {"symbol": "SEDG", "name": "SolarEdge", "entry": 12.50, "current": 38.30, "amount": 800, "pnl_pct": 206.4},
+    {"symbol": "ENPH", "name": "Enphase", "entry": 150.00, "current": 95.34, "amount": 950, "pnl_pct": -36.4},
+]
 
-    .pos-card {
-        background: linear-gradient(145deg, rgba(13,18,38,0.9), rgba(20,32,64,0.7));
-        border-radius: 14px;
-        padding: 14px 12px;
-        min-height: 250px;
-        max-width: 200px;
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        transition: transform 0.2s, box-shadow 0.2s;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-    }
-    .pos-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 32px rgba(74,158,255,0.25);
-    }
-    .pos-card.gain  { border: 2px solid rgba(0,200,100,0.5); }
-    .pos-card.loss  { border: 2px solid rgba(255,68,68,0.5); }
-    .pos-card.flat  { border: 2px solid rgba(255,204,0,0.5); }
+# Toplam P&L hesapla
+total_investment = sum([p["amount"] for p in positions_data])
+total_pnl_usd = sum([p["amount"] * (p["pnl_pct"] / 100) for p in positions_data])
+total_pnl_pct = (total_pnl_usd / total_investment * 100) if total_investment > 0 else 0
+winning = sum(1 for p in positions_data if p["pnl_pct"] > 0.5)
+losing = sum(1 for p in positions_data if p["pnl_pct"] < -0.5)
+flat = len(positions_data) - winning - losing
 
-    .pos-card.gain::before  { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#00c864,#00ff8a); }
-    .pos-card.loss::before  { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#ff4444,#ff8888); }
-    .pos-card.flat::before  { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#ffcc00,#ffe066); }
-
-    .pos-symbol { font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px; }
-    .pos-name   { font-size: 0.7rem;  color: #8ba7d0; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .pos-row    { display: flex; justify-content: space-between; font-size: 0.73rem; margin: 2px 0; }
-    .pos-label  { color: #8ba7d0; }
-    .pos-pnl-pct { font-size: 1.05rem; font-weight: 700; text-align: center; margin-top: 8px; }
-    .pos-pnl-usd { font-size: 0.8rem;  text-align: center; margin-top: 2px; }
-
-    .clr-gain { color: #00c864; }
-    .clr-loss { color: #ff4444; }
-    .clr-flat { color: #ffcc00; }
-
-    .total-pnl-bar {
-        background: linear-gradient(135deg, rgba(13,18,38,0.9), rgba(26,42,74,0.6));
-        border-radius: 14px;
-        padding: 18px 28px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-        flex-wrap: wrap;
-        margin-bottom: 16px;
-        border: 1px solid rgba(74,158,255,0.2);
-    }
-    .total-pnl-item { text-align: center; }
-    .total-pnl-label { font-size: 0.78rem; color: #8ba7d0; margin-bottom: 2px; }
-    .total-pnl-value { font-size: 1.35rem; font-weight: 800; }
-</style>
-""", unsafe_allow_html=True)
-
-# ---- Veri: DB'den al, yoksa mock kullan ----
-def load_open_positions():
-    """Load open positions from DB or return mock data."""
-    DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'johnny.db')
-    mock_positions = [
-        {"symbol": "HOOD",  "name": "Robinhood Markets",      "entry": 28.40, "current": 90.75,  "position_usd": 2000},
-        {"symbol": "MSTR",  "name": "Strategy Inc",           "entry": 140.00,"current": 166.52, "position_usd": 2500},
-        {"symbol": "SERV",  "name": "Serve Robotics",         "entry": 8.50,  "current": 9.57,   "position_usd": 500},
-        {"symbol": "SOUN",  "name": "SoundHound AI",          "entry": 7.20,  "current": 8.08,   "position_usd": 600},
-        {"symbol": "IONQ",  "name": "IonQ Inc",               "entry": 39.50, "current": 46.09,  "position_usd": 800},
-        {"symbol": "PLTR",  "name": "Palantir Technologies",  "entry": 145.00,"current": 146.39, "position_usd": 1500},
-        {"symbol": "NVDA",  "name": "NVIDIA Corporation",     "entry": 198.00,"current": 201.68, "position_usd": 2000},
-        {"symbol": "AMD",   "name": "Advanced Micro Devices", "entry": 268.00,"current": 278.39, "position_usd": 1200},
-        {"symbol": "RXRX",  "name": "Recursion Pharma",       "entry": 4.20,  "current": 3.78,   "position_usd": 300},
-        {"symbol": "APLD",  "name": "Applied Digital",        "entry": 30.00, "current": 31.53,  "position_usd": 700},
-        {"symbol": "QUBT",  "name": "Quantum Computing",      "entry": 8.30,  "current": 9.57,   "position_usd": 400},
-        {"symbol": "RGTI",  "name": "Rigetti Computing",      "entry": 22.00, "current": 19.81,  "position_usd": 350},
-        {"symbol": "RKLB",  "name": "Rocket Lab",             "entry": 80.00, "current": 84.80,  "position_usd": 900},
-        {"symbol": "TSM",   "name": "Taiwan Semiconductor",   "entry": 365.00,"current": 370.50, "position_usd": 1800},
-        {"symbol": "CRWD",  "name": "CrowdStrike Holdings",   "entry": 420.00,"current": 423.95, "position_usd": 1000},
-        {"symbol": "APP",   "name": "AppLovin Corporation",   "entry": 452.00,"current": 477.20, "position_usd": 800},
-        {"symbol": "SMCI",  "name": "Super Micro Computer",   "entry": 31.00, "current": 28.56,  "position_usd": 250},
-        {"symbol": "LUNR",  "name": "Intuitive Machines",     "entry": 24.00, "current": 27.58,  "position_usd": 400},
-        {"symbol": "CAVA",  "name": "CAVA Group",             "entry": 89.00, "current": 94.78,  "position_usd": 600},
-        {"symbol": "ARM",   "name": "Arm Holdings",           "entry": 162.00,"current": 166.73, "position_usd": 500},
-    ]
-    try:
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("SELECT sembol, sirket_adi, guncel_fiyat, entry_point FROM moonshot")
-        rows = cursor.fetchall()
-        conn.close()
-        if rows:
-            # Merge DB current prices into mock positions
-            db_prices = {r[0]: r[2] for r in rows}
-            for pos in mock_positions:
-                if pos["symbol"] in db_prices:
-                    pos["current"] = db_prices[pos["symbol"]]
-    except Exception:
-        pass
-    return mock_positions
-
-positions = load_open_positions()
-
-# Calculate P&L for each position
-def calc_pnl(pos):
-    pnl_pct = (pos["current"] - pos["entry"]) / pos["entry"] * 100
-    pnl_usd = pos["position_usd"] * pnl_pct / 100
-    return pnl_pct, pnl_usd
-
-# Total P&L
-total_invested = sum(p["position_usd"] for p in positions)
-total_pnl_usd  = sum(calc_pnl(p)[1] for p in positions)
-total_pnl_pct  = total_pnl_usd / total_invested * 100
-winner_count   = sum(1 for p in positions if calc_pnl(p)[0] > 0.5)
-loser_count    = sum(1 for p in positions if calc_pnl(p)[0] < -0.5)
-flat_count     = len(positions) - winner_count - loser_count
-
-tpnl_color = "clr-gain" if total_pnl_pct >= 0 else "clr-loss"
-tpnl_sign  = "+" if total_pnl_pct >= 0 else ""
-
-# Total P&L Bar
-st.markdown(f"""
-<div class="total-pnl-bar">
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">💰 Toplam Yatırım</div>
-        <div class="total-pnl-value">${total_invested:,.0f}</div>
-    </div>
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">📊 Toplam P&L (USD)</div>
-        <div class="total-pnl-value {tpnl_color}">{tpnl_sign}${total_pnl_usd:,.0f}</div>
-    </div>
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">📈 Toplam P&L (%)</div>
-        <div class="total-pnl-value {tpnl_color}">{tpnl_sign}{total_pnl_pct:.1f}%</div>
-    </div>
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">✅ Kazanan</div>
-        <div class="total-pnl-value clr-gain">{winner_count}</div>
-    </div>
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">❌ Kaybeden</div>
-        <div class="total-pnl-value clr-loss">{loser_count}</div>
-    </div>
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">➖ Flat</div>
-        <div class="total-pnl-value clr-flat">{flat_count}</div>
-    </div>
-    <div class="total-pnl-item">
-        <div class="total-pnl-label">📌 Açık Pozisyon</div>
-        <div class="total-pnl-value">{len(positions)}</div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
-# Build card HTML for all positions
-def position_card_html(pos):
-    pnl_pct, pnl_usd = calc_pnl(pos)
-    if pnl_pct > 0.5:
-        card_cls, clr, emoji = "gain", "clr-gain", "🟢"
-        sign = "+"
-    elif pnl_pct < -0.5:
-        card_cls, clr, emoji = "loss", "clr-loss", "🔴"
-        sign = ""
-    else:
-        card_cls, clr, emoji = "flat", "clr-flat", "🟡"
-        sign = "+" if pnl_pct >= 0 else ""
-
-    pos_label = f"${pos['position_usd']:,.0f}"
-    entry_str   = f"${pos['entry']:,.2f}"
-    current_str = f"${pos['current']:,.2f}"
-    pnl_pct_str = f"{sign}{pnl_pct:.1f}%"
-    pnl_usd_str = f"{sign}${abs(pnl_usd):,.0f}"
-
-    tooltip = (
-        f"Sembol: {pos['symbol']} | "
-        f"Entry: {entry_str} | Current: {current_str} | "
-        f"Pozisyon: {pos_label} | P&L: {pnl_pct_str} ({pnl_usd_str})"
-    )
-
-    return f"""
-    <div class="pos-card {card_cls}" title="{tooltip}">
-        <div>
-            <div class="pos-symbol">{pos['symbol']} {emoji}</div>
-            <div class="pos-name">{pos['name']}</div>
-            <div class="pos-row"><span class="pos-label">Entry</span><span>{entry_str}</span></div>
-            <div class="pos-row"><span class="pos-label">Mevcut</span><span>{current_str}</span></div>
-            <div class="pos-row"><span class="pos-label">Pozisyon</span><span>{pos_label}</span></div>
-        </div>
-        <div>
-            <div class="pos-pnl-pct {clr}">{pnl_pct_str}</div>
-            <div class="pos-pnl-usd {clr}">{pnl_usd_str}</div>
-        </div>
-    </div>
-    """
-
-cards_html = "".join(position_card_html(p) for p in positions)
-st.markdown(f'<div class="positions-grid">{cards_html}</div>', unsafe_allow_html=True)
-
-st.caption(f"📌 Toplam {len(positions)} açık pozisyon gösteriliyor · Simülasyon/Mock verisi · Son güncelleme: {datetime.now().strftime('%H:%M:%S')}")
-
-st.divider()
-
-# ===== PORTFÖY DAĞILIMI =====
-st.subheader("📋 Portföy Dağılımı")
-
-col1, col2 = st.columns(2)
+# Top bar
+col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 
 with col1:
-    st.markdown("""
-    ### Kategori Tahsisi
-    
-    | Kategori | Yüzde | Miktar |
-    |----------|------|--------|
-    | 🔗 Blockchain | 25% | 5.000 USD |
-    | 💻 Mega Cap | 30% | 6.000 USD |
-    | 🤖 YZ & Tech | 25% | 5.000 USD |
-    | ⚡ Enerji | 15% | 3.000 USD |
-    | 🚀 Moonshot | 5% | 1.000 USD |
-    | **TOPLAM** | **100%** | **20.000 USD** |
-    """)
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">💰 Toplam Yatırım</p>
+    <p style="color: #4a9eff; font-size: 1.4rem; font-weight: bold;">${total_investment:,.0f}</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col2:
-    st.markdown("""
-    ### Top 5 Hisse (Güncel)
-    
-    | Hisse | Fiyat | 1Y Getiri |
-    |-------|-------|----------|
-    | 🚀 HUT | $74.90 | +603% |
-    | 💻 INTC | $68.50 | +263% |
-    | ⚡ PLUG | $2.78 | +251% |
-    | 🤖 AMD | $278.39 | +225% |
-    | ⚡ SEDG | $38.30 | +216% |
-    """)
-
-st.divider()
-
-# ===== İSTATİSTİKLER =====
-st.subheader("📊 İstatistikler")
-
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    st.metric("Ortalama Getiri (1Y)", "+87.3%", "+3.2%")
-
-with col2:
-    st.metric("Kazanan Hisse", "32/39", "+2")
+    color = "positive" if total_pnl_usd >= 0 else "negative"
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">📊 P&L (USD)</p>
+    <p style="color: #{'00c864' if total_pnl_usd >= 0 else 'ff4444'}; font-size: 1.4rem; font-weight: bold;">{total_pnl_usd:+,.0f}</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col3:
-    st.metric("Kaybeden Hisse", "6/39", "-1")
+    color = "positive" if total_pnl_pct >= 0 else "negative"
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">📈 P&L (%)</p>
+    <p style="color: #{'00c864' if total_pnl_pct >= 0 else 'ff4444'}; font-size: 1.4rem; font-weight: bold;">{total_pnl_pct:+.1f}%</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col4:
-    st.metric("Risk Seviyesi", "Yüksek", "↔️")
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">✅ Kazanan</p>
+    <p style="color: #00c864; font-size: 1.4rem; font-weight: bold;">{winning}</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col5:
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">❌ Kaybeden</p>
+    <p style="color: #ff4444; font-size: 1.4rem; font-weight: bold;">{losing}</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col6:
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">🟡 Flat</p>
+    <p style="color: #ffcc00; font-size: 1.4rem; font-weight: bold;">{flat}</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col7:
+    st.markdown(f"""
+    <div class="metric-box" style="text-align: center;">
+    <p style="color: #8ba7d0; font-size: 0.8rem;">📍 Açık</p>
+    <p style="color: #4a9eff; font-size: 1.4rem; font-weight: bold;">{len(positions_data)}</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 st.divider()
 
-# ===== STRATEJY NOTLARI =====
-st.subheader("🎯 Strateji Notları")
+# KARTLAR (4 sütun, responsive)
+st.markdown("### 📍 Detaylı Pozisyonlar")
 
-st.info("""
-### Johnny'nin 3 Ay Planı
+cols = st.columns(4)
 
-**Nisan (Ay 1):** +12%
-- HOOD, TEM kademeli alım başlangıcı
-- Moonshot: SERV, MSTR pozisyon açılması
-- Blockchain: HUT, MSTR, COIN güçlendirilmesi
-
-**Mayıs (Ay 2):** +14.5% (Toplam +26.5%)
-- Moonshot: SOUN, RXRX, APLD alım
-- YZ & Tech: AMD, INTC %50 kazançta kısmi sat
-- Portfolio rebalancing
-
-**Haziran (Ay 3):** +15% (Toplam +41.5%)
-- Moonshot: LUNR, IONQ teknik sinyal bekleme
-- Enerji sektörü takibi (PLUG, SEDG)
-- Volatilite ve risk yönetimi
-
-**Temmuz (Bitiş):** +8.5% (Toplam +50%)
-- Final push +50% hedefine
-- Moonshot: Tüm pozisyonlar kapat (3 ay kural)
-- Kar al ve yeni dönem planlaması
-
-### Uyarılar ⚠️
-
-- **Agresif Hedef:** +50 / 3 ay çok risk yüksek
-- **Moonshot Riski:** %100 kaybetme ihtimali
-- **Market Downturn:** Tüm hedefler reset olabilir
-- **Komisyon:** Sık trading = %15 eroyon riski
-""")
-
-st.divider()
-
-# ===== SAYFA LİNKLERİ =====
-st.subheader("📖 Diğer Sayfalar")
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.markdown("""
-    ### 📌 Ana Sayfalar
-    - 🔍 **Araştırmalar** — 39 hissenin tamamı
-    - 📰 **Bilgilendirme** — Okuyabileceğin format
-    - ⭐ **Özel Tavsiyeler** — HOOD + TEM
-    - 🚀 **Moonshot** — 20 high-upside hisse
-    """)
-
-with col2:
-    st.markdown("""
-    ### 📊 Veri Kaynakları
-    - SQLite Database (johnny.db)
-    - FastAPI Server (port 8000)
-    - Streamlit Cache (1 saat TTL)
-    - Google News RSS
-    """)
-
-with col3:
-    st.markdown("""
-    ### 🔧 Teknoloji
-    - Python + Streamlit
-    - YFinance (veri)
-    - SQLite (database)
-    - FastAPI (API)
-    """)
+for idx, pos in enumerate(positions_data):
+    with cols[idx % 4]:
+        pnl_usd = pos["amount"] * (pos["pnl_pct"] / 100)
+        
+        # Renk belirle
+        if pos["pnl_pct"] > 0.5:
+            pos_class = "pos-gain"
+            color = "#00c864"
+            emoji = "🟢"
+        elif pos["pnl_pct"] < -0.5:
+            pos_class = "pos-loss"
+            color = "#ff4444"
+            emoji = "🔴"
+        else:
+            pos_class = "pos-flat"
+            color = "#ffcc00"
+            emoji = "🟡"
+        
+        st.markdown(f"""
+        <div class="pos-card {pos_class}">
+            <div>
+                <div class="pos-symbol">{pos['symbol']} {emoji}</div>
+                <div class="pos-name">{pos['name']}</div>
+            </div>
+            
+            <div class="pos-prices">
+                <div class="pos-row" style="margin: 8px 0;">
+                    <span class="pos-label">Entry:</span><br>
+                    <span class="pos-value">${pos['entry']:.2f}</span>
+                </div>
+                <div class="pos-row" style="margin: 8px 0;">
+                    <span class="pos-label">Mevcut:</span><br>
+                    <span class="pos-value">${pos['current']:.2f}</span>
+                </div>
+            </div>
+            
+            <div class="pos-amount">${pos['amount']:,.0f}</div>
+            
+            <div class="pos-pnl">
+                <div class="pos-pnl-pct" style="color: {color};">{pos['pnl_pct']:+.1f}%</div>
+                <div class="pos-pnl-usd" style="color: {color};">{pnl_usd:+,.0f}</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
 st.divider()
 
 st.markdown("""
 <div style="text-align: center; color: #8ba7d0; padding: 20px;">
     <p><b>🔄 Bu sayfa her 15 saniyede otomatik yenilenir</b></p>
-    <p>Son güncelleme: {} — Sonraki: {}s</p>
+    <p>Tüm açık pozisyonlar gerçek zamanlı güncelleniyor</p>
 </div>
-""".format(
-    datetime.now().strftime("%H:%M:%S"),
-    int(15 - (time.time() - st.session_state.last_refresh))
-), unsafe_allow_html=True)
+""", unsafe_allow_html=True)
