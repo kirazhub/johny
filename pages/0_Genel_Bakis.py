@@ -5,6 +5,8 @@ Ana dashboard — 15 saniyede otomatik yenileme
 """
 import streamlit as st
 import time
+import sqlite3
+import os
 from datetime import datetime
 
 # Auto-refresh: 15 saniye
@@ -126,6 +128,223 @@ with col5:
     """, unsafe_allow_html=True)
 
 st.markdown("*_Simülasyon verisi (backtest)_")
+
+st.divider()
+
+# ===== AÇIK POZİSYONLAR =====
+st.subheader("📈 Açık Pozisyonlar")
+
+# CSS for position cards
+st.markdown("""
+<style>
+    .positions-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin: 16px 0;
+    }
+    @media (max-width: 1200px) { .positions-grid { grid-template-columns: repeat(4, 1fr); } }
+    @media (max-width: 900px)  { .positions-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 600px)  { .positions-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 380px)  { .positions-grid { grid-template-columns: 1fr; } }
+
+    .pos-card {
+        background: linear-gradient(145deg, rgba(13,18,38,0.9), rgba(20,32,64,0.7));
+        border-radius: 14px;
+        padding: 14px 12px;
+        min-height: 250px;
+        max-width: 200px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .pos-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 32px rgba(74,158,255,0.25);
+    }
+    .pos-card.gain  { border: 2px solid rgba(0,200,100,0.5); }
+    .pos-card.loss  { border: 2px solid rgba(255,68,68,0.5); }
+    .pos-card.flat  { border: 2px solid rgba(255,204,0,0.5); }
+
+    .pos-card.gain::before  { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#00c864,#00ff8a); }
+    .pos-card.loss::before  { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#ff4444,#ff8888); }
+    .pos-card.flat::before  { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#ffcc00,#ffe066); }
+
+    .pos-symbol { font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px; }
+    .pos-name   { font-size: 0.7rem;  color: #8ba7d0; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .pos-row    { display: flex; justify-content: space-between; font-size: 0.73rem; margin: 2px 0; }
+    .pos-label  { color: #8ba7d0; }
+    .pos-pnl-pct { font-size: 1.05rem; font-weight: 700; text-align: center; margin-top: 8px; }
+    .pos-pnl-usd { font-size: 0.8rem;  text-align: center; margin-top: 2px; }
+
+    .clr-gain { color: #00c864; }
+    .clr-loss { color: #ff4444; }
+    .clr-flat { color: #ffcc00; }
+
+    .total-pnl-bar {
+        background: linear-gradient(135deg, rgba(13,18,38,0.9), rgba(26,42,74,0.6));
+        border-radius: 14px;
+        padding: 18px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+        border: 1px solid rgba(74,158,255,0.2);
+    }
+    .total-pnl-item { text-align: center; }
+    .total-pnl-label { font-size: 0.78rem; color: #8ba7d0; margin-bottom: 2px; }
+    .total-pnl-value { font-size: 1.35rem; font-weight: 800; }
+</style>
+""", unsafe_allow_html=True)
+
+# ---- Veri: DB'den al, yoksa mock kullan ----
+def load_open_positions():
+    """Load open positions from DB or return mock data."""
+    DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'johnny.db')
+    mock_positions = [
+        {"symbol": "HOOD",  "name": "Robinhood Markets",      "entry": 28.40, "current": 90.75,  "position_usd": 2000},
+        {"symbol": "MSTR",  "name": "Strategy Inc",           "entry": 140.00,"current": 166.52, "position_usd": 2500},
+        {"symbol": "SERV",  "name": "Serve Robotics",         "entry": 8.50,  "current": 9.57,   "position_usd": 500},
+        {"symbol": "SOUN",  "name": "SoundHound AI",          "entry": 7.20,  "current": 8.08,   "position_usd": 600},
+        {"symbol": "IONQ",  "name": "IonQ Inc",               "entry": 39.50, "current": 46.09,  "position_usd": 800},
+        {"symbol": "PLTR",  "name": "Palantir Technologies",  "entry": 145.00,"current": 146.39, "position_usd": 1500},
+        {"symbol": "NVDA",  "name": "NVIDIA Corporation",     "entry": 198.00,"current": 201.68, "position_usd": 2000},
+        {"symbol": "AMD",   "name": "Advanced Micro Devices", "entry": 268.00,"current": 278.39, "position_usd": 1200},
+        {"symbol": "RXRX",  "name": "Recursion Pharma",       "entry": 4.20,  "current": 3.78,   "position_usd": 300},
+        {"symbol": "APLD",  "name": "Applied Digital",        "entry": 30.00, "current": 31.53,  "position_usd": 700},
+        {"symbol": "QUBT",  "name": "Quantum Computing",      "entry": 8.30,  "current": 9.57,   "position_usd": 400},
+        {"symbol": "RGTI",  "name": "Rigetti Computing",      "entry": 22.00, "current": 19.81,  "position_usd": 350},
+        {"symbol": "RKLB",  "name": "Rocket Lab",             "entry": 80.00, "current": 84.80,  "position_usd": 900},
+        {"symbol": "TSM",   "name": "Taiwan Semiconductor",   "entry": 365.00,"current": 370.50, "position_usd": 1800},
+        {"symbol": "CRWD",  "name": "CrowdStrike Holdings",   "entry": 420.00,"current": 423.95, "position_usd": 1000},
+        {"symbol": "APP",   "name": "AppLovin Corporation",   "entry": 452.00,"current": 477.20, "position_usd": 800},
+        {"symbol": "SMCI",  "name": "Super Micro Computer",   "entry": 31.00, "current": 28.56,  "position_usd": 250},
+        {"symbol": "LUNR",  "name": "Intuitive Machines",     "entry": 24.00, "current": 27.58,  "position_usd": 400},
+        {"symbol": "CAVA",  "name": "CAVA Group",             "entry": 89.00, "current": 94.78,  "position_usd": 600},
+        {"symbol": "ARM",   "name": "Arm Holdings",           "entry": 162.00,"current": 166.73, "position_usd": 500},
+    ]
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("SELECT sembol, sirket_adi, guncel_fiyat, entry_point FROM moonshot")
+        rows = cursor.fetchall()
+        conn.close()
+        if rows:
+            # Merge DB current prices into mock positions
+            db_prices = {r[0]: r[2] for r in rows}
+            for pos in mock_positions:
+                if pos["symbol"] in db_prices:
+                    pos["current"] = db_prices[pos["symbol"]]
+    except Exception:
+        pass
+    return mock_positions
+
+positions = load_open_positions()
+
+# Calculate P&L for each position
+def calc_pnl(pos):
+    pnl_pct = (pos["current"] - pos["entry"]) / pos["entry"] * 100
+    pnl_usd = pos["position_usd"] * pnl_pct / 100
+    return pnl_pct, pnl_usd
+
+# Total P&L
+total_invested = sum(p["position_usd"] for p in positions)
+total_pnl_usd  = sum(calc_pnl(p)[1] for p in positions)
+total_pnl_pct  = total_pnl_usd / total_invested * 100
+winner_count   = sum(1 for p in positions if calc_pnl(p)[0] > 0.5)
+loser_count    = sum(1 for p in positions if calc_pnl(p)[0] < -0.5)
+flat_count     = len(positions) - winner_count - loser_count
+
+tpnl_color = "clr-gain" if total_pnl_pct >= 0 else "clr-loss"
+tpnl_sign  = "+" if total_pnl_pct >= 0 else ""
+
+# Total P&L Bar
+st.markdown(f"""
+<div class="total-pnl-bar">
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">💰 Toplam Yatırım</div>
+        <div class="total-pnl-value">${total_invested:,.0f}</div>
+    </div>
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">📊 Toplam P&L (USD)</div>
+        <div class="total-pnl-value {tpnl_color}">{tpnl_sign}${total_pnl_usd:,.0f}</div>
+    </div>
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">📈 Toplam P&L (%)</div>
+        <div class="total-pnl-value {tpnl_color}">{tpnl_sign}{total_pnl_pct:.1f}%</div>
+    </div>
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">✅ Kazanan</div>
+        <div class="total-pnl-value clr-gain">{winner_count}</div>
+    </div>
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">❌ Kaybeden</div>
+        <div class="total-pnl-value clr-loss">{loser_count}</div>
+    </div>
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">➖ Flat</div>
+        <div class="total-pnl-value clr-flat">{flat_count}</div>
+    </div>
+    <div class="total-pnl-item">
+        <div class="total-pnl-label">📌 Açık Pozisyon</div>
+        <div class="total-pnl-value">{len(positions)}</div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# Build card HTML for all positions
+def position_card_html(pos):
+    pnl_pct, pnl_usd = calc_pnl(pos)
+    if pnl_pct > 0.5:
+        card_cls, clr, emoji = "gain", "clr-gain", "🟢"
+        sign = "+"
+    elif pnl_pct < -0.5:
+        card_cls, clr, emoji = "loss", "clr-loss", "🔴"
+        sign = ""
+    else:
+        card_cls, clr, emoji = "flat", "clr-flat", "🟡"
+        sign = "+" if pnl_pct >= 0 else ""
+
+    pos_label = f"${pos['position_usd']:,.0f}"
+    entry_str   = f"${pos['entry']:,.2f}"
+    current_str = f"${pos['current']:,.2f}"
+    pnl_pct_str = f"{sign}{pnl_pct:.1f}%"
+    pnl_usd_str = f"{sign}${abs(pnl_usd):,.0f}"
+
+    tooltip = (
+        f"Sembol: {pos['symbol']} | "
+        f"Entry: {entry_str} | Current: {current_str} | "
+        f"Pozisyon: {pos_label} | P&L: {pnl_pct_str} ({pnl_usd_str})"
+    )
+
+    return f"""
+    <div class="pos-card {card_cls}" title="{tooltip}">
+        <div>
+            <div class="pos-symbol">{pos['symbol']} {emoji}</div>
+            <div class="pos-name">{pos['name']}</div>
+            <div class="pos-row"><span class="pos-label">Entry</span><span>{entry_str}</span></div>
+            <div class="pos-row"><span class="pos-label">Mevcut</span><span>{current_str}</span></div>
+            <div class="pos-row"><span class="pos-label">Pozisyon</span><span>{pos_label}</span></div>
+        </div>
+        <div>
+            <div class="pos-pnl-pct {clr}">{pnl_pct_str}</div>
+            <div class="pos-pnl-usd {clr}">{pnl_usd_str}</div>
+        </div>
+    </div>
+    """
+
+cards_html = "".join(position_card_html(p) for p in positions)
+st.markdown(f'<div class="positions-grid">{cards_html}</div>', unsafe_allow_html=True)
+
+st.caption(f"📌 Toplam {len(positions)} açık pozisyon gösteriliyor · Simülasyon/Mock verisi · Son güncelleme: {datetime.now().strftime('%H:%M:%S')}")
 
 st.divider()
 
