@@ -69,7 +69,7 @@ PORTFOY_PARAMETRELERI = {
     "stop_loss_yuzdesi": 0.04,            # %3 stop-loss
     "take_profit_yuzdesi": 0.025,  # Hızlı kar al          # %5 take-profit
     "trailing_stop_yuzdesi": 0.02,        # %2 trailing stop
-    "max_pozisyon_sayisi": 20,
+    "max_pozisyon_sayisi": 50,  # 50'ye yükseltildi (20 Nisan 2026) — Raif seçimi
     "gunluk_kayip_limiti": 0.03,          # %3 daily loss limit
     "portfoy_stop_yuzdesi": 0.10,         # %10 portfolio stop
 }
