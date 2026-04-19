@@ -1,0 +1,2576 @@
+{
+  "HOOD": {
+    "symbol": "HOOD",
+    "company_name": "Robinhood Markets, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "current_price_usd": 90.75,
+    "currency": "USD",
+    "market_cap": 81702985728,
+    "52week_low": 39.21,
+    "52week_high": 153.86,
+    "performance": {
+      "3_month_pct": -16.54,
+      "6_month_pct": -30.96,
+      "1_year_pct": 127.73
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.92593,
+      "target_price": 101.39625,
+      "number_of_analysts": 24
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Robinhood Stock Jumps 10% As SEC Ends Retail Day Trading Limits - TIKR.com",
+        "publisher": "TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYzM3SFhyR09lSWtrRHh6U1drN3RGMlJ1SjRfQXlCYlg0dnBSNWZyOURCZGdnSUZmOEd6TmhfRFhiS1BzTUs1UGpVYXRCUkJnaXRiaWxUQTEyYktoa2FSa3FabS1UMmwxRDZpWjM1UmY4c3RPcTU5UGlrejBnaExWeGQ0TlpKMnBzNkZaWHgxUnpQMUdRMmN2TFA1U0VLaXBwNEY4VlJ6SzJNekU?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Robinhood (HOOD) Stock Forecast: 31% Rise to Continue Next Week? - Watcher Guru",
+        "publisher": "Watcher Guru",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN1FibWtTWTk1R0xMcDdfUkp0TjFkUUVoVHN4OXRKQjJLZjJIS3lncVp4ekNIR1NaQ2lwMHpWek04Y3hLY0MwZzdzMnI1ZGxnTE5BczV0NHlFdFVWRkNEUXRncWtpandlX3QwVC1vaHlGMFZFZnBZS0pWRjdGaGp3V3N3VXF1NGVHa2VDV2RB?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Robinhood stock surges after SEC removes limit on day trading activity - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVUp6R0JXa3dyZm9rbW92dEFEb1VRcGhlMmNkZm1Fb1d5UVU2dW5BdTN3Z1k4TmFhSzI4dU9MdXZwTF9EbFdUbEVnRlVFZW81dUxxVlJKWldRMXd0Z1R1T0dpdXJqLVlJS3gzMkFIQUxBRjdpMDNya1lzSFd4cjV2VF9TODZZLXlsTzNZWmhUdXpTcXhVMUVBU2dfODRkc0FycklYSlJCR0hwSmxoTDU1TXlzT2MzakU?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Stock Market Today, April 15: Robinhood Markets Surges After SEC Eases Day Trading Rules - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUUIzaWdISDY4TUlQcnIwTFhrNlR1MnhCQW5saFplLWU0dUVUVUhuLUhQWXo3Y1BuUTN2YWhSSVd0bW91ZzgtTnlLMVhRMm1WSlJSZnpIR3FSTUFhYnBwTGJGME5XZUpnZnJaZVFpcDN1TXl6UTNuNnVCMVJrcThGeGZlaVJwalN0QjJQRXU5bXVlc0I0N3VBS2g3ZW1fQjJhSTdHSUdNcVBDangyX1Jqd3JMX3kyNHBHUEpad2pLOXNVbDRWM0xLTTlUSjhFNUJ3ZmRfNl9LUkc2eDhyVjBnUA?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Robinhood Markets (HOOD) Is Up 31.2% After SEC Scraps Day-Trader Rule Amid Schwab Crypto Push – Has The Bull Case Changed? - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMldOMTBrOXRCZmxlbmk1Wko1bHVSNFh3bGVta1MxSlB5cEdPWkF0UG9PMHQ0cGJkb0RXbV82X0RtdGRmTXBucm1wOVVybVZvc3JxWjByME9Dd2NKcld1ZXpyaDc0OFpPcGZMR3N1YzlEZW5fWUdDV25jdXJ4ell6dXh4WHR1THItUlFhMWlNUXlqRDltSmxPSjk3aDg3ZHlBWUdCcXRSUk1wMlo2a3dKT1VDWUpHOVVXNHJyRXMya1VBMEdiMkxuWnRrcXNub194TGRBN3B3X2pTSDhaeUVfTGtVTjjSAeoBQVVfeXFMUDdmTWliYWE2bEFDOHloT3F3d25ucGxOQklmbWFuMlhNQzNSYkkzeV9QOFR4cVI4VEZMMF9JbFBjdFJkRTdXY2RydS1YS1hSSnVBeGFNa0w0N0F1V1l3RWxuUUtJRENBaXFxM1hwY1VvbHU4WmZER3hKR28wSmJyMTdBRjl5bXVpUmRzeHpmNkEtSzVUWmNkM1lrM1NweWRyN19rTW5samNKdGNBdGNmSjFEdUNYTmVyRlI2ck5oNTdiYjZ1N0FCMjhScnU4RjVCUFJYaERzNUFhcHlhamRJeXlNbkh5UElvY0pB?oc=5",
+        "publishTime": "2026-04-19"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 44.268295,
+      "forward_pe": 33.699604,
+      "eps": 2.05,
+      "revenue": 4472999936,
+      "profit_margin": 0.42097,
+      "beta": 2.464
+    },
+    "data_fetched_at": "2026-04-20T02:20:35.162220"
+  },
+  "TEM": {
+    "symbol": "TEM",
+    "company_name": "Tempus AI, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Healthcare",
+    "industry": "Health Information Services",
+    "current_price_usd": 55.87,
+    "currency": "USD",
+    "market_cap": 10023335936,
+    "52week_low": 39.01,
+    "52week_high": 104.32,
+    "performance": {
+      "3_month_pct": -20.56,
+      "6_month_pct": -38.62,
+      "1_year_pct": 36.33
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.05882,
+      "target_price": 72.4,
+      "number_of_analysts": 15
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Here’s What TD Cowen Thinks About Tempus AI Inc (TEM) Stock - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb2JHSU1zUktHZXY3MzJ0aG1WOXVfQUJ2eDBXb1pLSzR4OTBDRXNlQklvOE5jN0RsT2pLN3ZZNkRrYVlMd2VCYnZIX2ZLeDlpYXY0QkdXR0R1cl96V0tkeEZmTTU2WEtMSWFhb1F1TEtIODhLdkRkMm0ySDF2VWZCYmRaS0x5TVJkYWZEZ2xLNHJMUXYwd01WVmxn?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Assessing Tempus AI (TEM) Valuation After Recent Share Price Momentum And Undervaluation Signals - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTkdFbk81VUN4SkV3Z0w2bWFGWExZZGxYVjkzSmk0QjZWWkZGWGhEWmhITVFJRUN3elFkdFRFSTNfQXQ2Q0tYd2FaUDNyWF9mc3ZUNzJIQlllZDRmQXVFOU5tX2N3TkROc1U5ZW9Ramw5TVZEdXVDMWF2bVU1OWtnZjBQb1BKWm5udmNhVjFHS3UwdmtjM1g1TjJsZWxTak83Nmp6SGRORjVYRnRtOWVvSHRpNm41djRscVJjb3NCbmNsRmVNaE5JZWEweHpIZlNlcEh4RDBFYWt5Z9IB3wFBVV95cUxOT0gzMzhiN0tTb1RVOUh6Y2k0OXJTMWZ3UjVFdnJ2OHpfdnVDRVNjM3BDbFBscmNzTmU1Q0kyb0w1MlVTbm1pWFBsdWRRZlNMbEsybHQ4MGMzSXlXRWpRRlBUTzdWUEhWZmVybmJGUDBjb2pOV3dvQjJyWVlZbDdCOVNqY2VzaEp1bURPOXJtRkVkVWFQaWVfR2s4Vm5CcWNNTzVaV3RaYjM0V0MtdEZoT09oOTBuVlhKcmhJdDdoQXBDT1MybHJKSVJIQ1RGZ25HeE1FNGdGbEwtbkhCN3g0?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Tempus AI (NASDAQ:TEM) Shares Down 5.2% - Should You Sell? - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY2l1VTE2d1pGSUdTWDVodTdXUk5pdUVOdzN4Sml0YzdXalhRUDFYdmpOZy00ZDlQZnFlWmlwMml5T18xQ3VvTnhONk1Wc0RYQktaYzRlNFEwVTgyV3RTWkphMklJbC14RkZPTkhBOVpsUVRIT1NHQjJVV3lsWFo4Z0FaZXdmMDViZXlPcUV2cXlFZEg4b2VkbmFqNGhZNlR3MlRrV1JVcw?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Tempus AI stock near 1-year low: Cathie Wood’s ARK buys more while offloading Nvidia, Meta, other tech plays - MSN",
+        "publisher": "MSN",
+        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOVmN2YkM5RzZ5b1FwN3IydjIxQVdZZC1mVHBOTGhCaUFXYmE2dm9ncHhOd3o3TGFnandONFgtZTlkVzBGekh4MDI4TVotM0ZldnNQYTMtQmFCWkZnZEJUMVZiZnhCaXRCOXNPSjJCbGtQRnQ5WTRFX0pwR2dSakJnYXZUZkRkX3FPQU5GUkRXS3dwYU9Nb0JvSTZrUHZaMktVc2xjNVpINm9BSDk2Vy1DWklrUnVIS29qUWxOaWEtcnh2aEZfbkl0NFpsb0NXVlBuVEJOay0xTUUxVVNzM3hWaGd5aU9hWDZZNFZ1NGRUaDJPQW11LXdZbVk0WUpHd0loYTdyNEFxd2hWOWd5NTRlemFpbw?oc=5",
+        "publishTime": "2026-03-27"
+      },
+      {
+        "title": "Tempus AI Stock: A Dual-Engine AI Model (NASDAQ:TEM) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4aDFMTDl2MUpoRHRuZTdJNXVKSGFDVmRlNE9YRTRZRFA2eXVnU2M0YVZJa3A0eXFOVGJmQ3MzSXdsSU9uV1VMV2pBWUhZOWNWQlZnamlfLVR6ZE1UT2dXd0dtVjNmY21iVGlhVEZOd09mQjgtcVZYNEtqYjRNZw?oc=5",
+        "publishTime": "2026-04-03"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -617.9626,
+      "eps": -1.41,
+      "revenue": 1271789056,
+      "profit_margin": -0.19266,
+      "beta": null
+    },
+    "data_fetched_at": "2026-04-20T02:20:36.407976"
+  },
+  "COIN": {
+    "symbol": "COIN",
+    "company_name": "Coinbase Global, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges",
+    "current_price_usd": 206.33,
+    "currency": "USD",
+    "market_cap": 55638454272,
+    "52week_low": 139.36,
+    "52week_high": 444.65,
+    "performance": {
+      "3_month_pct": -14.44,
+      "6_month_pct": -37.52,
+      "1_year_pct": 17.9
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.0,
+      "target_price": 238.94034,
+      "number_of_analysts": 29
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Why Coinbase Stock Can’t Escape Bitcoin’s Orbit - Barron's",
+        "publisher": "Barron's",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjcxdzh4UkpwZmFKSkR4am9kMW91RmhTalV2OEludXJpbzU2eXQzdGt0SUNKZDg3STJ0Rk1USW1ldFZQdWEwNldMNnhCSGc1LWxPOWhRX2wxN19CMElsSDB3Tzk0MEZJUTRxMF92MWExSExhQjhGc2lLVVpwYk5OeA?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Coinbase Soars To Key Level As Bitcoin Touches $75,000; Is Coinbase Stock A Buy Now? - Investor's Business Daily",
+        "publisher": "Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jcERISGlUa0FyUmlkbkRjQ1JZNWpZWFFZaHNpb0I2bXFPVHU3LTQwS29raHZZeTVmbVVhRTZIWHJNUlZLa2Q1V2NheGRZT185Qk9nbXFCdWZralhKRUZReDgwdjl6ZmhMX1RtZ1IwQ3BJRXFkNnRyZ2tvUTBidWM?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Bitcoin prices lose momentum, Coinbase & Robinhood stocks sink - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVIXzRUV1lVZXRJOGVUYVBVUEUxWFV3TGc0d1NJTE92OXlBenlZdkhqWHZtQjF0bmVJMFFoLWhqbFBfek9rb1ViYzZESThjM2w2Rm5na1VYQVN5RmZyQUJZVTdxOTBjYkQ2YWVJZm9pd2ZCMzhvY1ZKN3o3LTdnR1BWREJyMXQxWVFNRlBEdWhhczJ1M1ZqZGZFaUdjMEtsRm04REoxNWlkVFE?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Bitcoin Had a Great Week. Crypto-Linked Stocks Did Even Better - Investopedia",
+        "publisher": "Investopedia",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXdOekZkR1V3dllZLXRabDNOSFYtbHpoLXNIX0Nmb0pnclpTb1Q3VzBtUWdJR0dhdWE0S1FEQ2RZODlSNV9mQUtEVHdJd3cxTlViTy12ekUyYklJMDdGSDllMmFTdW5Bb0M1Z3NZcEtzb3J5cE1wSjhqQjNPb25yM1lObm5HRXlCZHlyczBlNDI5b1JsdnVTNERIY18wV3FsZXlxWXA0Y3R1NklJT2RCNE16VE4?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Bitcoin Below $75,000 as Coinbase (COIN) and Crypto Stocks Rise - GuruFocus",
+        "publisher": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTUhZd00xRmlPUkZickRLZnpfSzE4aUVTWU1iaWp4bTg3MUJSeW9lRjBaT245akktSHpkLXAxdG9iaF9WMk5CVFc4eDRQd1ZZczR5Y2RhRXVKOHFfRVVzbXg3NmtuTXZDYXJEOWo3bWhTQVlPMmRYS0NCWWNBZzhCYzN2M3NqdElKU0lpNkVUdF9haUNLbGJSb2J0aFhJSHVtaFZPNklTcWEyakw3VXVDYTRwenc5bFJrOU1BbFVPLWptb3p3Nlp6cl9LcnlPZzNqR0FULVJTSnlMZ3N5NHA0WVFmMXRSN3pISE1OWWU3bDNRV2E2TUhDZmVNOWRGcTVuWC1KMlc2c0V3REx5RHlzUkxNYmVyTG5NNmg5YXBMRQ?oc=5",
+        "publishTime": "2026-04-16"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 46.262333,
+      "forward_pe": 40.173206,
+      "eps": 4.46,
+      "revenue": 6883438080,
+      "profit_margin": 0.1831,
+      "beta": 3.606
+    },
+    "data_fetched_at": "2026-04-20T02:20:37.576094"
+  },
+  "RIOT": {
+    "symbol": "RIOT",
+    "company_name": "Riot Platforms, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "current_price_usd": 18.11,
+    "currency": "USD",
+    "market_cap": 6865969664,
+    "52week_low": 6.255,
+    "52week_high": 23.935,
+    "performance": {
+      "3_month_pct": -5.87,
+      "6_month_pct": -7.37,
+      "1_year_pct": 187.92
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.44444,
+      "target_price": 25.32778,
+      "number_of_analysts": 18
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Riot Announces First Quarter 2026 Earnings Conference Call - Riot Platforms",
+        "publisher": "Riot Platforms",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYUFOYk12QU13allKbjV3ejc2Y0puaS1hREJIZ2s2aTlyV1dBZ2Z5MkhOUzBHcTUzV09qTTFZeDVvY3dsTzloRzhBSnh2R2pTWFVRbHNmN3d2TDhBQ2JzMEMwLWotWDJkTjdoWnctcE9lUHhyUXdOQlZQRDlEdkNQT2J0eDRQX096dElvdmZwTTdGbkk?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Assessing Riot Platforms (RIOT) Valuation After Multi Day Rally And Q1 2026 Production Update - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZTBpT1RWaVlURFBpR0xKaWtrLVdxeW1Ua0dmVEJlWjRDMjVqbkNYLVRYU2dydkNJT3Y3MXlmUHlwYl9mdDdHang4eUc4T3hjU0E1N3dnWHhfUVp6ODlKenZaVmc5dFhXM05NSkRUamI3NUVCRVJ3UV9MUlNubEdUUEpqQnBxM2pyUjVCMW90ZlpyU1VSRTc4NjRGMnhmXzl3V3lYZWVXNEpLLXVJY3pxaXhNSkk0aVBYanRDdnpPRHlMYktyV21hbU9WXzljUdIB0wFBVV95cUxOd0I1cGVOLTdRNThueG9LRUkwcmRfQmp2VlJ4VDUyTlVGczZfS3FIVmRHWDR1cFBnZ1REWW1FVFZVWUp5dXk0dk53UDZmNldXeC00UHoyRnZTYnRERUJoaWdyN2RqX3hfUjJRVmhaWXg1OUZCRkhaUzVtTWlIUWU3bUYzaS1RYm1sTEkwMDN0dXU1aDZGaEV0QVhYUlVkRVBkRzFMYTQtUENBN25WNm8zb3NJT2Vvb2dMelhpd2R6NlpEd1E5dVhvXzk2enNUYTJwVDJ3?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Riot Platforms (RIOT) Sells 3,778 Bitcoin In Q1 - Bitcoin Magazine",
+        "publisher": "Bitcoin Magazine",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xWDRYWEJYbnVGMU5MbnZDNk9rRFpDYjBiTDFyXy0wYTIxZEk4U2o5ajZycVRpZDhrUnhxM3hZSHpuUndqRmpJVlZnLUYxUlk1Qm5rcm1xZ1dsOWZSRjhhSFJxSnROMDI4eHJUekg1T3pWcVgzZENveGpsNEg?oc=5",
+        "publishTime": "2026-04-03"
+      },
+      {
+        "title": "A Look At Riot Platforms (RIOT) Valuation After Q1 2026 Update And 52 Week Highs - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXktWVk3VW42aGEzeFNidXFpOExHd1lQb2U0bHBKYmxZbWkzSVBPR01fT0hVaDBDT01kc1MyTFVTcURMV3JiOW85czNYczE5MEVSaGVobThJb0NkV2lmZ2Y5WWtZNk8yenNVNGFHT1Y2aWlWdk05OWVxZmRtSmJDSEY3dEtfVzdwQktyVURJSmVzeWdlTmtpbktkU1ZkeTNG?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Riot loses top data center exec as AI and hyperscale buildout ramps up; shares dip 6% - The Block",
+        "publisher": "The Block",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM3U5RTRQR3RNVXhCOXNTZ2t3NjFFbXBrcW1qcGI2OVkxd253M21vUTBxZGQ4dlVSY3EtSG8wZlRYa3g2Q1NpRV8xbjBrNl9GQVhhM2k1TjRjTnNmcmVobnlLTVNVclhuZG44TGhod1A2eXBLQ3ZCcVRQV2tPeUZPRGNCOEg5MzZGMFp0cG1kUXE5ZmFvUkN3eEVYSWlqM3Z0MnBWZlNsUWxvQW85Qmc?oc=5",
+        "publishTime": "2026-04-15"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -33.872627,
+      "eps": -1.95,
+      "revenue": 647435008,
+      "profit_margin": -1.02432,
+      "beta": 3.571
+    },
+    "data_fetched_at": "2026-04-20T02:20:38.736179"
+  },
+  "HUT": {
+    "symbol": "HUT",
+    "company_name": "Hut 8 Corp.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "current_price_usd": 74.9,
+    "currency": "USD",
+    "market_cap": 8305457664,
+    "52week_low": 10.61,
+    "52week_high": 76.08,
+    "performance": {
+      "3_month_pct": 25.57,
+      "6_month_pct": 53.55,
+      "1_year_pct": 603.95
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.3125,
+      "target_price": 76.6875,
+      "number_of_analysts": 16
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Strategy vs. Hut 8: Which Bitcoin Stock Has the Stronger Upside Now? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTHdDakI1QV8taTluNzhGdmVIc0hISVktMV9LTVA1MzFBSlJzR0MyeU9CdXhBaFYzU0xjOS1XaFdVR0tYRDgzeHhOTzhxLVlIM1pZamY1alpkRm5vdVVORVBFWmV3S0JrOEpOb1Nxc0Y5X19DOXpwRFZLeVlRbERuSExQSXUyVlJGRzBad1RTM29uZ3BQ?oc=5",
+        "publishTime": "2026-03-30"
+      },
+      {
+        "title": "3 Best-performing Canadian Crypto-Mining Stocks in 2026 - Investing News Network",
+        "publisher": "Investing News Network",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVmRnay1sRFE3MjJsMlBzLTZYcUFpWHlsVTNFU01IUlkwXzB4d0hjaXNTR29KVTZNT2VvTjdWSm1hdlV5endudDdLdFh5ZktzVWxuSVBfLS1BVmtwdXZpcWNXUGFSSHhIX2FpVVdpZDd2T1JNWC1GeTdHYmtfcnhLUzJOSUZ2STRzYkJOWDBGYW04dkZ2SDVHODBITEtIakpm?oc=5",
+        "publishTime": "2026-04-08"
+      },
+      {
+        "title": "Hut 8: Why The River Bend Expansion Justifies A Buy Rating - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcmhiVHpDWWVCbEZaaHZDM1FxaU5KWHBuT0N3aVZ3MzRocmhvc3FRa3lFZkU3dXVmandIYmRCWHBGdDI1ZzVQbTE2TVJmVmJLRXY0Y2dGekRYMnFMRG5zY2xMY3ZZT2FGbzVWdTdDY0lUaE5CN1B6dkd5eE41UGJtZ1NVbmJnMVlBendvdm9SZXNhalFMVTZfRVNtakZhN2s?oc=5",
+        "publishTime": "2026-04-04"
+      },
+      {
+        "title": "Bitcoin mining stock surges after $7B Google-backed deal - thestreet.com",
+        "publisher": "thestreet.com",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdnAwT25PXzFpbmJ2dEhDR2hsZlFoREFuWVRLTl9XQU1kdGdjZGhoSS1LOVRPS1ZuUUExM3NvQUs4QnQ3VWgtejFqaFZtLWFHUVBZeUE0RHM4NUdZVkxhUHlBd0RVWUlGV0p6VUhDWi1YOXZzbmlpU1Z6S1Y1Z1lkTGw0YWNCRWhYMXVxNWg3VFlMVGM?oc=5",
+        "publishTime": "2025-12-17"
+      },
+      {
+        "title": "Hut 8 Mining stock maintained at Buy by H.C. Wainwright - Investing.com",
+        "publisher": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZEoyeG44aUJ5d3NmbTdadVNRVnNEaFRraTRBdU0zdEJvVm5pMVE2a3BPVVptWGwzcERaaEc3ZnhvU19QVXctS0dFYUdHUHVvcW84VGxXdjdoT1RCbm9FWFJYcGZia1NtT1B0S3dMRmZmMEpucDQtV3AzMXFuVVptVjMyLWJucFFjUk9pR1Rudk5WbTc0S01iSXU3VWJjRzk1SWQ5N1ZVZ3VWUWJzeHRtRHhNMA?oc=5",
+        "publishTime": "2026-02-26"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -23.602966,
+      "eps": -2.14,
+      "revenue": 235118000,
+      "profit_margin": -0.96185,
+      "beta": 5.712
+    },
+    "data_fetched_at": "2026-04-20T02:20:39.925649"
+  },
+  "CLSK": {
+    "symbol": "CLSK",
+    "company_name": "CleanSpark, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "current_price_usd": 11.97,
+    "currency": "USD",
+    "market_cap": 3061362432,
+    "52week_low": 7.44,
+    "52week_high": 23.61,
+    "performance": {
+      "3_month_pct": -10.47,
+      "6_month_pct": -40.12,
+      "1_year_pct": 60.24
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.18182,
+      "target_price": 19.375,
+      "number_of_analysts": 12
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Is CleanSpark’s (CLSK) Bitcoin Output Reinforcing an Efficiency Narrative or Masking Scale Trade-offs? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM3VlWjJBVHVzaUxVVVZJYnUta1lHZTVwQVdRSXl2WnllcW1Na3NEMzhma2d5bjNSQUJhM0JoeUdZRkRreFdJWUVvNVY1RUZYeXlRUFJadFlQS0NibXNicVV5UjhKdE5VbEQ5TXdCbU1sUWtya1dRSTBJb2hnV2p1V2tBNVpscmRzMDBMTm9TQmpEOWlrbmJBLVYtRk1JcWl3MGdCWWY5TFlObWM?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "CleanSpark (CLSK) Is Up 14.0% After Strong March Bitcoin Output And AI Infra Spotlight - Has The Bull Case Changed? - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV1BFRmhVdzFJNG1SZ3VZNGtGS3pmRTFJVjBxNXptTkYyOFdTQUFRVnpyVjlpUGJSQ3JoYVJRdlhsZ21TdW5KWDdoM25XcnlGRldodEYxbEdja1hxMTZlX1RjbTNoeDdPS2ZSb3k3akp5Qmx2c0xleV81RWpvelVELU1Ea2YtMnNBeFRoQVQ5VUFXWTd1S2UteEJtY29mbXdPY29ycG9vU0IzSkE1eXdOVGxiLVdfNGc0eGNBUGV5bkk0REs4eGJz0gHMAUFVX3lxTE9DNkluQk81azZBSXYyVFRZb3U3TGViWms4VWJNbkxQb18yVUhpbFdnS3FYSW1Wd1Y4SmVhQ3NQX0tCQzRyTzhmM21WeXRFTF9qYkk1b3dReUVoODRiUk1wMm1UYjAxdjNDSXVUQzk0ZlQ0dFFTRFU4TzB1aGxWQmQ5ZWNOZnV5VGVYcENVN1czazhhX1Z3aHZuOVNuMEZ3YjZoX2g0a3czZ3hzRE1OREEyWnZMbGxvaDV0Ui1PQWQteUdfOG5CX1RCTE91OQ?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "CleanSpark shares jump as bitcoin strength and recent production update lift crypto miners - Quiver Quantitative",
+        "publisher": "Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYXZPeG02T0RxT2tTcXRiUEc2M21aaGlJVTlYQTZ3UjRJcVRzU2NiNmE5NFk3VWwtTnJfSUs3MURKeEFJcXlrOXhmeUk3WWtEcmQ1ZnRfaUx3bVB2dU4zcDFHWk5SdjRINTFEWnFqN1ZwQUprVUFELUo2UGhtYzMySFpXUHl0N2ZjanhRbXhWeGZtRUZjRVpvdVJlNlRmc0tzaVB6YWw0SnY2N0NkSUR3MlZCcF9lc0F0M295cm9vT3Y?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "CleanSpark Releases March 2026 Operational Update - PR Newswire",
+        "publisher": "PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdDBLRVBUR2VsTDlEZDg0dWNsYS1WRWIydlU4dTcweEdnMm8xTEVzOU5qQjBNbElRcks5bHJ1VlZwWExReTRCbFNQNXBQMzl0bVRlZjFzWXMyQkRuZDFwVnpHUkozZWUxRnUyQzJpXzJqaGdXSkRWc0E4T19WQklUYnlmNTZzWDlSNG1LNGlSTzZ2TXU3MVc3bm5vY0RySWEtOEt4RFl4MDc?oc=5",
+        "publishTime": "2026-04-07"
+      },
+      {
+        "title": "CleanSpark (Nasdaq:CLSK) is the most shorted mining and BTC reserve company - Cryptopolitan",
+        "publisher": "Cryptopolitan",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sUkdRZzlwdGVFeVhueTBTSDRQdHdIaW1vYk15SFVua2hSRGhfUEFRUmVPOHlxaUVxNGoxTWJpaGI2eG11U01CbXRjV1dpS3RTc1lFeEUzTG1uLUxnZDRXUVI0VC1zLUdNOGFGcmdqM0IxS0VCejdjM2dCV2h4UQ?oc=5",
+        "publishTime": "2026-04-17"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -19.463415,
+      "eps": -1.06,
+      "revenue": 785187968,
+      "profit_margin": -0.33245,
+      "beta": 3.539
+    },
+    "data_fetched_at": "2026-04-20T02:20:41.241022"
+  },
+  "MSTR": {
+    "symbol": "MSTR",
+    "company_name": "Strategy Inc",
+    "category": "Kripto/Fintech",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "current_price_usd": 166.52,
+    "currency": "USD",
+    "market_cap": 57744183296,
+    "52week_low": 104.17,
+    "52week_high": 457.22,
+    "performance": {
+      "3_month_pct": -4.14,
+      "6_month_pct": -41.33,
+      "1_year_pct": -47.6
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.26667,
+      "target_price": 371.07144,
+      "number_of_analysts": 14
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Reassessing MicroStrategy (MSTR) Valuation After Recent Share Price Volatility And Bitcoin Exposure Narrative - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWVFcDFHc1VkZ19ZQ2U3TFVFMlZsRjduckpUUHliVnFvZWRvRHpEYlhzZ1N0OHAtQkFBdm9BQjRrTlIya0RQVEtrU3VFblNQb0FBMEo4RTdzaEZhQkdMYlpjX3R5QlhFbWpMbmRQdHBEb3ZGcnJmWk9fOTZsWlNPcXpWNWJhZklvaUJGZ04yaHZOX0Qyd2tzVE9rdENEbHpUUTc2dnMwbWZqdk5uSDFFZUNn?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Reassessing MicroStrategy (MSTR) Valuation After A 15.8% Weekly Share Price Move - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSnpfRmdnbEJ4NHFPaUJZazRpdXBfc1BoMjlIdk8yU3hfN243MGxGS2VLR0VQLUVLSm5ZY1JkZm84d3kxbXI4djdaUTNkblg4eUJoS19PcEtVQVVQS1I1MW5lX3MzUVFqV0FibmJVVENBZkE4bTZIZzhnenIxazBrbHk2ZER6MkhoaXpRMjlaU3hZUlZpNVBsbjl4U3FxQjBKWmtBOUhFRTZHTFN1THgyWVJOT3ZCNElBSDhwYnJGZ3hwbUlH0gHKAUFVX3lxTFA4VG52Z1V5NFpPMFZYR0xSbDFENlpQemNFWEtCRVNsNkRYWDVvWDBTaXFwbWk0UURVSHNyYURvMjJNYUZDV2FIcG5Zc190WjBpc1lqMHhxaVMtOXpTZlFqRDBxdUUwUlFCVzJGSGd3c3JwbWVWeDVMYkxOa0lxQ3kzcFNFWTFsZjZHdk8zTGtodTFGN3huY0ZwX29oWWFldldRby1HMGFBbHpHS2VtR0ExYWFHT2NocHY0TzFGVnhOWHhnZ2Zqc1NuUWc?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Should You Buy, Sell or Hold MicroStrategy Stock at $130? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWk43YndURHp0TzZTX19tc21hRHR0XzgwOXN6Qkc4dGNiNW4zWkozWjl4SnFHeDlHYkpJdW9pT1J5Y2wxWG9abGFaaGRNdTA0SGlkY1drRFd1YnEyb3JxdjNGZXJvdk95dm5sc1BydG5JNVBnMFc4cmh6Y0tLZWtkcDVlQ1BHejlocGpCNXlGNENlNlQ2dDlVUmMtTE8xYkU?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "Strategy Stock Drops as Bitcoin Price Sinks. MSTR Is Doubling Down on Its Bet. - Barron's",
+        "publisher": "Barron's",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0Q0MElpN0FGaWMtTG1JY3hfOXRWMVlYOXFSV3JmTkdRNm9lb25LVUFiZ0dGblViWWZISmJjd2xjc2VIVnhUemo1Z05IRE9sOVZGWnR3Y3RJSS1lMW5sRERhbXZxVFJRZGlPcExoeDdvRU5ja01JZlVvZDlycWRqVFJXbHRHZ0tNSTdXZmNBMFg1YWs?oc=5",
+        "publishTime": "2026-02-02"
+      },
+      {
+        "title": "Bitcoin News: Strategy's $1 Billion Bitcoin Buy Pushes Saylor Back Into Profit as BTC Hits $75,000 - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYWYxY3VkdDg4NjYxekpHYll2cEFtMnRvUm1SVHQ5Rk5VWTBYNmpzWGpxNGN6eE1zd3dCaFRyNGxiWHk5d3NHWWlFVElKZFpLdGNTZUpYaU1La1AwZ2hLQ3M2VlZ6WkFXd3ZlTFY3RVF1S2V6WXFWV3hsYmRoOGs4OTNaYktjU241WHViSFM0d054SkpwQTM5dmNfRWVYUjNyMmtjclU1cWZMa3VBdjNoUWxFd3hPak1FQk95UUxSQ2J1emNETkRPQlRhVXFXYXJsc3Rn?oc=5",
+        "publishTime": "2026-04-15"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 4.5766745,
+      "eps": -15.24,
+      "revenue": 477232992,
+      "profit_margin": 0.0,
+      "beta": 3.56
+    },
+    "data_fetched_at": "2026-04-20T02:20:42.395300"
+  },
+  "SQ": {
+    "symbol": "SQ",
+    "company_name": "SQ",
+    "category": "Kripto/Fintech",
+    "sector": "N/A",
+    "industry": "N/A",
+    "current_price_usd": null,
+    "currency": "USD",
+    "market_cap": null,
+    "52week_low": null,
+    "52week_high": null,
+    "performance": {
+      "3_month_pct": null,
+      "6_month_pct": null,
+      "1_year_pct": null
+    },
+    "analyst": {
+      "recommendation": "N/A",
+      "recommendation_key": "N/A",
+      "recommendation_mean": null,
+      "target_price": null,
+      "number_of_analysts": null
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Block Stock Surges 20% After Jack Dorsey’s AI Layoff Bet — Buy, Hold, or Sell? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRRTk0eFFxY3hkWHBoamIweUo5WXVibHU0QXczbUFCMjZ2WVkyMkw2Z25FV241WG1IYXEwUVJETlBDWUxNaE1EUnRZOWNYNm80eVFpNjdUTzM1ZFo1RjBhcnVrbmtjdjlYOGU0SFhLRW9XTTJpZjN6QS01NkQ?oc=5",
+        "publishTime": "2026-03-04"
+      },
+      {
+        "title": "Jack Dorsey slashes 40% of Block staff despite rising profits - thestreet.com",
+        "publisher": "thestreet.com",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUNkdl9ObElYM2pyTVliYi1qUmFPcHpjNXJ5WW9wVTF5T1N2WG5ySW1rVHdjNVNBR1BST2JPdGhUTFhvckMtal9OQ0hEd0hrRUxlWjV2MDV2YmxGOC02aUtqLUNFT3VQZ3pSMnFZQVFJNFRZTnNlRmVQUXVlSTYwVlZyRTdSVWlrTERpaVNsOXJnSkhTX19MejNEeWF4OGxvV3hZ?oc=5",
+        "publishTime": "2026-02-26"
+      },
+      {
+        "title": "Bay Area fintech company Block laying off thousands of employees - KRON4",
+        "publisher": "KRON4",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmIxMnBtY0J1d210eFRaUXA1eEkwb3d2RTduZFZySGU5Y2JJWUhuY1FkbFJIZWljb0J0ZS0zTlFTY1JrTE0xTTI0V3NnRXViMGFYc2I2ZmM5bnJwMldnVTNqMHJYOTgzOWVmQmFkdlkxcU1NeWVvQUlIS3kzdWlqNlRHdUpYRU5OZUQ5UlNEckFjREpONDFYX0dwSEhPdG1zMm9EVFlSUWMxd9IBrwFBVV95cUxNNGRpazBGVGtsTjR0R0tGZEdPVzRrSmQ0bHhISklaTTRrb1Vkd1VqeVRiM0Q2SExjZ3NHcFdXeDhQdlZtZUgyUXE2ai1EMXJFeUJnRzBXSHBMQjcxNy1DS25ieHZPVFVpdThla0dhYUVVcEhpaU5vSzRtUFMtWmdKTjN5UlAwc3lEd3lxMHhFTEQ1QjV5TDNKUFh4UVlGYlFSNmhPRGRnRGxSaDNtNl9F?oc=5",
+        "publishTime": "2026-02-26"
+      },
+      {
+        "title": "Jack Dorsey's Block looking to cut up to 10% of workforce in latest efficiency push: Bloomberg - The Block",
+        "publisher": "The Block",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV0N6alNwb01UbHFseVNqWGhlMl9NUEE0OUtSZEhCUHg0MUpUT0l0T3ZaRHR6dDdzMExPWXhhZnZGR21iZDA1VjJlbnVRRFdaWklHY0ZMSHhsdzNqQTdMQzQtR2t0eTVxdEVlRkNCZ3RLWUFPSkp1LWpoTkx6TnVuQzJaY2NnSjREbzlkSmRFeHczVlV1T3NMQnlUcmRvbk45RmdPTjl2eVZXOUVZNG9BOXFNZWxtczZvUllsME1aZ29xdUVrWDJSZExDMA?oc=5",
+        "publishTime": "2026-02-08"
+      },
+      {
+        "title": "Fintech company Block lays off 4,000 of its 10,000 staff, citing gains from AI - AP News",
+        "publisher": "AP News",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeHV3aTdoZjBmTDU4RU5hX21qQjVVd3NsRTNBYXJpc0pMV0hidjA0UzdEV2NiSnpiTWctbFg4U3VYNGhoQ2QybE91YmxMQzhiTFFnSnZMcG5KWk1Uby05NWVxaHI0Rnc2aUlxby1RVVpNeVlwVlZjekdsdlFfa2FZY21tU0R2Z3djSFN2Nk9iemJ6QQ?oc=5",
+        "publishTime": "2026-02-27"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": null,
+      "eps": null,
+      "revenue": null,
+      "profit_margin": null,
+      "beta": null
+    },
+    "data_fetched_at": "2026-04-20T02:20:44.319489"
+  },
+  "PYPL": {
+    "symbol": "PYPL",
+    "company_name": "PayPal Holdings, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "current_price_usd": 50.81,
+    "currency": "USD",
+    "market_cap": 46778966016,
+    "52week_low": 38.46,
+    "52week_high": 79.5,
+    "performance": {
+      "3_month_pct": -10.42,
+      "6_month_pct": -22.66,
+      "1_year_pct": -15.27
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.7907,
+      "target_price": 52.84515,
+      "number_of_analysts": 33
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "PayPal vs. Upstart: Which Fintech Stock is the Better Buy Now? - TradingView",
+        "publisher": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeDNEY0ZFWGtHMTFpYmlXTERJRDRoQVVZYzVrSk9nbV9pZDRzSDVURkRaeFMzVjBPX3YyaWl0SllkOHhWWVpBbjBiMDI0OW81QXdMbktweUxKcF9FR1pRWWxIeGRoeGEzalc5bU1uSDVZekR3U2hzTzN0UWtZM0llVkkzRXNRX2xJUEljcUp2UGljdHZmcDhib1NGOWRlMmZlcTd6VGNxU0ZleVJ1Szh1aUNtbGRMUQ?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Block vs. PayPal: Which Fintech Stock Is Better Positioned for 2026? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZzZvUWtrd3dRZGNUeVBqYWpXSVFFdFNiTTVSUWNIaXoyay05Rkp1RjFqd1o4UnRCQzQ4VGNidlVkZGNzb3BKR1Fmd3NIZ25xSmZ1UlN2MVhDckFHbHhmbGEzd09reVpfenlCSWZmUE9iUXhHVW8zS2h5WGFvSXBYSA?oc=5",
+        "publishTime": "2026-02-06"
+      },
+      {
+        "title": "PayPal Jumps 5%, Affirm Rockets 6%, SoFi Rises 4% in a Broad Payments and Fintech Rebound - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdFdldDZ0RE1WRWZqeUprZ3pnV0hyTHN0dUVNSGgxYmhEU1EwLVlZNDhVbUhKaUUySm5hUkY0WWk5TjNZVHV6WUJYWloyamhQOTI0ODN6RUhEMUg5TERlMUF0TTMtNWpaN0ZOaTFJdWdONjZudm13NTFuM3FCTjN3QW5HbDV0LThBZGhWbi1xRTlDczV0NEVHYmRQWXBJaVU3bjJQczE5TWJLYUF6V1ZsZlBob3JOTTd4TFdHN05fY3VHMUs1Y29n?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "StoneCo vs. PayPal: Which Fintech Stock Has More Upside Potential? - Zacks Investment Research",
+        "publisher": "Zacks Investment Research",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVhTaGM2UWdqYlN6YmFPVDRyQkdZdGJpWGV2ci1hZmhkcmV2cHB0cWdlTlFRWnQ0TTc4NHF6TTJFRy1Hb0Nrc3pFSzI2NlV3X2JDQzhKWkVjVnowVnRaMk1MVVV6R2dwWlI4czZNR1YwblVxbEJ1aG5ieTF4ZU9ZdzF6WEhUUmJhX1BGQ3h5czd3dmdhTXFhY3NxeGw4NDg1N0VKSVJMMA?oc=5",
+        "publishTime": "2025-12-29"
+      },
+      {
+        "title": "Better Fintech Stock: PayPal vs. SoFi - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcHFMRGJUektTdEYzSG1QdWhGQ283dk9ybEpQSzhUUGNKdzUtRi1WVHpDNkI4REI3bzBmNnNfdkpNYUVLRE5LaE5ZTi15ZnJtZmxxT3lERjNGQ3VTQ2k1S096R0xuSGdTeXBrcXd0RkYyODdnb1djRG9oUTQ4OUlTMmlmRDQ4RXVsYnRKLUg0YlFJMEJs?oc=5",
+        "publishTime": "2026-02-17"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 9.391868,
+      "forward_pe": 8.735254,
+      "eps": 5.41,
+      "revenue": 33172000768,
+      "profit_margin": 0.15775,
+      "beta": 1.411
+    },
+    "data_fetched_at": "2026-04-20T02:20:45.594935"
+  },
+  "SOFI": {
+    "symbol": "SOFI",
+    "company_name": "SoFi Technologies, Inc.",
+    "category": "Kripto/Fintech",
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "current_price_usd": 19.43,
+    "currency": "USD",
+    "market_cap": 24778377216,
+    "52week_low": 10.49,
+    "52week_high": 32.73,
+    "performance": {
+      "3_month_pct": -25.64,
+      "6_month_pct": -26.95,
+      "1_year_pct": 81.76
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.70833,
+      "target_price": 23.525,
+      "number_of_analysts": 20
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "SoFi Stock Is On The Move: Critical Levels To Watch - Benzinga",
+        "publisher": "Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTE1lNG1MNDMxUmJLZVRYdHVIakg4aTJyNUsxQVA3WE82dDF0bHV1SDctNS1JaEQyckdqdk9yQWY4MEpRbks1My1qM05LY2JDS2cxeDJfXzFSekhpWjVwbG9yWGh6RHZqcHdNblFoWDJBcEJfV0FmWWJrYjBzUEczRmZrTHdEMjE2MkMxNDF0VVp2NjZuMG5ZclpqM0ZBV1pYcDMxNWlmaU9pODNYaFFtUw?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Assessing SoFi Technologies (SOFI) Valuation After Recent Share Price Volatility - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRmVvdVE2Y01VaVJteE8weU92ZkRzMmlmUzdkcmVSWXNLTFQ2SHdodTRrZktjV1NVc28zOWpRdng2RTBVdnZBclJwbDlCUWxKMUtkTlRrWkxyVTloMnl3VDVjLTQ3NU9VTlJ5WFZfS2VHME00Q2oyZ3k0UHR4dEtBZFlQRG9zRmxzVnJscDczN2RwRlZrbXI1bU8tY2dmTzMxRDQzYkFGczdBRW8?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "SoFi Technologies Pops 5% as Short Squeeze Chatter and Earnings Anticipation Heat Up - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0UwZFF3cjRJUnVkZ3ZiUUxMQVpEWWVPemhUOGJTWWtXbFN3YmFUSXlTZ0xVX05Ic0N3LWRHTnhtbDFLUHItYUlZSDRFdDh3alZJTTdqMkRQcmpOaXl2eTgydG1IUV9tOWRiNUxYa3QwWlNyb3FvVEZ6V2tYb2otWG01TVp6M3V0U0hQYW83WENsX0ZGazBGcVAtbkJhOE5EMmUtSXJLcjVueXctM3RITXJNWDNkMXU1YkNvdTdNbHVUUVl3NUE?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "SoFi Technologies: The Market Is Handing You A $17 Entry On A $4.7 Billion Revenue Machine - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdnc3OTBSdnZXSnFtMGs1djJUbUQzTFh2alV1bGg3emlkSGl0bjFOYU93bmxIaVhfeTlDWVRyeDZPblFINGxYVmdqdURic1FveFpvQW1FeXRqb090aEJGWHFXMVlCMnpfaTB2Z293dkEtQTVsU3J3NkZ3NUJuYndiWTdOSmE2dnVyVE4zRnkxUlpUYVFXbDJnMmdja2dvZTdfU2NjSGF6ZWdlWEowSWd4ZkpEeGNEejRYZzhoYmp5Q3dGcC16VmlN?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Should You Buy SoFi Stock on the Dip? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaW9pNWlCQXVSSXZOdnh0bEl2a1VneGhFbGxRUWJaUGgtTmtKYzRHazY4ZVVmSDRZUUVtWnBRcTZ6TXB2UlZReXYtbEVDRVpKV09KS2prZ3owc1pWbWlFUjFIWW5kYWcwUHVQaEZjcWRIQlExT3VOZFFEemlhUFZNalFkQzFZQQ?oc=5",
+        "publishTime": "2026-04-14"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 49.820515,
+      "forward_pe": 24.629543,
+      "eps": 0.39,
+      "revenue": 3583034880,
+      "profit_margin": 0.13432999,
+      "beta": 2.251
+    },
+    "data_fetched_at": "2026-04-20T02:20:46.763472"
+  },
+  "AAPL": {
+    "symbol": "AAPL",
+    "company_name": "Apple Inc.",
+    "category": "Büyük Teknoloji",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "current_price_usd": 270.23,
+    "currency": "USD",
+    "market_cap": 3971820552192,
+    "52week_low": 189.81,
+    "52week_high": 288.62,
+    "performance": {
+      "3_month_pct": 5.85,
+      "6_month_pct": 9.41,
+      "1_year_pct": 40.51
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.89362,
+      "target_price": 297.4555,
+      "number_of_analysts": 40
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Apple stock sees stunning Wall Street twist before earnings - thestreet.com",
+        "publisher": "thestreet.com",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOHpPRDYtUy1lOHZ1T1VkZDlZMmdtY2pBQy0tSGVXV2VyZjdsWmhjYmg1c08xa0VST1QxMm9fSDlvTWtXX2lLckZIVUVZS2pDRzlEcXNlMlp5SlVPT3MzRjF5UU1Xc1VxSVU2MmtFSUhvU245ckR5VW1FSVFhUTV0WWtXZlBsVW1yYzhQX1N1SW4zcEZzUENMLU14bw?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Apple (AAPL) Prepares Major Siri Overhaul for WWDC 2026 - GuruFocus",
+        "publisher": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTWc4cG9nRWktUVZXNmpXREMyc1RZeEFyOVpZN19wN2thaF8tMmJnOFhJRWxNcGdiZDI3M3RpRFc2UGZ0NllfOU9sVWlaRGNJdUJPV2U3SnJubmxnVk90QTdELTBEbFpqdi1BUjVkTWRZV293OGVJc0dkTVlkdVU4eXBmVExrOVAwOEUyelBxc1VVc0h2bUJiQUJPa2dTY2tEcDFMOGhqSQ?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Apple (AAPL) Stock at $260: Buy, Sell or Hold? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGJyTDVUd3BPcmZITEpUa1Y4dkUzTm8wR2dSTkVibHdROEVBSWlTdEl2azBJVUtxSmtmdFRIMmhKT244WmlJTEEzWklEWkpxWVZTRG1OT3ZDdjNwWHVsWGNPY3hISTlFYnVUdlJoMXlDdmFwZzV6M1VGaU9ZMi1ZTGw4LTIwNVlwS3FZeA?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "I've Owned Apple Stock for Years. Here's Why I'm Letting Its AI Story Play Out. - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRW1KV0w2Zl9jeGpOU0NGVkUtZ1RsNXFhbVNPVjd3WmpWQm5xRnFXWGk4RDdiT295YlJDUnhtU2Jkam9WY2VGSU1zd185XzFfTU9FTmwwUm1YNWFWeDRwU1hRYXUySGtLTjVtYXRZRTdObE9uV2hzTExJV0NVS2RaS0xPTUZGM1lTVWVITHpLTQ?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Apple Stock (AAPL): Price Target, Forecast & Analysis 2026 - techi.com",
+        "publisher": "techi.com",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xQk0zUHJQSVd4N2x2Wlk1R21YcnVnUWdZQ3ROZHRrZjdHSVlXSUZTR1VmTTNvU1N6V0NEeVd6U1ZIeS0tZFo3bWdR?oc=5",
+        "publishTime": "2026-04-17"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 34.249683,
+      "forward_pe": 28.898207,
+      "eps": 7.89,
+      "revenue": 435617005568,
+      "profit_margin": 0.27037,
+      "beta": 1.109
+    },
+    "data_fetched_at": "2026-04-20T02:20:48.036890"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "company_name": "Microsoft Corporation",
+    "category": "Büyük Teknoloji",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "current_price_usd": 422.79,
+    "currency": "USD",
+    "market_cap": 3142335070208,
+    "52week_low": 355.67,
+    "52week_high": 555.45,
+    "performance": {
+      "3_month_pct": -7.85,
+      "6_month_pct": -17.02,
+      "1_year_pct": 18.63
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.28571,
+      "target_price": 579.5731,
+      "number_of_analysts": 54
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Microsoft (MSFT) Stock Price Trades at 2017 Valuations as Azure Growth Data Shapes Earnings Expectations - foreignpolicyjournal.com",
+        "publisher": "foreignpolicyjournal.com",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWTA5U2hCYmZNSEJWcEVaVkstblM2WFU5YVphdy1ndXVGQXd1OTlMUTlMTnlQRHpUeVNYV1cxMV9IaUxqT09zNUJWVW1ZVGZKSUlsNVdidzlmQm5UdkkwTTM5ci1HRWlfUnk5cG1VQUZ4VzFUNlQxRXhaOFZTMWxBYVBfSG5ITlNpMFVXTGlJUTFzY2pKRTFiMWlKN3VfQUdWam5pNVJiMW5xTkxLTFpkcS1OWm9DUE5uUWswd3hxZll5d3JCZS1RNy1Ca2FRSmF4dlVCb0UzdnVmdWxRVkluakZvX2hsQQ?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Microsoft: Don’t Buy The Dip, A 30% Correction Is Still Ahead (NASDAQ:MSFT) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT1VHMjhSWUlGNjQtN01PVE9lWXUxRjVoM1BqbWpZaHVUSlhucTZKMS0zZkVpUEhwdk1WYVRnSHBldENaNHhyY05aSHkzQkJlNTRYM0xjZVpIZzRqZ25NUU9JZkRxbWZnbFJWOVRxeVdkd1VpZUwydU9NcHVVMWNCUF9tUDJlSHk3bDRnbU04c0J2aU5kMFVMYldJVUdzbGwxLS1YZFVxcExZdzg?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Why I Can’t Stop Buying Microsoft Stock - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMHNsdzgyRGRQV0NDNmdNSmRrb0lPOWdPUVZRME50d2ExMDB1ZnphYzZnc18tcUl2NnFxZko3aEVWQml2UE5DaHBHZGowNVJrRXBxd0VaNXNncnQ5SmxsUmRULXl5VmZDeUk4NVZ1TXEyVF9PT2lSeXJPWHRtakYwbUs1WWRucklxbmc?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Why Microsoft (MSFT) Stock Is Up Today - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYm9xeGEyazd0ZWQxNE5NN0hCbFhFYUlJVlgwdHR0ZWNKNUkwODhzUkpiZDEyT0hnQlJVM2p1MzAwQ1pzbTRVZE9iemJsUjZlUlk5Wjc2MGdhNlZ3SUJYcEE5bDFFLVN1OE9EN2ZTaWRsdmdVMjBlTUdjdjBDZkNZbXFHaWZkWXQ2VHY3a3liOXRLLUQ1c0NxRU9TYw?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "\"Code Red\": Microsoft CEO Satya Nadella Is Reportedly Leading an Overhaul of Copilot. Should Investors Buy the Stock? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0Y5QjlkZ3A2dGxDcnd5Z19ua0VHajZROHlERTZiUDFQN3lJclVEenBERmdfeG9HY0pHckNhcFl2ZVh3QnJyckltTVBhNkNPSlR2UEFPeU5HT2JHX2lrT0JPT2tGdUdNU3RkSU1ZV0Nka0tteGlVd1EyRlZNbFZrdnlISmM0Q0c4WExRNVRsRS1QNVlqVWc?oc=5",
+        "publishTime": "2026-04-18"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 26.457449,
+      "forward_pe": 22.363321,
+      "eps": 15.98,
+      "revenue": 305453006848,
+      "profit_margin": 0.39044,
+      "beta": 1.107
+    },
+    "data_fetched_at": "2026-04-20T02:20:49.217508"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "company_name": "Alphabet Inc.",
+    "category": "Büyük Teknoloji",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "current_price_usd": 341.68,
+    "currency": "USD",
+    "market_cap": 4133303091200,
+    "52week_low": 146.1,
+    "52week_high": 349.0,
+    "performance": {
+      "3_month_pct": 3.61,
+      "6_month_pct": 36.06,
+      "1_year_pct": 132.18
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.37313,
+      "target_price": 376.50394,
+      "number_of_analysts": 56
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Alphabet Price Prediction: Bull and Bear Case - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbEZCSDdyUlVUbU5UbzdCTHNCRGNENDRLYnNKeW54eE1kakVHREM1OHZPV05CVUo1VW5XR1ktY18td0drbG9ZQThrNGNPTXBnVjMwM2Z3RnpVQndHRUJzazFzU3Vlc1NJeDlGemEtbHB6WVNZdWNXU2ZNeWhjMUstNkF1UTNOSnQxcHB4SGI0OA?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "5 Catalysts to Monitor Over In The Next 2 Quarters For GOOGL Stock - Trefis",
+        "publisher": "Trefis",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLVFWZlFyd29xbEoxLXh3cFYta2l2aUoyQVZrQWQzTVVhdUw1aEw4NHNieXBHNTN0cmpJOXZiNTVsX1YtaFNmVVNpNDNOVjVVcm5uNXJtU1BQZC1oNEZUbzczdl91WnF0dFNSVEszanBRTkFHeU5XRFJvUFFNVlFYYWxTaWE4eVd2TExnd2ZMeno3YzV4WVhKVUR5MDc5SWtXclFBbmREUFFDbVNEcndZLXc5QlBmUmV2VkZDcFlLSWJBVXZCM1pPLQ?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Alphabet Shares Rise 7% YTD: Buy, Sell, or Hold the GOOGL Stock? - The Globe and Mail",
+        "publisher": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcHY2STlueWZIMWxnSzF2eG5LR2o5SEExS3o3ZTJORzQ4dXBjMnpndlZDVHdOcTUxaVQ1amFBS0pLVk96d1FLd1Rmc29OTFJCeW55dU9hNkQyajcwdENBOXRaUzJyMEdHUjczSzFzS0t6d2d2dEJGeGlQMDA1QTJBdjBkWl9odlJjSVE5NTdMLXFuQnpuQWcxa2tQQTFNSlhHd0NodFNJUTVkWlgyOUwwVy1ERnp5WjMxdkFxUWVKeGk2cEpjWE5ERWpDTTJLTTZJamRlejlwUzBtLVhs?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "GOOGL Stock Rocked in 2025, But Is Google’s 2026 Forecast as Bright? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdW5iX3RQams3U0lodDdqX2ZOTVRYNzhZVWlGQmdMeU0zRnc3TXFmaHpKTXpnQ3Y4NnRDaERQRkx1ZnVBaGVNOUo1UjU1Sk1jV3Y5cjVfNHY5b1dtdFJidzNSa0VOdjd0cl81eFFSanJUbmxna0JaZXJJM2U2Y2xrV1Bn?oc=5",
+        "publishTime": "2026-01-03"
+      },
+      {
+        "title": "Nobody Believed In Alphabet: In 2026, It Faces Its Biggest Test (NASDAQ:GOOG) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRVA1S1hjb1FkZU9vcWNTX244WURVUGtvemgzR0xVeFhkMkJNOEtXY0VMZkQ3QS1HWXlBc0ttRWJteFNQazFPTkUxcEhiUTM2ZFhYdjYwQkNxS014dXlIdDFMS1lqMG1DbjIycG9sOE9GdXI5M1hnZHZjOHB3dmJKMXJLZGpyMWJDM2VHTm1VVkpWX2NadklWQUQ5eUotOFBDalh1VQ?oc=5",
+        "publishTime": "2026-04-06"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 31.637035,
+      "forward_pe": 25.396692,
+      "eps": 10.8,
+      "revenue": 402835996672,
+      "profit_margin": 0.32810003,
+      "beta": 1.128
+    },
+    "data_fetched_at": "2026-04-20T02:20:50.390154"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "company_name": "Amazon.com, Inc.",
+    "category": "Büyük Teknoloji",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "current_price_usd": 250.56,
+    "currency": "USD",
+    "market_cap": 2694585253888,
+    "52week_low": 165.29,
+    "52week_high": 258.6,
+    "performance": {
+      "3_month_pct": 4.78,
+      "6_month_pct": 16.83,
+      "1_year_pct": 49.75
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.35821,
+      "target_price": 281.1797,
+      "number_of_analysts": 64
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Amazon Just Made Its Biggest Bet Yet. Here’s Where the Stock Could Go by 2030 - TIKR.com",
+        "publisher": "TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRWU2bDljNFkyYS01cjVfUFVkY3NKSWtpenlMSGk2ZkJSeTA2alBWZUNEWU41TVN0ekVZbEFVUkVoT2QzMnMzRjdkOTVmM2VYRG5GaXMxZEFySzZLN0prZ1Bsd1NiaGNjNzFsbElKZDMwY1lJV0FFQS1fdVV5Q1FOVFlvX3k0WXRlbmMwdjZTcHBHRVI4Ql8wR1gtZ2ZJczRZVGVv?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Amazon Stock (AMZN): Price Target, AWS, Trainium & Analysis 2026 - techi.com",
+        "publisher": "techi.com",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9EV3NaQzVCNmtkYmRrNk5sMzd1LTByYVd6NWtnZ0xZS3dZR3JZSXhMSXJETWlBTXpWbEhCTjVVN1FLY0hoZUk1LVA1RQ?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Amazon Could Re-Rate After Earnings Again (Preview) (NASDAQ:AMZN) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXJjbEtNUEhKZTRpUmJpRzF4aUpiRXFLd0E2d2xWdGpueWxkbEJwSGVpZmRwVW9PbUowQlNKUjFYcDdQUXhtX3R6MkZlUjRmeW03YUxSMnl3WlBWR3NCZ1Vid3JLQzhTU0p5cUxuV3JVTlZWZ3RTRlFOcTZ2VGF5eE95NGVQUGRkMnZfUjhRaHZfbk5B?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Prediction: This Will Be Amazon's Stock Price in 1 Year - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRVhxQVh3Y01Lay03bTJ3ZHJhSzhQaUstUFdDM3R2c2cxR0Q1UWxOTnc5UmtRYmU1X2pPb1QtTGk0bFlhNGxSWGNHTGhSeDloY0Q1Z0VlbS1BSnlZcWFlWkFxNElycmlRVkk3QkdGaXF0czVlSFgtN2N5ejlBeXMzRGk3dXZEZ3pYZ2o1ZzZsRDBYbG9IT09Naw?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Should You Buy, Sell or Hold Amazon (AMZN) Stock at $245? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVTlZX1M4VnlObmhEb1VpaXh3SUZmQ3ZaRDhZZjVMV0N3NUVuWEREanEyWDZobFB4YnZCcEgxanBXM3VodXV1NnA5ZTREM2MwV3NKdWRVSC1USUxkczZqQkE2WndUYzBUODZoMzRiT0RHWEJiY1NiRF9SajZMTjdzZmVNNHNzVDcyM2dxZ01WN0s3WHdXWVRPSk1YWmo?oc=5",
+        "publishTime": "2026-04-14"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 34.945606,
+      "forward_pe": 26.64639,
+      "eps": 7.17,
+      "revenue": 716923994112,
+      "profit_margin": 0.108339995,
+      "beta": 1.383
+    },
+    "data_fetched_at": "2026-04-20T02:20:51.574286"
+  },
+  "META": {
+    "symbol": "META",
+    "company_name": "Meta Platforms, Inc.",
+    "category": "Büyük Teknoloji",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "current_price_usd": 688.55,
+    "currency": "USD",
+    "market_cap": 1747831357440,
+    "52week_low": 479.8,
+    "52week_high": 796.25,
+    "performance": {
+      "3_month_pct": 11.11,
+      "6_month_pct": -3.14,
+      "1_year_pct": 42.51
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.35938,
+      "target_price": 855.7627,
+      "number_of_analysts": 60
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Exclusive: Meta targets May 20 for first wave of layoffs; additional cuts later in 2026 - Reuters",
+        "publisher": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdkRwbFNPRlk1YVhQTE1velhMT004YWV6WXlUZ2FrTlJVMHVCSkFiU3poMFhKZmEyNGwzRVdBdXFLWEJIWnhKQnBUUDB2RzVCTm5JZEVqN2liYXM3WllTYTlGaU5EWVo5ci1NV2JZUUlQdjBreWYxMEhtNURBMWpRRUYwdDlHNHBKb1dqX0E5R2V5ZTlpZUhvcG5yMGItbXZBVUw1VFk0ckNmM0E?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Meta Platforms Stock (META) Opinions on AI Model Launch and Ad Revenue Projections - Quiver Quantitative",
+        "publisher": "Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOFczUVBpNlB2cjAyN01VYTN5WW96NF9PTk1HczFMakx6Smh1c1JJY1pVYmF5V0M1R2Jrak1mUmJfXzJZdkVqZk9LWUdoZTFwZ2liUkdnTE80bVlfQmx1TUJjN2VKN0ZLcWItRWNHR1h1NVpzYVlnSXJDYW9FQXFwT0tVZ1BrRmRoX3AxNjVhZ0RNV3NXVi10ZU40Vnpxc2lTQVVKTERHYUZBektRTDIwU0xuekdFUkNzdXJn?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Meta to Announce First Quarter 2026 Results - Meta Investor Relations",
+        "publisher": "Meta Investor Relations",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZGxjcTVuWGJSZFIzSlliOU1udk1ROHdPeWowN2Q4WVljZUJ5V05wZExQR0FNX2RRaHZJWWVCQ2NUOWRjS28wbGFwczRLc0lVZzgxU1BkczhwcEZYNnRselRUTEU1UW03YW1uU2wzNThOVkVIT3BOeWpJeHhWSFBJeUs1d3lUS2E0dlBmenhyQmdQWGM4NzZFMWJaRk9NdUVaRE94RlF3NEs5ZXJaUUtsZUlad1RZM2xJR2h4aGFMdW16WjQ?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "Should You Buy, Sell or Hold Meta Stock at $675? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFA5NzBWM215NWx3WUNTUVY0WmR0YkMxMUg4aDdXSTNlUXhuRTJMSV9SNGxBaElPN0EwMUZrRVQ1UVA0WlZIekNvVlBMVmFJaGpXRkF4Ul9OSmlkV1RhU0hPeDdZN1o4Z2d4enMxalJVRXRVNjBJd1RFeUxkR1B2a0hOekczRnVfM1JrQW5WRDJOckE?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Meta Platforms Stock (META): Complete Analysis & Price Target 2026 - techi.com",
+        "publisher": "techi.com",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sdDVKOWhiVEw1eDdfOVRRRXo3VDI3cS1hT3FPajEwYWlwc3llQVAyVGp2QnNUV1VCYnZZOGRyZ195V3JobGNiQQ?oc=5",
+        "publishTime": "2026-04-17"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 29.324957,
+      "forward_pe": 19.332428,
+      "eps": 23.48,
+      "revenue": 200965996544,
+      "profit_margin": 0.30084,
+      "beta": 1.309
+    },
+    "data_fetched_at": "2026-04-20T02:20:52.755430"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "company_name": "Tesla, Inc.",
+    "category": "Büyük Teknoloji",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "current_price_usd": 400.62,
+    "currency": "USD",
+    "market_cap": 1503299239936,
+    "52week_low": 222.79,
+    "52week_high": 498.83,
+    "performance": {
+      "3_month_pct": -8.43,
+      "6_month_pct": -6.56,
+      "1_year_pct": 76.1
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.39583,
+      "target_price": 414.58926,
+      "number_of_analysts": 41
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Tesla stock adds nearly 8% as Elon Musk touts chip progress - CNBC",
+        "publisher": "CNBC",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeDV2YmsxWDNQaVdiUjkxWXI2bVBqaTZGdXUxLWJQX00yNGhHUjJTWDExZW1yMDdYUDZsMlB2djktcDNmZnVRUHpROTZ6Q19rMkRrR1pDMUlNbUtfTU54YnJPNWZEdUxlWWJaRTdERW56M1Vrc0hhdVhpc1pKei1qckxZcUEtQWVXWWZlb2dUa9IBlAFBVV95cUxOb19aOEFjQng2YlNVN1JsVmpsVlpTVmxOOGY0eVAwX095TFEwSzFwYjM3MEVLSV8xMnZkOUwwQTdubC1zc3l6alNLVVBtY3JlNDkzS0FQWWFVd21ZcVpxN09PZjMzajBRdnNVVFlRNHFSY3ViWkNXdXd0Q2U5RmpZejYxaEFlWWItekd2RE1iSkxWd2M5?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Should You Buy Tesla Stock Before April 22? The Answer Might Surprise You. - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY3oySm0zYVdtRGJKbEJTRTVoRVBkZTRaVU5RazhOX2hFaUVCbFZvV2d1WWszR2FfejNsMk9UbDJjU0Z4SE1WNkptTVpPSE91YnloSnMtSUFKNUNYcXMwLXdmLUZZVm43UmZBOEVHOTczOTlHWENYZkZ1SFY3aXdFbkh5bk5IbDlCa1Z4NWdiaU10RzVSdnE2Zg?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Tesla Stock (TSLA) Analysis 2026: Price Target, Robotaxi, Energy & Valuation - techi.com",
+        "publisher": "techi.com",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9TWlA2V0MxeHBiUlEwek1uanBwTnA5Ukp1elFJOVMxOENTU0dSYzVtckJfTlpPVl9WZ2VkUHg0dmJEalR4Q2ktLXZB?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Tesla Rallies 5% as Q1 Earnings Loom: A 33% Profit Surge Estimate Has Investors Watching Closely - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd1NFZy1FYUpyem1vMTZiRkg3UVFuRU5MVDhrWTZrM2xPTEJaTDNPNmU1Y3BfNTI3RV9YZ3FGOFVpZzR2Nkk2ODljUnd2ZEFOZ2xsNjc5LUdqTTJid1QtWjlKeFRiMl9MRGZpMWEyV3daTlh4V0lKY0hvTmVRX3VEZHZZTFd3SHNEdkY1TGw2N2x5ZERiT1AyUjFwY1VZaU4wWWZScExvWEpwekdQcVVRTnpIMVZxOVhCZkhXRnY0amtQLU5SVVpRc1lzdnYtSG94alZj?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Why TSLA stock today surged over 8%? AI5 chip update, Elon Musk’s vision, growth outlook and Tesla stock p - The Economic Times",
+        "publisher": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPLWw2d2xWeThTaFVzYWRnSTNRcXpvYVhYOE03Vk5NSUZxNElERWEtdWZ3RVFXakdNLXI5eHAtcDBOQm93R19UN3hGeWR4aG1jeVplTm01cTJYVk4tejhtS3pxWkZsNFJzMzJRNjFXMWQwNURsMlRqQllMdy03cDE5X3dpWFhCd2RmczNBNjE5MTlvY0JXMGQwYXZTalZXZXB1aGN5eGcyVjNFaXpwSmdJOUlvTHlJOHBTN1NOem93YloyWWhhUW80X0U0WV9aZWdBV2QxTTJCeTVhbXR3V1NIaEdpUkNLRHRKRHU1REMxbXkwVjZGdHhpM3BWWWwtdDVLZk1ZcWxndWtBWktPN290ZGRwWWpDX1dOaDdSeVdocXlDZGtnMlhoYzl30gGvAkFVX3lxTFBSdEFuQUxZLU1DTU1veFgwNjNybkpQYnRkX1dST1VvcnhfaVVJcTkwczVudm9yS1pwTUxyaXVtT0dpdjk0YTY4cFFjQ2NoR0tTT290YktNTV8zaEVVdmMyTU1QcTVBUGZXVjNXOHRuYTY1b2ZjOEtscUJvZ0xyNS1fYS1LZjlSU215VmdGWHJsb3k1cW9OTnFCdHVhRjJFRFJpRnJmdFVQX1M1MGFEclIxTG5VNXpNWWFIdWQyT09JUjlFQndSTlF6NV9KQzhVcHNrd0FESkxrdzlaMkdrdEw3b1hyWC1WaWFBV3hfeFVzRVR6S0Qxc1c2eE9TQm1kX2VyZ3cyQ3NuQ20xaC0ycTE2dUpha2pFVXYzbmRaWFVaX0otdEk1UVBlZm01aUFQaw?oc=5",
+        "publishTime": "2026-04-15"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 370.94443,
+      "forward_pe": 145.4885,
+      "eps": 1.08,
+      "revenue": 94827003904,
+      "profit_margin": 0.040009998,
+      "beta": 1.915
+    },
+    "data_fetched_at": "2026-04-20T02:20:53.897215"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "company_name": "NVIDIA Corporation",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "current_price_usd": 201.68,
+    "currency": "USD",
+    "market_cap": 4901832228864,
+    "52week_low": 95.04,
+    "52week_high": 212.19,
+    "performance": {
+      "3_month_pct": 8.3,
+      "6_month_pct": 10.94,
+      "1_year_pct": 108.16
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.28814,
+      "target_price": 268.6148,
+      "number_of_analysts": 56
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Is Nvidia Stock a Buy as the Agentic AI Era Begins? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcExtbGFRb2lXTHpPT1NxejhmT3NvVThuU3R2RVdUOEowdW1US2otazFHYW9JUlVscktyYUJfSlE2TFRwYkRuTGxEVFdwRjdrRldQb2xQUkE0TW8tRlItSmZBdUFEd2xHOUlmSXFqX0N5U0FuSTdVdGRrQ1ZxMi02QjJKNHVCX1RTSi1qMW5tdE11SjdtN1I3bQ?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Nvidia Stock Forecast — Is NVDA Still a Safe AI Bet for 2026? - TipRanks",
+        "publisher": "TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZEFrUHNySXZNMUNydjVxM1ZaNm5fN1BreWs1SGVaV0ZoeTlSalgtRWxScFJfQmpZcFVIeGQxeUpMNi11RDd0U3ZqV0VvZXhIc3F5Ql94c2plTVROQ3ZobXV5OXo0Z21tU3NmUFhDSjlScDlHMkR3VlBLb2JWdnRRMzd0T01WaVoyUUVmeTN6VmJXZw?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Structural Risks to Watch For NVDA Stock Over the Next 6 Months - Trefis",
+        "publisher": "Trefis",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNTVUdzFQOWFQUWN4UTZ0UDNLMnMyUXpkZG8zVWlFY2ZtYWFVdEJGQ1c5ZXJ5d0w3a1Z0eUQ4d2ZQLVpiZ3RFWjZObWt0R0E0cUFVMVRTd0lsY0JDcndUMjhhb1ZqMjhlLUpacl9PS0J3bnJsSW5ZUzk2bk1LdTY3b0VnOXNBXzlEcEtvbU1zQjFWTEdNQ285bzlnejlzWGVOTjZLQ3JlbHlOZDZ1cWFsT3AtNTgyOXp5N0dkT0psaFJIaHc?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Stocks Break Out to New Highs: 3 AI Leaders to Buy Now (BE, NBIS, NVDA) - Zacks Investment Research",
+        "publisher": "Zacks Investment Research",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT0lkUGY1Q1ZsVlhEZm9xenhwbHFIWlFwNzVneFFaT2VOWEZtUzl0eTBmYU1UV2hVRXA1R2VrM1NNd2FndXBTQTNiRDlCNDV0U296VlVaeVFMT3YyV0laMGt2akZNUHNHdjNGU2x5dWtzMm82V0dlMnhqaEk5VFppU2FvY240Z29lS1FZVDB4eUh0UUhPR3luelJMQVY2N3VyY0o2WWlkQmhYM1k?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Why I Can’t Stop Buying Nvidia Stock - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQVYwSWprb3JnT1kxMmlnLVJRN0tfdlYzM1pvZmZnNjdDVXhCQWhadDBObzB5RU9ESlVyWGNtMHc3aEZVdXlQdk5UXzdycjBtMWZweUNaQlB3REh3Vk1sM0VwbU01S1VxTTFucUNfZ3VXeDB6TTFiYTV4UjRzakVRTC10X0k1UQ?oc=5",
+        "publishTime": "2026-04-16"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 41.15918,
+      "forward_pe": 17.94437,
+      "eps": 4.9,
+      "revenue": 215938007040,
+      "profit_margin": 0.55603004,
+      "beta": 2.335
+    },
+    "data_fetched_at": "2026-04-20T02:20:55.139200"
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "company_name": "Advanced Micro Devices, Inc.",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "current_price_usd": 278.39,
+    "currency": "USD",
+    "market_cap": 453890113536,
+    "52week_low": 83.75,
+    "52week_high": 281.05,
+    "performance": {
+      "3_month_pct": 20.08,
+      "6_month_pct": 18.69,
+      "1_year_pct": 225.37
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.60417,
+      "target_price": 291.52173,
+      "number_of_analysts": 46
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Why Advanced Micro Devices Stock May Drop Soon - Trefis",
+        "publisher": "Trefis",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUNZZVM0Zi1uM3VtUHVqRlVFRkdDRG5MLWJ0MW1HNjFXT0g1MEoyNm9JWFNrcEdjT3NhQ1RyTmV4MWJtZ1pvT3R4Tkl3RHQ1Y3VTd0xZM3luRXliTHpZMzVQbHFyYWFhXzlOMVBJdGxxaUI4RVpLTHdYMlhYc3d4ZzNGN1JXUXFrTGFPRmFSOElWM3diS2FYYTdNTFFvYVlxemQ5SVdFSHlOQXNlMHc?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Why Advanced Micro Devices (AMD) Stock Popped on Thursday - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUy00QWMtX2Q5eUZ5cHEyZHRNUVZtbWI1ZWNJSlFiUkFkRVF1SlUtVVUyX01HXzdfV3hndzlMdk12cVdOdlpGblh4NHNOUEVxTC03akJ5dWFKNFhtMm82ZkpmcUpOeE84dHRacEgwSURvb1J4RklMa0EzSVdIVUQwU280LS1KejNPbjd5QlhLOEdiSnBDa2xGSg?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Broadcom & AMD Lead AI Chip Market with Meta, Alphabet Deals | 2026 - News and Statistics - IndexBox",
+        "publisher": "IndexBox",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0pFOTB3SjZpazhSSkQ0V182WExIWVQ3c0FZOVhpRVhTX2phblU1NkttNVkwa2t2MDV1NGhuRlZWUXdjMmlLLXpDS0tTTTEzX2JpZ2dEcHZ4N2VhT2hwcnlQVmZReUtUYWxyazJpRmRyb0FSMHlzUUptRWQtQ2RwTlpobzVyRGdzMTRPb004MDA?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS1pLYTRiVThXT1NnUks5VzdlXzJwczE0d0F5cHZzVF9GTnNwMFduZllla3o3cDZfUDltMVRFNzRFVnZWeElxejZTRDJVbm5td3NsRkNGaFYtalViZ3VERmJMUk1KeUhEcVRJZEt5RS1QaHh2cHBOVmxxUjRHb0FQWnE3SURFLUVsOGFibGNTTTFVZ1hzUVBGNW5OelRILTdUZW5VN2lvUHZSa1RjaXdpemxJSm0ya09GUEZZZXhzOWFnNjRGQTdCb3ZMc3YtQQ?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Advanced Micro Devices Stock (AMD) Opinions on All-Time Highs and AI Inference Demand - Quiver Quantitative",
+        "publisher": "Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdi04V25aWTJ5ZHpzTXFrQjhxYTRlUlFlemViLVN3STV3VHRBaVRTbGFtakd1UGNxR2FaYzVSQ05FV1Z3cnozdlhQbkk5cjhMZWZNajI4Sm5RNzl4WXJrMTNsSEhYYmpDeHVHLTN4Nm52SUNLcXM2OVI2S096bUVfS0tJTkNBa3c5T0dVNmJjWExYS09FU3FKdHFvLUhyamhBYlZSd0FQTk1peTBycVNlVXBmc25fUjIzQmV1eUswSQ?oc=5",
+        "publishTime": "2026-04-18"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 106.25574,
+      "forward_pe": 25.39617,
+      "eps": 2.62,
+      "revenue": 34638999552,
+      "profit_margin": 0.12515001,
+      "beta": 1.963
+    },
+    "data_fetched_at": "2026-04-20T02:20:56.430082"
+  },
+  "INTC": {
+    "symbol": "INTC",
+    "company_name": "Intel Corporation",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "current_price_usd": 68.5,
+    "currency": "USD",
+    "market_cap": 343939219456,
+    "52week_low": 18.25,
+    "52week_high": 70.33,
+    "performance": {
+      "3_month_pct": 45.87,
+      "6_month_pct": 85.94,
+      "1_year_pct": 263.59
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.82979,
+      "target_price": 52.25732,
+      "number_of_analysts": 41
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Intel Will Report Q1 Earnings on April 23 — Here’s Who Owns INTC Stock - TipRanks",
+        "publisher": "TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMldSZjBjSHlRVkdULWZMUW5OM1cxejdOUWEtajBhNTRUb1FrdEhUMHlJNlN3Y0Nfc3pCY0JDNy1Bd2M2dnh6X096eGhtODlxeGl4NTJmVUdsX0tfM3l5dXlXdXY1N3NoRjBkWXBmN216dnBBQmpnOEcyV1RMOXVySnY0WUNYRWJaOHBoNVFTSUI5RFNrckE3ZWVkbEgzdw?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Is Intel Stock a Buy Ahead of Earnings? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX2tTNkltdHZtTzFQd2xyTDljbWZEQ2JWOGtFekQ4c1pSYmc2ZmdFYmUxQmctbl9HbmZ6QlNxY0NzYVpHVlhYLTZWMW5BZUVYdGxiYktUdHUwcWEtT0NHMUM5RmktQnR5eGVjeUhjREdkVmVMRTdiU3JIYUhtaGs0V0xtVWo1ZndS?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Is It Too Late To Consider Intel (INTC) After A 262% One Year Surge? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTQ1ZE5RNWNzWlJ4NlNkQWxkMExYYmZMRmxXSDZseGs1RlFtUHBRd245dW1ld2dXR19Bc3hyM3NOd29XNFFOMFJvTmFpa1VIR3pRc3VCRXVwaHUtLWJmXzJFTlJwN1RqMHQ1b1ducE5SNDBwcTBaandVakZwcHNOS1VSdnlzNGM2Z3UxSXdCNWotcUNweTA0?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Intel (NASDAQ:INTC) Stock Price Up 5.5% After Analyst Upgrade - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDhfT0hXM1VsbjJXUXBqOWdOczZQOUZhM2h2N2ZtMFNXbE9FMm1kSmxoRUVLMFBjNDNDbGYwajdicGpKRm42bEhHQ0QxQWZrNU5MTXJzRC1HbEtpT0ZhMVdFeDQwZmF5ZUE2YUZxRkMtOHIxeFhqeGZSUFZvbGFEeXBRUEJBblRnY0JtcHpJbmxRQmh5QzIzdmNMcF9aTmE5MFgybGlQZ21wX2ZpM0xj?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Intel Pulls Back 5% After Historic Winning Streak: Bubble Warning or the Best Dip to Buy in 2026? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaTR4QzU0TnFDRFAxTm5HSjhsc0htQ1UyZGh1NUdORnBWN1R4Z3dDZWhHVjFpMkFmVlRySTVKSDFoNU81VVkxSXQ5SnZmUTh4VmFpSE9kVUxqRHZxQXpHR3Q2eWxGdTROSVU1dUE0RVZZN3BWX19QYXE2WVZwX2hTc3Z3ZlRMU1FkVTQ1cnVmMmJaMk1tTmRPREtVNGplbi0zVWw5MEtpRUFXMjNsMnJJWk55cnZvSnVjQjZPb0NwdFp1ZEZPY0pGNHJCSzZ4WTRqRmoxQQ?oc=5",
+        "publishTime": "2026-04-14"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 64.06959,
+      "eps": -0.06,
+      "revenue": 52852998144,
+      "profit_margin": -0.00505,
+      "beta": 1.349
+    },
+    "data_fetched_at": "2026-04-20T02:20:57.694863"
+  },
+  "ARM": {
+    "symbol": "ARM",
+    "company_name": "Arm Holdings plc",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "current_price_usd": 166.73,
+    "currency": "USD",
+    "market_cap": 177067016192,
+    "52week_low": 95.32,
+    "52week_high": 183.16,
+    "performance": {
+      "3_month_pct": 57.62,
+      "6_month_pct": -2.61,
+      "1_year_pct": 72.19
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.87179,
+      "target_price": 169.58861,
+      "number_of_analysts": 36
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Is It Too Late To Consider Arm Holdings (ARM) After The Recent 65% Share Price Surge - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMWRkZDgyUlB5eW9GeUQwazVoOWtzV1lOTFFZWGR2dldTa3Q4TWg4U2R5Q1BuelJ0SVR4X3BacExyLXB4VVNhLVZSTFFjSm9MZnlvMlVSZHM5amlRZVRneDZPSDhNRVlVUU45djFqZldma1BtVExNM1JuTC00Sk50Zmp3Y3lIV1A0Wjc1ZVlpVFpVRW5ndVd6aklxVDBMWExMWHhSLWxmdlJiNjBzRzZfQWlmbkhxUU9JdUQzZXAtZXN5RnNXTDMxVVNwcmgxcEE3MUHSAdcBQVVfeXFMUFpncUhzM2xXREJwaDlSZk11cXUxZnJ5ZmNDbTBOazJPcWRudzZPLVk0YnlSMXlTLXdZS2t6X3ZxWXZ1YTVpU3l0cXl0ZFdyS3p3bUtTVUVZLVdsVnB5QWJDNVFnWTJGc3E1V0tkRlQtXzVmLUNrUGZLRzNwUExHUzhGUVVsVUxoNlhqVElSTFpkUmpBMHZyRWJFbkFZOGRhV0xzLUFNZ2lpRU1RWGtBcHpYZXhzNVg2TTU2SFhuRW95NW1RMFFHVjFxTFNMZ0lGRnVlREJJVEk?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Why Arm Holdings Stock Is Tumbling Today - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQV9rZ1VsZmZucGU4SmRaa2VlYzd1Z2pURjlZUHBuUzZUUVNQSGhaSDlmN2VuWUV4MWxLQjNoSjFCSzNocEFTMW8yNDl1cEt4ajNMelY2UV9tTlQ3VXY2MkhUc290VkFxWVM2WWJkbmdFQmVfeUc2SjNZb1g5a2s4UWFqQ213REVEYU1NU0ZDNkRJdkNSc0I4M1JHeUs?oc=5",
+        "publishTime": "2026-03-27"
+      },
+      {
+        "title": "ARM stock price surges today after chip designer announces biggest pivot in its 35-year history - Fast Company",
+        "publisher": "Fast Company",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVkxNazVBdDJzQXVGNlZWQzh2VEVnRjAzUU13OFdxb3luNzZTUmpHOFVHamNINTE3SmQ2ZjVCM0xtaURrT1Bld2JidkFETlNISVJ1TXpsbm9rWXNTa3JhV1ZNSFU0c0ZTUEg0QXVGSldNay0xY3VkdzdkbHBhdW9rUXVrVWRrR0ktVV82VXdjbnJQOUUxRHVFMktTejVkM2NEUUtXQloxVDR4a2R4bjl1VTRQM1RCUGxuNnJiX2tTcw?oc=5",
+        "publishTime": "2026-03-25"
+      },
+      {
+        "title": "Analysts Are Bullish on Top Technology Stocks: ARM Holdings PLC ADR (ARM), Cellebrite DI (CLBT) - The Globe and Mail",
+        "publisher": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNc0wtNVBQcHptQXNsREloS2pGVDJOTnRVbl9kSmdzUFcyMElrdWJuOTZXU3hPM1VZSVcxRGF2TTV5T2VWQkoxUGtpNWtTb1FiWGRBa25PaVYxRWRBNlU1YVFySFNiMXJrUGdhTWxtNzBWdTVpRndxMjZRYktyS0pHOG1pZlA0R0pqNU1qOGVfdTNaOW1xS3ZHd3JxVS00NXJsay11RDgwNFp5Z1dSUTZGcnl2RUNDSV9lcUVhbThsbml4MHdQQ2RTd1A3ZnBMQXhLcFpoZDVkZVl6N1pLN1ZYWERMYmpiek1KYUZPc1otZkpINU9xb1EtMV9zM2lYd1U2QVZN?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "This 1 Tech Stock is Worth Buying Hand-Over-Fist, Even in This Environment - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeng4ZnpqWm1KU05HeW9CQk1fTTdNN2NCaTltZVFFNGk2M0dINFNvUFd2bEkydURzbnRaa2pDTDRtTWJKUDJGQnRDMFpPN04wNDdULUY3SXV5bWRILU1qVDJ6RGladFg5cGVjZF9vU3pJRVJDWXhIUGd4VWp1MTVwZ1liQWVPTXdfTkliV0J1c194aHpvaEFFdzJCdkhHOGh2UXVUSXBLc0hWRmVSTm5ZZDBCRlkzbXJH?oc=5",
+        "publishTime": "2026-03-30"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 222.30666,
+      "forward_pe": 77.76223,
+      "eps": 0.75,
+      "revenue": 4671000064,
+      "profit_margin": 0.17148,
+      "beta": 3.338
+    },
+    "data_fetched_at": "2026-04-20T02:20:58.913304"
+  },
+  "QCOM": {
+    "symbol": "QCOM",
+    "company_name": "QUALCOMM Incorporated",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "current_price_usd": 136.2,
+    "currency": "USD",
+    "market_cap": 145467736064,
+    "52week_low": 121.99,
+    "52week_high": 205.95,
+    "performance": {
+      "3_month_pct": -14.02,
+      "6_month_pct": -16.03,
+      "1_year_pct": 2.39
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.65714,
+      "target_price": 151.17857,
+      "number_of_analysts": 28
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Qualcomm Stock Warning: Why Bank of America Is Betting That QCOM Will Underperform - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOXpSRlRVTVZTd19aY0NQQ21sX3MyUEZpSExoUUh3ZXhaOFNuUWk3eVdfSlN5RXVyNTF6aW5aT3JRanJvSXB4SEI5V2VYeEc3Zm1yTTM0QVQtNkxUZjlnV2w2QWZ2aVpzLVowVmV6NDU1RGZILWJvd0dnc05vcFEzalRNOA?oc=5",
+        "publishTime": "2026-03-12"
+      },
+      {
+        "title": "2 Semiconductor Stocks for Long-Term Investors and 1 We Avoid - StockStory",
+        "publisher": "StockStory",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTS10blpEbXZOZVVrX0FEX2MwclFWckxoNHBxMnFSOHNxVVA1TlRDeERwTkRHUVpod0gwa3hxUHZydXJNUGtocEhKeC1XZk5vNzlHQWRiQ3ZwelU0LU4xXzBqcHhDMXVaN3BLWVRaN3ZMakNOOW8yYmtVWWRvd01ZSXMzUWU2YkZTSHkxS1M4cHdjNE9Lbk1UZEVub0dUVDNHQ3ZmXzdEX2I2OUxpZVVFVklxU1M2dlNldkY0aWppdF8?oc=5",
+        "publishTime": "2026-04-08"
+      },
+      {
+        "title": "Qualcomm Stock Is Down 28%. Is This a Once-in-a-Lifetime Buying Opportunity? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRkFfaWlZUWNXSDB4TjVYVnVrdy1Gc1Y1Qmc0VUVJUzVzeE1KaldxT1BKOTBxOWNCVTBZNmxTeEVhZkdWUVNTRGJoVDNoWEZNOGJYVUZiQzcxbGZKbjNqVENhQWJPZzBOMjVnMDRYT1pLek01WlkwYkNFVXNpWVJ1NnNMNA?oc=5",
+        "publishTime": "2026-03-23"
+      },
+      {
+        "title": "Fund manager pulls plug on popular semiconductor stock - thestreet.com",
+        "publisher": "thestreet.com",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaGlWV0FZa2lqMzN1YjRkaTJVc3VIeEZ2aTdYaXJsRHJ4bkZpQWFaR2xzYkdKaWhHa1llcjh0TU9FVTdPVThCcHFMQVYwX2pBTnFJOFFJMDd2Vm53NUNsLTRPcjFBNGVETGIxTnFfRDh0OE5vVUVjX2hJZV9vUG5qVkw0RGFldWxuYzRGQzRvdmlDdk5nR29uMHBuSVhiQQ?oc=5",
+        "publishTime": "2026-01-16"
+      },
+      {
+        "title": "QCOM vs. AMD: Which Semiconductor Stock is the Smarter Buy in 2026? - Zacks Investment Research",
+        "publisher": "Zacks Investment Research",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUFhOWGRQbjE0S2xQaWJyaUx2YXV5dGsxd0FUWHR2eDdMdTRHSS1SNzMzbVQ1QkRnUkpxMnJjX2Q1Z3NZS1RnY0dXUngyWXVlMlNmRmVBQ3l5cHFmOWx4SFVqTGJjb0dvZ0EtbVliSElxeDE3RmlMMWRlTzNYbXRGb0ptMy1nODBNb2d2SjZJX0ZkLWRTUG0tUmt4dnhkSWZfNC1uNTNJTnE?oc=5",
+        "publishTime": "2026-01-14"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 27.459677,
+      "forward_pe": 12.326572,
+      "eps": 4.96,
+      "revenue": 44866998272,
+      "profit_margin": 0.11958,
+      "beta": 1.279
+    },
+    "data_fetched_at": "2026-04-20T02:21:00.118065"
+  },
+  "CRM": {
+    "symbol": "CRM",
+    "company_name": "Salesforce, Inc.",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "current_price_usd": 182.14,
+    "currency": "USD",
+    "market_cap": 168115224576,
+    "52week_low": 163.52,
+    "52week_high": 296.05,
+    "performance": {
+      "3_month_pct": -19.6,
+      "6_month_pct": -25.65,
+      "1_year_pct": -22.33
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.63043,
+      "target_price": 268.8725,
+      "number_of_analysts": 52
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Salesforce (CRM) Traded Lower Due to Market Fears Over AI Disruption - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORTRZSFJ6NVZFUC1ZVkJuVlB6UmM3Y1B6Y1dZQzR3MkQweGNCQmYwdnpkaktjYVI5eGRSbXA5RzVhaUhUVmdKb0hzOHQwV0tkS0oxdUNwZmRIV2xhdXBrRjhUYnJRM0JHdnFuMFN2Yk5LZ0lPbWpxeWJFMFdUX1pILWZnak5jdWZIWlRjOG5ySm5DUllWNEJLVV9tOWo?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "Salesforce (CRM) Stock Is Up, What You Need To Know - TradingView",
+        "publisher": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkJrR2prcWpqQ1NsS0hiN3lFNEY2emtXRjdhTDhheEhKTnJacVdRVTZjNDNqeTVoZDdBRDVfNTNXYy1EWmE2eFdxQVd1d3RPYy15ZEZCVDk0ODdMWXYzUk01a0d5bEVtcDE3TnpINHIwLUIydGpXV2xCUW10UW9JTlJ4RXF5Nmx6UTgzbnYzeTFuemVMMFNqbVZaYy11WHJEYWJYTU9WQnhuTE9tNFE?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Salesforce won't be discarded in the AI boom, but what companies want is changing - CNBC",
+        "publisher": "CNBC",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMTN2dzRJWVdCZDlQcWx0QTFLeU1qbm5KSzVvU2dET3BvQ1JrczZWdURDekVaZ3c2LTIyNVVSWTVmZHJqd3VFeW5TUVFONmw5RG5uN3EzTG1jX3J3UENqak5oUU1EZXNwdjcydnFlQ0ZPYnQ0b0lvekpaWnNsYTFSR004Ml9sYUZ0Y1ZxY2tXdVMxQTR4T1NRRmcxRUo4WFpKWHZPTnFubHhvSW9BdmlLakd6cFhjTms?oc=5",
+        "publishTime": "2026-04-09"
+      },
+      {
+        "title": "Salesforce Bets On AI Agents With 'Headless 360' Debut Amid Software Stocks Sell-Off - Benzinga",
+        "publisher": "Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSkNjaEdjbkVldkpfV21OMkF4T0pGNXEyaTVGOHRVZmhoaHEtelhialdMQWM2Rkw0NW1SVWZNdTJMcG40X19rampIdjJuZTlrUmx0WXp1dDZWMEFtY0xEUjR6MTVsbVYzSGtWa3pVMUxuaWhnZThpTVRJSW9uYVluRXRuOGdPNmwteTlQcEF2TmNxX01fQ1VHcERzWUFaaUYxbGF3aEVDV21YN0t0b1BON3FaM0ZGUmdzSWVaMGluZVdaSFFlR1hFNVVvTUJ5cndU?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Salesforce Is Down 30% Year to Date. Here’s Why Slowing Growth and AI Are Driving the Debate in 2026 - TIKR.com",
+        "publisher": "TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVWNkSTh5akZ3RjdQMEZzZnY2MHp1LTdTc3ZKZ3g5UTJKYVdUdEwzYkJnbEJmREpVcW1peWpnZGdpUzlmTG9lenlBMUd4YTNvR3B0eUp4dFpreXIwNUxzaXVjZFRJa3NJUFNlRmYtbnJMRlY2RlV1bVNraG94aWxwUjcya0hEVTNpWFloYktVallJdHh0ZzZHM3NUcXU3WXI1OTB6aUN5VjBXcGh5RFVJT3lQd3B4NVRFaURzSUZrbE8?oc=5",
+        "publishTime": "2026-04-01"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 23.351282,
+      "forward_pe": 12.180581,
+      "eps": 7.8,
+      "revenue": 41524998144,
+      "profit_margin": 0.17958,
+      "beta": 1.288
+    },
+    "data_fetched_at": "2026-04-20T02:21:01.297196"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "company_name": "Palantir Technologies Inc.",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "current_price_usd": 146.39,
+    "currency": "USD",
+    "market_cap": 350117396480,
+    "52week_low": 89.31,
+    "52week_high": 207.52,
+    "performance": {
+      "3_month_pct": -14.37,
+      "6_month_pct": -17.81,
+      "1_year_pct": 61.22
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.96552,
+      "target_price": 186.4672,
+      "number_of_analysts": 25
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "SoundHound (SOUN) vs. Palantir (PLTR): Which AI Stock Should You Buy Ahead of Q1 Earnings? - TipRanks",
+        "publisher": "TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQWJ5THQtMGFSVHYxTUhNWVVkQlhMejc0WTRxcmIzSGNwa0FVdlhLV013YW1NTnhjbE55bWNVNE9ta1lFTVlpVzZtcU9lYmU5YVJCZWwwTkNUc0puOUwzUTNqN2lOaEhPa1dfYXZTLTYtLUJ1Q2pvSFNVMS1IVzJRaEM5TTVoT1pMQUdjLTFLeUowLXMzU3cxMTFodDQ0cDlsUl9OcUp6NkpscU85dVdyYnp5WQ?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Palantir Stock Approaches Major Breakout Level - Zacks Investment Research",
+        "publisher": "Zacks Investment Research",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUlNTG90M2VQdENuWjU4RmY3NThLRTEwbXltT1VIRXV3LXl6MXJuU09seEtCUWxKM3lLcmJhcTdIQTlEVmNoQWRyMzVJVEEwekJxWi1EVlJCZDZxdmlZSGNYNGZldmVqdjhWMjJqVFNxN3Zpa1dfQTRCc0RkYk1WU1FNZ3lCajZYekl5ME5XMlk?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "5 AI Stocks Beyond NVIDIA: Underrated Plays for 2026 - Gotrade",
+        "publisher": "Gotrade",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fRkhSV0k3aWVvSnZsZ09RdmxrZmFPR0JrN2NLRlQzanRxSGhVRDBxUk40NGp6QjltcGFhalZMQkRhT1A2Q0ZRT1J6R2FvNVJLbHhNcjNnZDMtUXdLcHE4NTBkNy1CaW1ZRGt0N1lB?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Prediction: 1 Artificial Intelligence (AI) Stock That Will Be Worth More Than Palantir and Micron Combined by 2028 - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMHFzdkpnYk9ULUZEa05kbmJLcDFkV1ZRWFBSNGtuTFFoUGVVd2wwQVJoTmY2c1dJcEg0SEM5bThjTVlvNGExdWVWblVsUGdEWmwtY1JpTWwySV9mcTJwZEc5c0Yzb0pRa2xqWmloY0ZiX29mc2dPdWJuT2Yxdm9qMnRYcFRPbTltQzFZSmZ3bUphdFh6RFV2Zg?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Palantir plunges 35%: 3 key factors ahead of May 5 earnings - Rolling Out",
+        "publisher": "Rolling Out",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT0NrUDZ4TWF1U1RzMk1ubVZsRklJbU1rMzUyR1Mza0JzLXRlSHJuSVBvT0tCQm9LVzlRM1VRdnZvbzcxMTVoeEFBNkVlRWs5VTd2RHJZcVNGMnF1SXhXVjlRZ0hMWGNDSXNuN3lNcVRPWVhkdmtmVkNpOFRCd2VXWQ?oc=5",
+        "publishTime": "2026-04-19"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 232.36508,
+      "forward_pe": 78.5995,
+      "eps": 0.63,
+      "revenue": 4475445760,
+      "profit_margin": 0.36310002,
+      "beta": 1.674
+    },
+    "data_fetched_at": "2026-04-20T02:21:02.450584"
+  },
+  "DDOG": {
+    "symbol": "DDOG",
+    "company_name": "Datadog, Inc.",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "current_price_usd": 126.61,
+    "currency": "USD",
+    "market_cap": 44801118208,
+    "52week_low": 87.695,
+    "52week_high": 201.69,
+    "performance": {
+      "3_month_pct": 6.38,
+      "6_month_pct": -16.25,
+      "1_year_pct": 42.39
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.41667,
+      "target_price": 179.32777,
+      "number_of_analysts": 45
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Why Datadog (DDOG) Stock Is Up Today - StockStory",
+        "publisher": "StockStory",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZk9fTTdDZzh4NGNrdTVMLWJaU0t1aWhIMkZldVhldWROWHhfSjVTUGF3OExqdVFVbWNRUE4tcG1nQXZNek83Z3FWUXE5S1pHYjh3TDg3ZGVxaGhodWFtVjFhY2YycXcwaVZJc1hlM1JTay1teElZWW00Rk9DNU9zaUVxTmlwd09lLUJJQXFMXzV6Q29INGtfSFpRbXpqSTg?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Datadog’s Price Target Trimmed by Mizuho: Can This AI Monitoring Leader Deliver in Q1? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcVFXYnZDYVlxZEFyRTZOMFVGWDdPRk1nUE11a25vZ01ZdVNtRDR4UHpyZFZEMEpMZ3JwMkk1Y2xqdTN3REpXQXhDQm0zRVFGRDhhejB2dFRXS3E1a2NvNjN5WjRCUjVLNnJ1QmNOM1RLd2dtS1pSeXUzSlJubjk1bFRnWnpYZzdjQ0lUUWw0Y09wS1BHNHN0Q1g2dWVEMEQ4WFoyeTMyY3l1TFJRWVJDYkhZRGNNVk1OdXRzZXZMOEpBWUIwV2c?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "Datadog, Palantir have potential to accelerate growth, raise outlook: Morgan Stanley - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcHlsTENhZWt3SmRrTTF2Sm8zTnh1eVpCZHNBTm51Wk9hNVdmOWlPNHdVRUIyOGF2RmRFY1VKa09sQ0x0MThGOWpRWU1JTTJuRlZ4SFphVlNaNkV0bjVDeTcwcnNobFBFaGE0ODliRW5tbjBVczA3eExzNldiM3NudjY2N3dXdEs0NTBQSk5pY2RNWlg4cUJib0xnX281d25TTnBBQXdwMmJMTFRsRUpiOC1sVEppcXRQajdZ?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Will Datadog Stock Sustain Growth on Rising AI Cloud Monitoring Spend? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdGtwM0NuSEEyemRwWlpTZmltUnpKZmtIcnI2YzFPaUpFUDJnUElQbTQtck8xdVpIV0c3ay1GemlkTHNGUjNxTzZPd2I0UW05UFZ1SXNKNlFuRTBrYVJGMmVGY2pZVk9sMUpYVmJwWnRTS3VQbFctOHhDZ3VUUVNHQUU4RGRGMmpt?oc=5",
+        "publishTime": "2026-02-19"
+      },
+      {
+        "title": "Datadog Stock Surges 15% After Q4 Earnings Beat. Analysts See 45% Upside to $188 Target - TIKR.com",
+        "publisher": "TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNS0pjMG9kd2I3WEVvNTNmVGo4WUtXR1F6bWFkX3E5dnFoNHNpZFJ3SElzak1pUWFlWm9mcUxzdDRLeURlWnAydTlYaDBFMXJPZjd4MWpjYTl0N0E1QmdHcnNiT2FKVVdPTHdWbTFjVHRNTHNTNTFpNjQwcjkxSjNVcWw3cWpuVDBCTVEydGV2Qk91YlVYOTJCSEt4NVR4TzNXcmVNZVNYTzd6UXdUdHc?oc=5",
+        "publishTime": "2026-02-11"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 422.03333,
+      "forward_pe": 48.021637,
+      "eps": 0.3,
+      "revenue": 3427158016,
+      "profit_margin": 0.03144,
+      "beta": 1.294
+    },
+    "data_fetched_at": "2026-04-20T02:21:03.631597"
+  },
+  "SNOW": {
+    "symbol": "SNOW",
+    "company_name": "Snowflake Inc.",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "current_price_usd": 143.98,
+    "currency": "USD",
+    "market_cap": 49773883392,
+    "52week_low": 118.3,
+    "52week_high": 280.67,
+    "performance": {
+      "3_month_pct": -31.56,
+      "6_month_pct": -40.02,
+      "1_year_pct": 5.09
+    },
+    "analyst": {
+      "recommendation": "Güçlü Al",
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.43137,
+      "target_price": 236.61105,
+      "number_of_analysts": 47
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "KeyBanc Trims Snowflake's Target to $200 as AI-Native Rivals Circle: Is the Data Cloud King Under Threat? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVGhoWkpfZTExNmtTWllHSVMtRzU3YlpNeG5XVTB5OEt4eG8taWVObFh5UzVqbThHNWFFYVNiRHk5ZFJtUDBGYXdFdjZqV3BpdmFSOEFZNXEwLVc3TjJsYldCeFF1ZW13SGlRTzJ6ZlNKRkQzNDIyRVA2Y3FkbmJyM2d0WUFfdjZHOG0yQ09CeE9FX0RYMXliZEtGUUoxLVdzY20wZ2Rtck5ON0s3UkNBa05nVnd0cHhqZ1IzX2plSDFVODd1ZnZkNjR4ODNocXUteEtsUlhKMmxVaEhXNGc?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Snowflake (SNOW) Stock Trades Up, Here Is Why - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUFdCbXc5aDg0TnAyVTJ5SU1EN1h4UWZ0cnJyNzdrMk9ha3I0Yk9URnh0NHhDRGY2cGdKYjJWT1BfZ2VJSWlqVDFEMVRCWTdyeEw2Y2J3b0Y2Zkk0WHRCNFB1NXRtcTh5V0RMRnFGZmNTUEQ0YkpJQkJ6Q3JWa3lSOUExZWRFUW9qNmItUGMwaHZOT0c5ZkR5VllRaEQ?oc=5",
+        "publishTime": "2026-04-08"
+      },
+      {
+        "title": "Why Snowflake (SNOW) Shares Are Falling Today - TradingView",
+        "publisher": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT3FENEE3Wl9tZ1JJNGVaWkl4UjdUMGFuMm5ibTVndnd3WHk3d1EyeHZDZWVfRGxxN3pmSnM1M0ZPN3p6MlpyS1dINzVVMW5faXR6T3Z6eHFhaldHNnp1dWpGeWlZZnlISW1NdVIxM0sxTmR0eUdfZW1rLUF0QVlUM3BxSnd4SGdFRDhGbUlSRXhLV3V5dGo5RllIUW1GM2ZtM0xNNTdiZw?oc=5",
+        "publishTime": "2026-04-10"
+      },
+      {
+        "title": "Snowflake’s AI Bet Is Working—So Why Is The Stock Down? - Trefis",
+        "publisher": "Trefis",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjJfM3lvekRkdVNDNEJXaFV5VDk3NTJ5ZVVRRE9VN3l4R3dxQXg5TTM2dUNNeVNpbC1Hdjh1X0JPMGFXNlZQM3MxZ19wVTBvWUFqQjRoZEJtazA1WHpNaENDUS0yc1BDdUx3WVhEUTZVNDZOcHVXRTBub3RuenM3U19UV2lKb1kzeGF3cE9CZ2g4dkFOQlNwcFJDVm1ETTgzN2pTT3U3MmhURE45cFc5ZjFMRHY?oc=5",
+        "publishTime": "2026-03-30"
+      },
+      {
+        "title": "Let It SNOW: Can Cortex Power Snowflake’s Stock to New Highs? - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEVmVjhGZ1AwMzBwQ19BQmxPOGlPZUtLYl9oekpnRUhPQjJEUkk2Z3hfYkl6b2NUSGRnU3Qxc3NCREhTZFoxNWtXRzBrU1NxR2lBd1dNSGpHLVlEYXlTNVlObGprdTh3V3k4eUVScXNwNGxNNlFWajRja3RJSzQxR09udjVjdEtibVV6bzI2anlobkNpU3RkZXVEdmY?oc=5",
+        "publishTime": "2026-04-07"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 59.294704,
+      "eps": -3.95,
+      "revenue": 4683945984,
+      "profit_margin": -0.28429002,
+      "beta": 1.228
+    },
+    "data_fetched_at": "2026-04-20T02:21:04.821031"
+  },
+  "UPST": {
+    "symbol": "UPST",
+    "company_name": "Upstart Holdings, Inc.",
+    "category": "Yarı İletken/Yazılım",
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "current_price_usd": 34.57,
+    "currency": "USD",
+    "market_cap": 3308600064,
+    "52week_low": 23.965,
+    "52week_high": 87.3,
+    "performance": {
+      "3_month_pct": -28.16,
+      "6_month_pct": -27.66,
+      "1_year_pct": -13.03
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.13333,
+      "target_price": 43.93333,
+      "number_of_analysts": 15
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Are AI Model 22 Lawsuits Altering The Investment Case For Upstart Holdings (UPST)? - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNV0tVenZWSWJUaDBLc1ZWTm12SDE0LThZaC1kTm4zZl9yNnZOWG1Vc2VxNUtOdThGLTFnVWoteWFOUjJQMW40bnphN3h1ZGdOTG1LcEhtQ09PSklfbnIyTmNfaXUxWkpJalpuMElzN1VRNS1zZ3BFcV9sd1E2ZEFac0lFYUJoZDhBdW1sUC1nbkI0NlpDUHNwTHRoY3owalJDZE10TFBXMFExYjhLb1V2QzY4elBnMlBkWHcza2NtV1NQVTFaMmZuR1F6WjVyOWJvVFRMVTNBTUlMU0NCTXJHLTJwVdIB6AFBVV95cUxPaDNpbW9FT1ZNNjVoS2RvUWZRWjFBclRfcFNUSVRHa2J2ajV0T2cxZEVwNEROclgwM2ZYVXZBRHdXblhQdUZtYmptYjJSdWxSN3AxNnUyN2dZcWxpOHJ6RUJTczV5aVNrYzhkcTJNLTFGZE9MaXc4VU5yQkgtSDdaZkRjYWhqLTNiTGVhNmlqcEtFRTNqSFNvRXRycEpIOG5kWUgzUVkxd3V1VEpjU1VHbDU3eFpoZVRzckN5WkNkN2NRQmJPcmhtLTVkb20tUmR5Q1FhTTVWVUhWTHZLUTdGeFBhUENMTnZP?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "Upstart Soars 14%, Affirm Climbs 7%: Two Fintech Disruptors Signal the Sector May Be Turning a Corner - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZHAydkhIVmpndWFoS0cxUFh1U093N05IREExWENPUUxOUENUV3JMQUp4MzNUS1FKeW40Tnc3V09Dc2d4YVNhckF5MWpLX3c5cm1nTTdFeHE2R09JbjZINUZOVWpyTmI2LS1zX281bElDRXdZMTVHbE1nX1ctR0NjR0tULUR6cW15YzUya0VsNmVSN3EwQVlHUnNNaVFKdGpEdzZxQy1oVXRPa1Zyc1g5RktRcGNlTS1QX1MzdlpnQ1RwNlhQZHoxUGJaMjVzbU5wb0pvMUFnNGs?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "2 Overlooked AI Stocks to Buy Before They Soar Up to 100% in 2026, According to Wall Street Analysts - AOL.com",
+        "publisher": "AOL.com",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fbzRLdTdCUnV4dEhXdm1WTHN2T0NrSU1RLWZ4WnpHVmxQZHlLQjFfWU0ybkNBTEhPRjdyYVJoWHc5MG96OGV3TkNpTWR2M1FGWjBkVUJyOVZwZ0FNV003R1oxc01vYXNTMlBWSUNn?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "PayPal vs. Upstart: Which Fintech Stock is the Better Buy Now? - TradingView",
+        "publisher": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeDNEY0ZFWGtHMTFpYmlXTERJRDRoQVVZYzVrSk9nbV9pZDRzSDVURkRaeFMzVjBPX3YyaWl0SllkOHhWWVpBbjBiMDI0OW81QXdMbktweUxKcF9FR1pRWWxIeGRoeGEzalc5bU1uSDVZekR3U2hzTzN0UWtZM0llVkkzRXNRX2xJUEljcUp2UGljdHZmcDhib1NGOWRlMmZlcTd6VGNxU0ZleVJ1Szh1aUNtbGRMUQ?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Is This Beaten-Down Financial Stock Finally Worth Buying? - The Globe and Mail",
+        "publisher": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNE1KYUNscjVJYUt6cXo3TTZUdjJ3bVdZY1o4eTFBM1JrbXBMenZkWlAwRW9WRlNscFl5ZFUxaXMwbGhzejA0RFRiOXpSQ1lrYkdzcnBnOFc5YjRiRHdld1lqdW9peDhHeGtSUU05eWJSY1BfNDlLRGN1T0M1Q0VtdUZ1RFoySzBnUWFqN1lyWjBub3NhX25YSHVtd09CaDBwOXVWbkhjUXE2NDk1WGJxQ2w4MFItZEVzcjEzOHlVZ1FudnV0UUxURWhKWGxtUllOcklWRkZ5UTk?oc=5",
+        "publishTime": "2026-04-16"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 76.82222,
+      "forward_pe": 10.886166,
+      "eps": 0.45,
+      "revenue": 1075521024,
+      "profit_margin": 0.049840003,
+      "beta": 2.163
+    },
+    "data_fetched_at": "2026-04-20T02:21:06.124734"
+  },
+  "ENPH": {
+    "symbol": "ENPH",
+    "company_name": "Enphase Energy, Inc.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Technology",
+    "industry": "Solar",
+    "current_price_usd": 32.48,
+    "currency": "USD",
+    "market_cap": 4280342528,
+    "52week_low": 25.78,
+    "52week_high": 54.72,
+    "performance": {
+      "3_month_pct": -7.15,
+      "6_month_pct": -13.53,
+      "1_year_pct": -37.08
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.5625,
+      "target_price": 45.74643,
+      "number_of_analysts": 28
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Jim Cramer Says Enphase (ENPH) Has Been a “Disappointment for Too Long” - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb3F6SkR5cjYyVlRrWC1aTFpuTDdOeGpmQ3Y2YUIwVURFaEdyQUlNU2JQTXAxRmdSNFRvZ0d0dUJoNmx0QzV1ZDEzNmZQeFZBWHh1WlBOVXdQOE5NaVEzNUdZOVhwSWVQS3JTLWlyS2hYd1FEa0RSam1PMi13ZkhLMzZyeDVDUmlpYWJvTGpuUE5UdVpkalZsMA?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "Which Solar Stocks Are Rising And Falling As China Considers Export Ban? - Investor's Business Daily",
+        "publisher": "Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXNnbk8xT1lLa25RQzlXTXhwOXY2eUxGdnZXX2VJR1lGZlNfdWhLcVNJd3VqYXl6cHlVeG1tQVc0ZU9rSldvOE91Mmd1VG5TQjJodUJYUHM1enRXUm04WnhSY0txaFRoa0xqUk5SY2RnMXVTMDhEamxPRmNRSVZ1bjFsZUFQTWFuTGpXT2JER2o3c3FIZFl6bnFSaDVtajVadzB2cQ?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Enphase (ENPH) Stock Down Signficantly After Jim Cramer Advised Selling It - MSN",
+        "publisher": "MSN",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOTBOV0RKV0ZCLUZ2dXFJeElMRzM1dGVlMXRjOEVZcGpKd3JrUU5SOTdhbGJMeXFsU1FZOElJMDZXWmhQSkJBdUk0dUJRa0x5Q01zSDlzQ1hOak82SXNxdDE0R2NvV1NwZHZkTG1aZWNXaW1qUHNJbFF4cUlKYmNOUjhTdXJSLU0waHZSZEdXSlVsVTczSUpmWlBlTm9FVGxEQmM3NlVuUUE0X1o3TU1IQVUxdDVleGZvaE12RmJleFdJdw?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "Why First Solar Stands Out Among Its Peers: Does It Belong in Your Portfolio? - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeUk4ZUxoNlZwd3dzUWYzcTZ5T3hRQlhza202VzYxZE9CYlJmZW5id3NnZzN5MkZTQy1JdTFyd2xvMl9kckpoZnlwZVZLTlFOY1A3RlpKYnZDYlVlVUNQLXJibEZnQl9XOVZTaGxjSEdmVnNsYUdENDZnZTdIQWJXWGdnMk44Rk1tOXcwVHRpclYzSC1DMmtTR0JESG9pUjQzWTFBdkJZellwVHdvbzR2by1mOXZMVWJjMHNZ?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "RBC Capital Remains a Buy on Enphase Energy (ENPH) - The Globe and Mail",
+        "publisher": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdGRfVE1rdEVGUWxQUGJ3NzBkTlNST3BBdzExY1RNSklZWTVzd1ZNWTJsUzM0N3NjZW9mMGIwTFJ2LUNhZy1rV1lWdS02ZjFIZndZN1ZRNWpVS2RibUlwRlNDczZiSmZDSWtPMnJ0S3dZSVFpR2J5Ymo3ZFBmLUxPTGpBS3BjZDVLbEx3dkVsQ0lqYlRkUHpvbkRKMzVpY2lLZk92WnliVEozbW41R1I2c1JaQ09SNENiNEd5YlRBd1BmUmdBWFN5alpzRC1GQQ?oc=5",
+        "publishTime": "2026-04-15"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 25.178295,
+      "forward_pe": 12.002735,
+      "eps": 1.29,
+      "revenue": 1472984960,
+      "profit_margin": 0.11686,
+      "beta": 1.381
+    },
+    "data_fetched_at": "2026-04-20T02:21:07.455552"
+  },
+  "RUN": {
+    "symbol": "RUN",
+    "company_name": "Sunrun Inc.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Technology",
+    "industry": "Solar",
+    "current_price_usd": 12.4,
+    "currency": "USD",
+    "market_cap": 2920344320,
+    "52week_low": 5.38,
+    "52week_high": 22.44,
+    "performance": {
+      "3_month_pct": -31.98,
+      "6_month_pct": -38.43,
+      "1_year_pct": 88.74
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.04545,
+      "target_price": 20.23684,
+      "number_of_analysts": 19
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Why Sunrun Stock Dimmed This Week - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWTc2U0JJUXdOQktFMC1HRlQ4TkE2Q19jUFVEU0lfOEJDUnBCbU9iekZTVGY4dVJLUUxVZEhpMHhuUFJzY096V00tanRpaHhSVVRWSV9QMzlhRGQ0TXVXQmFLUnkyMVFnY05RRHExNVlzMk1Sal80YkY2YzNtQUdidk53?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Why Sunrun (RUN) Stock Is Trading Up Today - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zTW9DWlcxNDBLOFNEeF8zTlU4S0xxWHM3Z0xkdmxpNk1TYlhlWUxnZmlUSFZRaTVsTHVHUW5vTUE4N1dvaWtoSGcwQi03Nk9QX2tCT1pUeWZFS21maUkxUnlBdXRHSmpVcU9UeF9vYUVuNG1IR1RLMExjTjRBRms?oc=5",
+        "publishTime": "2026-02-04"
+      },
+      {
+        "title": "Why Sunrun (RUN) Is Up 8.9% After $431 Million Solar Securitization And Analyst Upgrades - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYkJJQUFFaTZ4dXo0NmgxLVAxMGZCRnJIVDlCQWFHMEZ3N2N1SUpBaHFRRW5NaGV0azU5Q2xsYnVSVkNDdUNIUWhyVnVNRHBIOHNEUGZfRUNoY3I3ZW9wNW5RQVJicnpKVVZiNkZSQldDc2ZSa3JfaFl1akJCRW9nMno5cUN4S194X1BNOURDWWRocHFRQldLblVCaHpFd2VKTWNZY24ycFdIcldUcWh1czk0WjVzWnVtNExRa0JmSGNIakdpakVZOdIBzgFBVV95cUxQbklleVQ4Z0EyYTViaWsxRDR5TjJkcmRqTXJ2OElyZXNIZmlIYmhtRER1a0pkRkZMcE5FNUk4RWZxamFIZFZFNDV2eU54cE9FYW1Ma0dvNDV1ejNjeEhaWWZJejFfNFdGamhoa1FSR3pXMWhELWk5YzJUVDNjZEdFY1JvZkJVUEVSZF9qUmgxSUFUZVdJRElVZHZKaXNLOUlCUUt5WmpuWGJ1ZmhVOFJGTHBKVWtLQVNzUnNJNnRWRzE1SFVsVGRCM1g4UThOdw?oc=5",
+        "publishTime": "2026-04-03"
+      },
+      {
+        "title": "Sunrun Earnings Beat Expectations. Why the Stock Is Down 38%. - Barron's",
+        "publisher": "Barron's",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtYm91cVJpY3k4MWRlbVZET3ZOckpzZldDTXRsT2hEb2Z1UkJQM1VFQS0wQm1pR3JwSHVMNUNUeFB3VXBYQU1xUVdabmVyOWxESmo0YVp2WUFGVDd5OTQzZURYY1J1Z2tvTjFMYWliVHBZdmJ4SHktQg?oc=5",
+        "publishTime": "2026-02-27"
+      },
+      {
+        "title": "Sunrun (RUN) stock drops despite market gains: Important facts to note - MSN",
+        "publisher": "MSN",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY180MzhYMlZ1ZnBLcmY4ZTNlMnZfcTNfbmtnanItSUtNU2tmcng1NHpXYkxBSkVONktVOFBEZEVnTGFIUHVXR3NhVERGRnFWVldscFpqZU9UQUFFblJjcDlfMWhzcTFQeFNPYkdPYXcxSU9ScmN4dU1OenluV2xpZ2NCRjRSMjVnYWh6aWlYVXh2cGR4bnpOWFl2WWNEZFBCeUNsZ2FfM01FS2xXb014V0hjUlQyTjFVaUJJM1NR?oc=5",
+        "publishTime": "2026-04-14"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 7.2514615,
+      "forward_pe": 20.1708,
+      "eps": 1.71,
+      "revenue": 2956997120,
+      "profit_margin": 0.15215999,
+      "beta": 2.368
+    },
+    "data_fetched_at": "2026-04-20T02:21:08.798583"
+  },
+  "SEDG": {
+    "symbol": "SEDG",
+    "company_name": "SolarEdge Technologies, Inc.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Technology",
+    "industry": "Solar",
+    "current_price_usd": 38.3,
+    "currency": "USD",
+    "market_cap": 2312028928,
+    "52week_low": 11.45,
+    "52week_high": 53.75,
+    "performance": {
+      "3_month_pct": 12.95,
+      "6_month_pct": -4.51,
+      "1_year_pct": 216.53
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 3.18519,
+      "target_price": 37.09091,
+      "number_of_analysts": 22
+    },
+    "investor_sentiment": "NEGATİF",
+    "top_news": [
+      {
+        "title": "SolarEdge Technologies (SEDG) stock slides as market rises: Facts to know before you trade - MSN",
+        "publisher": "MSN",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOb1F0VDl3R2k3bUNsWmh2TDVWUUhFWHRTalNXWTJ0T1NNMlhyTXdsa2hiZHp6SVdvb1A5N2p5U18wa1pwTXlCd25yOVhkMjBsaDN4SVVVVFNLUHEyT25mZEpuQm9wMWhHN09STmpRQkZpUWFRVzFHeUtMV3ZXcDYyT05mWktRdnFlT2xXemdJTzNSWUJSTHFwTVRTRVAzMHFlV0VVbDcxbDZiNHY5d1h0UnE5T1JaaTF2SnJsblNUb0tVdnFneVFZNVZna1JKN1kwcGdQeTBmODk?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "SolarEdge Technologies (NASDAQ:SEDG) Stock Rating Lowered by The Goldman Sachs Group - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcFlvS0R4OURkMEJUR3JOLW1lblV0Y2duYkNOQ0VsUUZtV3Q5eXRZNHhZTGN0dDJUWmZTdWpnVTlSLURzVnN2dmJDYlNweTJOMkRzZkVsSUt1YnRkUUNCZkMyNDNFeW9pVFowUDgtVmx2Z0diaVMxTlZyZXZncjI2akVpMHBEVTFLT2pBXzVJTU1qenVRejRNSGZLZlk1RzY3clJMamhhT1lPRURKSVdsTGk4cjZyajZIOWdrQ3NkYlZySDgwdUNXbGQ1Ym01YjZr?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Is SolarEdge Technologies (SEDG) Attractive After 203% One Year Rally And Mixed Valuation Signals - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX3RYS0tjajQxQ3VQRkxzeTM5NVlaem01eVcxWEE3OUw5S2lqYnFjUEVpQTZfWHk2eGE5UlJFN3ROamU1ZDV0QkFqcFpwdlAzVldXTEhtSUxCVHRfQ1NZN0V0bmV5SFI1THJjMFZhZnJ5ZmJZc3ZrSHFNZDRBMFpnVy1zYVVtQk90UzhrY0Y4ekthZlR3XzV2dlMzNmpkOG9QQzFqdTNCM3BzbWM?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "SolarEdge (SEDG) Recast as Speculative Turnaround Play Amid Heavier Leverage: Is the Risk Story Shifting? - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYktiQkJvWFpaWVBzNUxSdDdWQ1hNSUl4dTVKcGVPTHFkd2phZU1sMkV0UmkzUGNjenlKMXJBZFRDMFpMSEE3bTR6Z01RQTJ3YWZnV1ZXcmZsM0xFMFBYWWZYMEM0eGh0cHhzT3p4bkRtb05SbU90SF9reWI0djM4VjlQQi0tTndpVWNSaVcwcDRTQ1dOUHJ4bXJ2Ukx5ZTdROXBsb0FKNjdGR2ZISXJjZy1QSVlNZnc1c0VydmZiLTVlcldMbnRPSzR6dHBkZGpyTXNzZ0ZqV21QSnRGZXZnQtIB5gFBVV95cUxNaUdEcjB3blZxSjBlX0huQ3Jvcnd5ZFVkM0tuOExKTXlqaVhGZElfdEQ4QnFfLXphenA2QjhHNWxsZGJqN2FvOTdtb3VYMXUzeTJkTlMwNjRFQk1hMHczZlJvR1FqOGdmQ1gzOUU3TlNGZjlLU0NDb2phZGRobFMzSjhFY1VYWDdJOFBzbzFvYzA2QmRjZjdqa3FoUk5IYlF4aXB0cFhyT2dIMXZXa1B5Z0dJdXZHeDBNRVpvNmhJZDBTVjN1Z29VM3kzTUd5X1JUWjZ2dm5va0phWFp5cnBUdDZZemVXZw?oc=5",
+        "publishTime": "2026-04-18"
+      },
+      {
+        "title": "SolarEdge Technologies: Up 200% In 12 Months And Room For More Ahead (NASDAQ:SEDG) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdEExeEhIcDY3bUM5NFUxdld1cHg2a2M3Q21sRkxmR3RKV1JJVURrblN5TGxfaGZueTExVllLY2pRZEc4Vl9IYUNKUVk2M3JxbmJzWklkMmFaQ0VoQ2t6MTduSWtVWDljaTJjVEh1aEpfZVJORkhfa0wtLXlscUZ1TEszajB3b0NNdUozY0NWRFdsZ1RUNnpyWWlCWHZSTUdTTWUzREg5cGhVbEhfZGVMRWhYcnptQQ?oc=5",
+        "publishTime": "2026-04-14"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 21.532095,
+      "eps": -6.88,
+      "revenue": 1184444032,
+      "profit_margin": -0.34230998,
+      "beta": 1.346
+    },
+    "data_fetched_at": "2026-04-20T02:21:10.162288"
+  },
+  "JKS": {
+    "symbol": "JKS",
+    "company_name": "JinkoSolar Holding Co., Ltd.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Technology",
+    "industry": "Solar",
+    "current_price_usd": 21.36,
+    "currency": "USD",
+    "market_cap": 1103296128,
+    "52week_low": 15.55,
+    "52week_high": 31.88,
+    "performance": {
+      "3_month_pct": -27.59,
+      "6_month_pct": -10.85,
+      "1_year_pct": 38.93
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.25,
+      "target_price": 32.95125,
+      "number_of_analysts": 8
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Why JinkoSolar Stock Is Plummeting Today - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTnlvV25TOWNKNFRkYWNPYUxqNVR2UVFWckkxRmhCcDRfNktOUGtkeThXT3R3VU43ZkFTZDdoNjZLS1dvX05VaTVLZjhTbHRfeEh1bXdJX1h0UW56cU82d3B0RTZFTFZfNld3NC1Ka3BETkhKOURSQzV5eGh2anJIOUJ6SnVZZGdLUkJ3?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Short Interest in JinkoSolar Holding Company Limited (NYSE:JKS) Decreases By 21.5% - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMVE4c3VUVXRuS0dvMmZHZDloVkZBV3FNU3lHYWh5T3lfQWNzT1hvRE1pcUdvLWIzR1pRS3NoQnFRWUxkSHNoYmFrZ19WWG8xd3kybG14UTB2cTlxZWR2NG80Z3Nqd2w4YzRGWDVhQWdxd3dYLTAzWnV5XzJ4RVNaZGRmejBvVm1QRldscWpoZkZqS21CUnBqclpBTFF0NVRNeVF5Rkx2LWJ1cVJLV0JmM1NMTlBWREV1bjNVZjh0Ukpxd2U1dEdvU2xGMA?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Top solar shipper lost RMB4.45B in 2025 as module margins sank - Stock Titan",
+        "publisher": "Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT25aQ1owdGc1cl9Oa05TeUlYTzhKc2h0OEFPY3lSdFNmMTJhdllrNVo1bVNMMkhXTkJWYkhucVItQjg2TXZWQzFvU0FfaEJ2amNQcVVzdTVXcTBiRDd5dUZBZjFMTEhFd01yRlpFVEVZZGEyTE9Uamt1aUtOOXhCUE5FQm5UZGdjZzdmNDFUblFUS2syeHJEZ3VQaUY?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Is It Time To Reassess JinkoSolar Holding (NYSE:JKS) After Recent Share Price Weakness - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTlVrU3MwVEVWbTNnVDExUVJTazdDX2oxQWwxaG1JdWt6VE16Nkl1b3pqM1lGUHE4bHJHbVJBZmFFYkhrQmo0My1Eb0xTNGFBX1lzajdqQ2ctbDU0VFlRalMyLW52Nlg0bkJFazlvbVZSNGVQNXdCQklUYnd4a194S3NKYTRxcm5PWGN3?oc=5",
+        "publishTime": "2026-02-17"
+      },
+      {
+        "title": "JinkoSolar: Facing A Double-Edged Sword (NYSE:JKS) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVFozX3pSU1RNamR2MW5CdUx2Z1Z5aHhPMDJoT3pDQmZDaXVBN0ZDdzQ1TVM1cVh6NXR4T245N3MweWtacFZSZG9iS3dUR2NaeXhKY1NVb0dCUFdDOVh6N1VsbVdpcE1xclZvUDdTbGZpd0RraVpPbmdCNGxhM1BWUWY1enBDbU0?oc=5",
+        "publishTime": "2026-02-03"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 59.831936,
+      "eps": -12.51,
+      "revenue": 65497645056,
+      "profit_margin": -0.06787,
+      "beta": 0.545
+    },
+    "data_fetched_at": "2026-04-20T02:21:11.532680"
+  },
+  "DQ": {
+    "symbol": "DQ",
+    "company_name": "Daqo New Energy Corp.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "current_price_usd": 21.86,
+    "currency": "USD",
+    "market_cap": 1465859840,
+    "52week_low": 12.41,
+    "52week_high": 36.59,
+    "performance": {
+      "3_month_pct": -13.19,
+      "6_month_pct": -20.01,
+      "1_year_pct": 66.49
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.81818,
+      "target_price": 31.864,
+      "number_of_analysts": 10
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "Q1 2026 results call scheduled by Daqo New Energy (NYSE: DQ) - Stock Titan",
+        "publisher": "Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR2hrM01MOURxSGxoWk1IVmlua0tCRjVKc3FtV2ZxWXRRQTNKWXI2aHRjaVVXcnhKREVMQ1Z0dzFvZ3VaUzV4NkdjeHdYQTk1OHktZHNOWGpBaVlyeFpiOE9pT0JVTy1VT2tVTklxSDhGQ21Ua3FTUU9PSkZEbk9hVS1TSFdlNHJHM2pVeWtyRFVoUmpYNTI2ZktfbUJjeHdoWlVqSmpvanJTalFMRGNjak5QRWE?oc=5",
+        "publishTime": "2026-04-15"
+      },
+      {
+        "title": "Daqo New Energy stock (KYG2707N1046): Why Google Discover changes matter more now - AD HOC NEWS",
+        "publisher": "AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWHZxcmtPYkxOQWd6S25feEtFNWx4Z3BtSHJHN09EVUowNWgxTjlTc2Zmd0o4aVRxaHBXTGRzYVJnZ0V4RWl2MVQ3NU1GYU5ISmhBSHFDOVVwWkVNY2hRNXN0NTZ1bGVnSkZLOVhzREltNE5Yd0d0QWJpVnQ0OWoyVVQxXzFIWjFaenZxeTZsMWtnLUZyS1hsQ1Jkd2E0NmowWVdKQnJJRUw3MTRXV1FVX2stX1dwQmxvM1I2bmVqMGs?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Polunin Capital Partners Ltd Purchases 174,747 Shares of DAQO New Energy Corp. $DQ - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPU2Q5ZGFoLWMxZ0psMVJ4WFM2UThlMGM5TkpLWlNLbjVaV0pxSUZyRl9jdXJwSXFZZnBQS1hESzVqM29FTTNjdnkxYkN5OVlMQzVETVlaY1NaQUlhWnFRRU4zb1RSUnQwWnhiNVk5TndHQ2lNbzZ4RXFZSnp3cTFHZ0J0cE9MVDAtdGRXbVg2VlRjOE1DcXQtUURTclo1VXVmUFZFVHVWZE9xbVRfZjhDUzRwWlBrUUdQbGhhYkxNR0xZNS16NjZiY2FnbVEweE9oVjFKU1RBQQ?oc=5",
+        "publishTime": "2026-04-04"
+      },
+      {
+        "title": "Daqo New Energy: Why Now Is The Time To Bet On A Turnaround - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzdzNjhfVTJGODNBVVJCOWFRZmhPN21OaEh3X2JYOUJ2R2UtcnJteUVlNWNhS0F5ZXZBM3Z3SDlES01HNzZza1lEOV82ZEdxbXZpU0tta181S2JIZ2VCQWJ3QUFxZmgtMU5ka1ZwamwwWktoMGdVclBodlB6enpXQW5KLTUzenQ0N1N5OHB1b0tXTXJxVEhQeEJudkJpc1Fq?oc=5",
+        "publishTime": "2026-03-12"
+      },
+      {
+        "title": "Daqo New Energy’s (DQ) Plans to Enhance N-Type Technology as Net Loss Narrows - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hQjNQY2t5Z3F1TnlhRlhQLW1DQXUxN0FJNUJDc2hMczJ3QkxkVnpmWWFHS1lFMF94bVBKb0JwdW1sYkhmVndZVWNVQkVRWm9WWEdTMmhlckR1VGJvdmtFSFkyZmpjUTFQTHR1eXdmUnpZak5Tc1lfY1hndlBfUEE?oc=5",
+        "publishTime": "2025-09-12"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 19.878149,
+      "eps": -2.53,
+      "revenue": 665414976,
+      "profit_margin": -0.25625,
+      "beta": 0.802
+    },
+    "data_fetched_at": "2026-04-20T02:21:13.067971"
+  },
+  "NEE": {
+    "symbol": "NEE",
+    "company_name": "NextEra Energy, Inc.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "current_price_usd": 91.98,
+    "currency": "USD",
+    "market_cap": 191806160896,
+    "52week_low": 63.64,
+    "52week_high": 96.21,
+    "performance": {
+      "3_month_pct": 10.73,
+      "6_month_pct": 9.62,
+      "1_year_pct": 46.44
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.91667,
+      "target_price": 95.56636,
+      "number_of_analysts": 22
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "NextEra Energy, Inc. $NEE Shares Sold by Summit Wealth Partners LLC - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWVfVk1aVnJjTzdhUTBfaG0xRVRJRFdWR1gwSy1fT0NqWTNQWUV2angyV2RYbkpXVmVVWHlxVnZqOTZpMVczM21WQUVTMW1DU1l4MTVBWHlHSHBfaDNiTUFpaTR5Y3VtVndXbnQydVdYaHROSXA4Q0F3UXZ5Y3g5SGNOYzhBRGpKY2VYclFWaGRJUUI0TnRYZWtrYkNVT1JfWVl3eWxWaUdUdFhzclNqdnRSdzJxSVY1cmZid2hkUXU1V28?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "NEE Stock Price, Quote & Chart | NEXTERA ENERGY INC (NYSE:NEE) - ChartMill",
+        "publisher": "ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtQVo2NlRLdFU4MkJYREEtbjlnbGFNTGdlaS1CYzlnZGRBSnJLNlpWN1RMdlB5WnY3OVZwalB5cFRXZ0xJcHU5dVpaaGp5bkRENmlRek1nQVA3RUhiSEE?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "NextEra Energy (NEE) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbWJwZWFESmdRdnhpMnRTd2ZDajVSUjY3SE9ROHR0dGI0VmplNEVKTmN1VHBTQlo4ZE5mS1VoSzhDWHdqa2doOGxIUTVlNDBQLURvUEQ5RVVuZ1djNFlpU2tYRDUtRXMtOGJTamljZ1BaaDduZ0lyM2JyR2U4dXE5akt0Qkc4MVdvOWppS2QxU01tSlVmbG9PMGt3?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "NextEra Energy: The Utility Story Just Changed (Rating Upgrade) (NYSE:NEE) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlRid1ZObFA1Z3U3MzFmRW5UM0drQWlrbGlaWE1WNnJrU05ZUEJCWDltVWdzc0ZqYWtBcFNIaG55X0Vac1ZoS3dYSjNzaHBlSnlEQjlpS05YbVBNRWhaQzltaGNGTnlaQVd1OE5VRmRvdmV2VkJKRDJ5V05qeTBDbDhuRVVRN0xhQXhlTnY5WXBzQ1NEaEtyaUh2SUR5MXAwY0lV?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "A Look At NextEra Energy (NEE) Valuation As Long Term Returns Draw Investor Interest - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVVRKcDJzWG80VmY1V0F1YUZMR2dtc0lMZFJTNzJtTVMxZjhXSlN0OC1vMnYtZklWRFBDY2sxSkc1NmF3LXAzT3RHUnM3MF9Rb21scEU3eVhXMW5FeHJtRFlrNjJsYlJjMXRGVC1BQ3pjb1lvQzlkVjZRREEzdW5fdXQ4X3NJY1RhRzhDSDJTS1RGcHZEbGxkSUp5bjUwUmVsRjFwbnpHc2FyaTRJRWJzclktUUxicXB5Zm41VGdZcUNvOUNqU2VwQm930gHPAUFVX3lxTE1faThtcWY2UUVkMll2dFlkcGVpRHVLdUU3TUp5TnBCZW9hY1FmU1M2bDhCR0RBcU5LX0hvTk1SLTlRb2xjUnd5Xy1EeWNucUVUbXl3WlgxQWU1alFKVkE0b1dFN3J4S1JqRkYyU0VxdWo5SktGaXRMMEtLdHY1c0tVR0thby1GNFNYOHhpZ2ZjZG4ycHV0RHZwODRmT0FjOFNXNVpVSG5VVzRJdUxya3lKeXo5czJUZnhwcXBEZ3hnckwwZXRXRUxyTV9lZHhBYw?oc=5",
+        "publishTime": "2026-04-18"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 27.872728,
+      "forward_pe": 20.966158,
+      "eps": 3.3,
+      "revenue": 27412000768,
+      "profit_margin": 0.24934,
+      "beta": 0.733
+    },
+    "data_fetched_at": "2026-04-20T02:21:14.513324"
+  },
+  "PLUG": {
+    "symbol": "PLUG",
+    "company_name": "Plug Power Inc.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "current_price_usd": 2.78,
+    "currency": "USD",
+    "market_cap": 3875195136,
+    "52week_low": 0.69,
+    "52week_high": 4.58,
+    "performance": {
+      "3_month_pct": 17.8,
+      "6_month_pct": -20.11,
+      "1_year_pct": 251.9
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.8,
+      "target_price": 2.83125,
+      "number_of_analysts": 16
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "In 10 Years, Will You Wish You'd Bought Plug Power Stock Right Now? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWHhRZlpNMDJmUXZJR19zdFdRdEFPOFNKazZxSVgweHFabEJ6SkxSY0RLUXJOeVFQU0RBbkktVExkNEx1amZiZWJqMlpFVmNiVlZYUXY0eUQ0RHNvcEZ0dllFay14YVFLNFp2R0tESFk0MUtfZjNCa0I0RTZMZG04VTREeEk4SzhCZm1PY041aVNpWEM4?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Hydrogen Stocks To Consider - April 19th - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOTVucWs3aDZpREhaWlJzUWZpZlI1bW5HeFJnUWRaLS0tMnNBNnFweEpXOEZjeUJMQUpVLTBPTUVVaF9aejI0UU4tLXdwNW14U2RrQnpjQ3JGTVRiZl8ydGtxbUR2d09scjFNMTRkNVNBdlFFMnpsSHJmR2xKNzZET3o1bkNfZE9Tb05jeVQwWkYyUGtmSVpv?oc=5",
+        "publishTime": "2026-04-19"
+      },
+      {
+        "title": "Here's Why I Wouldn't Touch Plug Power With a 10‑Foot Pole - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamZ6Q1hQVUxBOXFVUUtObVJNXy1ucUFBdGlaeFdFZFlNRm1OWlphRkFnRnp5Z2RHa3hrc1pFOUwzUlp4dzhENUNlUmRObGlnMDEyUG8tcVlGblVJWm15Tkp2QzlwSXI3WXlUb1J0MGlHYVU5Y2EzbFpoV2E5WDAzZ3NGSXB1NWk5UUdES1BUclJsTGdMNHUxbw?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Plug Power CEO Opens Reddit AMA As Hydrogen Targets AI Data Centers - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS2xMRUR4cW02dExoN1lyZ2l6OFZ2LVlTbGwxeDlxaWNRWWprVEs1cjBJbFpYVE5lQnZlRFY1UTlDdWNjTG10STFCZkU5emJjTVJWRmJCRFNHWkdkR0diWk1nZTFqSGFaOS13eDlEMTgtSFNsS1pOclFWY1h5TWoxRmZndlVGYmZGSk11dWJHaWllWFZkVWFOSXRFU011NXBhb21CbzhCZkJCU2ctY1RqS3JwN1NuMXhEejlmQU9SLUR3OE5pUWRKVmt2c0dkQdIB0wFBVV95cUxNbjNMbDV1aGhIVFEwVkVaUnk5RFZEeUtRbDBQSm1RQzBEd1FrNE9sR0czQ2Jsc3luWml1c2FQaHdBVE9YV0FPREwxRjFDaE5uOUpxU3ZrSVJDM2dVUGhab2podW1LbnBsNWRjd21zZ05yTWs2ZWdSZUhvblNIbWJENDlHZWxrdGZKYjNoZXZ1a3B4dDBzR0lYeU5RcTFZdkt1VW5CWmhWQmhDNWhzUHRGYTg0cm9qNmxNc2pzWFNGTDY2UnN0N2hQeDVBRk9USTRZMmlZ?oc=5",
+        "publishTime": "2026-04-14"
+      },
+      {
+        "title": "Plug Power Inc stock (US72919P2020): Is hydrogen infrastructure scale now the real test? - AD HOC NEWS",
+        "publisher": "AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMTgyNWlkS2EzMUVjT3RwSUtwUzFMbWtKWlFJMksxZGlKaEI0Vml5cnNlMDUwWWdBdFBGZ1hPdHBWZTRxN1dSYzh4ZUg0T2pGVm1OM1hteTVsdjlsQkh5VldHbGFKMkVSeWZOWGVPN21GRkJKV1FKOVhJN2FrckVkZ3dOdWd4T2FtZVg5NFNTWC10QWxWbUlESXdGQ2hVRGYtYVlFaVBqQ1hVZnJFX0M2a1V5TXFwTUVaaDFHR2NDTllRdjdhNUZLcg?oc=5",
+        "publishTime": "2026-04-19"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -13.533908,
+      "eps": -1.42,
+      "revenue": 709918976,
+      "profit_margin": -2.29828,
+      "beta": 1.792
+    },
+    "data_fetched_at": "2026-04-20T02:21:15.860008"
+  },
+  "BLDP": {
+    "symbol": "BLDP",
+    "company_name": "Ballard Power Systems Inc.",
+    "category": "Yenilenebilir Enerji",
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "current_price_usd": 2.96,
+    "currency": "USD",
+    "market_cap": 890703872,
+    "52week_low": 1.07,
+    "52week_high": 4.1,
+    "performance": {
+      "3_month_pct": 6.09,
+      "6_month_pct": -19.35,
+      "1_year_pct": 171.56
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 3.23077,
+      "target_price": 3.255,
+      "number_of_analysts": 10
+    },
+    "investor_sentiment": "NEGATİF",
+    "top_news": [
+      {
+        "title": "Is Ballard Power (BLDP) One of the Best Hydrogen Stocks to Buy Right Now? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aWm40aERPdncxWFNFRWVUN29TdmV2SlYwUnY1U01xbDVWaU1kc1lkVmtFNnlfQkh2ODNOWTNNYVotNFkwaFBfd2o2VEhyTGM3Q2p4UUVnVzNXNk52OFpJZEJKY1ljclcycHpvb3AxUTlfRF9OX0FWcWJEakVxZw?oc=5",
+        "publishTime": "2025-12-22"
+      },
+      {
+        "title": "Why Did Ballard Power Systems Stock Just Pop? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVnIxb3pfQVQ3NVJzeHNXODh2RjdHakZPSlNRcURaV09CVmJLMUxZdUFRc21lUzNFYm55V1JPOVNOcU9sNmRqRURJdXc1OXU3R0Q0SURXcG8xdHBob1dfNXBMc0FZSU5rRUc0R0c3OTJ5aGVaZE1ib3dFTGVQdFppNW9uU2t2bTI3SVBQLUdUeno?oc=5",
+        "publishTime": "2025-10-03"
+      },
+      {
+        "title": "Ballard Power Systems: Growth Is Held Back By Sector Uncertainty (NASDAQ:BLDP) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFpMVzVycWdXcVlIaEdEZEVSRlJmQ1VRZWlhOFNsNHJJRDJIWXM0eWhhUEhJcG9MZURfRUp6T2xOVzVQbFREeXRQdEJjR3pzWXpxbUYzZWFuVzdwc1I2RVFTcmRpeDI3aWVDa0dzX2VPM05yTHp2ZWJNMHVjWTJRRVlGNnhDYmNybS11UGY5SnpNQW1Nb2NaMC1jMEVXQS1QbHJNSHFqOA?oc=5",
+        "publishTime": "2026-03-17"
+      },
+      {
+        "title": "BLDP vs. BE: Which Hydrogen Power Stock Has Better Potential for 2026? - Zacks Investment Research",
+        "publisher": "Zacks Investment Research",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3ZWVjFXWU5nZGtWanJjM29tanlkb2FrUTNySzFtbl9ZWUR4SWVQR21oaE4wSUlva1liXzBnR096VHIxY1djejAxY01qTWZ2WnE4U2JUbVl0SzVreFhfTnFLMW1ydGQ0bU96UERaWUlmR2paTjFTMkpzUGV3ajBWRFRGWWFiU3NxaTZFNVdpSW44Z1NGTHljWU9fd2pWTFRYZVhFR1k5bHVKdXN5?oc=5",
+        "publishTime": "2025-12-30"
+      },
+      {
+        "title": "500 hydrogen engines to power New Flyer buses across North America - Stock Titan",
+        "publisher": "Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZzZqZjlaS2JKQndTTEtlTTJaSV9NOUY5RmV1NlJuNEI3czFtTDdZLUZGRFFPRXk5dFhodUJrSi1Db3h6UW1pQ293X1JydmNoZzR2b0FsVXhVU29Ca3JfV0drWnNWRjg4SHRSVzVEWldiTkhMNkFtWVFSTFF5NGlNcExMTHlqX1pjTW9INGN4MklpNVZ2VWx6bFFhbW1ISldLTlplVHFiRDhvRGVveENUaTFfOTgwZWFxOEZSdm9R?oc=5",
+        "publishTime": "2026-03-10"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -19.421297,
+      "eps": -0.3,
+      "revenue": 99370000,
+      "profit_margin": -0.9149,
+      "beta": 1.538
+    },
+    "data_fetched_at": "2026-04-20T02:21:17.151611"
+  },
+  "ICLN": {
+    "symbol": "ICLN",
+    "company_name": "iShares Global Clean Energy ETF",
+    "category": "Yenilenebilir Enerji",
+    "sector": "N/A",
+    "industry": "N/A",
+    "current_price_usd": 19.4,
+    "currency": "USD",
+    "market_cap": null,
+    "52week_low": 11.39,
+    "52week_high": 19.94,
+    "performance": {
+      "3_month_pct": 9.6,
+      "6_month_pct": 16.44,
+      "1_year_pct": 72.27
+    },
+    "analyst": {
+      "recommendation": "N/A",
+      "recommendation_key": "N/A",
+      "recommendation_mean": null,
+      "target_price": null,
+      "number_of_analysts": null
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "iShares, First Trust, and Invesco: Which Clean Energy ETF Fits Your 2026 Portfolio - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2tIRHB6ZWk1OENfNFBOMDd0MXlJcl9jQXdFaDNDZjZLOFc2Ykd2R0dzQUNLa3BwbDd2NzdsaUhTTFluNG1pcVU4d1ktNE9GendrQVlSb0VhMHlnRDZZZDFnU1R2Rk05YlhHWS1ZNWNDZW1PTDBBbk5IWVlxZm15ZU9JSFhUSFV4Ni1oeHBGOUhvd3FvRTFNWUxxV0dOUW1aRnBaNXlZSkhVWE84eFBzTmZUVDlxaE52VWhJV2JzYTk?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "ICLN: Clean Energy's Quiet Comeback Is Just Getting Started (NASDAQ:ICLN) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYzBEX3NVTVM3aUs4VTNCVnNoTnNLWUR6LXR1d3RmY0RZV1lxRHZEenVXR2xVU0M2eHhfd1IxUkMwWkgwLVBvSnU1dExBVXhYMUxYWnZxczN4MkREcFRmeTBMaEc3TGFIT29DZzdzbnQ3WjllUUVoUjBLNWJBV19RNEZNQ1p1QnpiNVZHV0FHMktIS1lEaWtNZmxTWTdfOWM?oc=5",
+        "publishTime": "2026-01-07"
+      },
+      {
+        "title": "A Clean Energy ETF Soared 50% While Everyone Moved On - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1VSnh5SElsR3RCMWpQUE5XZGxqUDZ5NEZrdDA1bi1FNHp2Y2ZaTHFoM01wNjlzbVBYREMtN2I2bFE0UVZLUG5nTFRkVV83cW5Qd2VRdmNoYklUNWhNZFdoMTNQTXZxOC1FNmcycFM0ZmNjZVVEWF9jYkhXVEc?oc=5",
+        "publishTime": "2026-01-10"
+      },
+      {
+        "title": "Corecam Opens New Position in ICLN With 158,700 Shares - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNREJBR2IyaXoyeGFCRXRiejJFSEczeXNaNGpPWXhPTUNjS2o0NDlQc281MF9VNjdPRGRJRkNiVEkxT19FV1JiV1ZSZE90a0NUZkEyaG90TUVxU2ZsVnV3YUlFb0p1OG9jNzY3cE10azA1WUQ0eTl5WG5SbG9KZFZMUE83M19yeWVwWGhNSEJIMmZISk1nNTdDbjRWb0lRVlQxMDhxOFZDZw?oc=5",
+        "publishTime": "2026-04-01"
+      },
+      {
+        "title": "7 Clean Energy ETFs to Buy Now - U.S. News Money",
+        "publisher": "U.S. News Money",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tcHdXdDNTTWZsNDg0U1M3blRhYWQyOHhuejRZeEZBX3N2dzdNQTNBbHQ1d3Bzb0EyWEVXSFh3Vkt6SnEzZkhvQmdHN0NOUDlrMjBqOWJ4dllTeUs2X3c4cWQwOTg1clBzZ2RMdElTLV8zbVI3SXE1V0FYWHg?oc=5",
+        "publishTime": "2025-10-22"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 22.003386,
+      "forward_pe": null,
+      "eps": null,
+      "revenue": null,
+      "profit_margin": null,
+      "beta": null
+    },
+    "data_fetched_at": "2026-04-20T02:21:18.489642"
+  },
+  "TAN": {
+    "symbol": "TAN",
+    "company_name": "Invesco Solar ETF",
+    "category": "Yenilenebilir Enerji",
+    "sector": "N/A",
+    "industry": "N/A",
+    "current_price_usd": 55.13,
+    "currency": "USD",
+    "market_cap": null,
+    "52week_low": 27.23,
+    "52week_high": 61.03,
+    "performance": {
+      "3_month_pct": 6.26,
+      "6_month_pct": 14.78,
+      "1_year_pct": 99.67
+    },
+    "analyst": {
+      "recommendation": "N/A",
+      "recommendation_key": "N/A",
+      "recommendation_mean": null,
+      "target_price": null,
+      "number_of_analysts": null
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "TAN Stock Price, Quote & Chart | INVESCO SOLAR ETF (NYSEARCA:TAN) - ChartMill",
+        "publisher": "ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95RGIyTEI3YVN6bTRGcWVxMFFBQTNLZ3NhREViRlJxZFFQVjZrN2ZLeVBJZlNqdWdvcXB2ZzN2b2ZfX0ZHMm9rNVZnUVU4MThFZVM2V0syWmQtamxjQUE?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "TAN: Solar Stocks Keep Shining (NYSEARCA:TAN) - Seeking Alpha",
+        "publisher": "Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxanozSllyY1ByZUtlaXlHOVFfeFE0MWNVcDFvSG90b19HY3R2eWg3OFVPWFpJb2d5eHpsWmk3N3VDTWRBOTJsQm12MmxEVDdsMWtaU3VXRXZLN2M3eGNFNzViRFJ3VVhKMXJBaTJNbVVuSk1JOUZ6cmJqckFueFk?oc=5",
+        "publishTime": "2026-02-02"
+      },
+      {
+        "title": "Solar ETF Jumps In Buy Zone On Rush To Lock In Energy Projects, Tax Credits - Investor's Business Daily",
+        "publisher": "Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVDEzQUFfVndvYVFndE5YSzlIRHlaRHZPRElfTzZVTXpmTjlfaUIzblgtN1ExNjZ6YmZFVEtqRFZhVTZ3NFhaQk04Yi00a2lvLTZPNER2MGdRTDZQMU9XOFNDQmhPbkxTYzFjNzVoa3dPNjFVYUJpblRvai1qTDkyUXc1dldJbS14WDZGelNBOUZrNkpEY3NvczZTVGNfczlDRG9ucVVIWm8wbWJkcGJNZDZaRFpCLUZYMWZYZ3Y3MnlMbTc1UldoU0F5T1FhN0xfend4X2x3eWNoVlZJeVZz?oc=5",
+        "publishTime": "2026-01-22"
+      },
+      {
+        "title": "Here's Why Solar & Clean Energy ETFs Are Shining Bright - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvOHh3ODJQNFBpNVpTeDVHMW5HUGhDbWRyRVh5MTBKYmZrN0pKRHR4QmsyZXR3a0NQZGFOeWVzMThZVmlaeVBKLTZkWmZoQ1VHZDFVMFZhVGFXLUhCZlNiUkRLZkhtV0Q4Yk0zVlNObjQ0MVpPN2U4M3diNlhCSVE?oc=5",
+        "publishTime": "2025-11-06"
+      },
+      {
+        "title": "ETFs to Watch as First Solar Gains 14% Despite Missing Q3 Earnings - TradingView",
+        "publisher": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0pTQU0ySTJxYW9WTjJOamRUZkZMRHViZXdDNUR1amFSUnIzM2pkM1Roa1ItZlBpOWJrbEFHcmV6dExxZlBaVEpCMGdpMlpxVlVMM3czZ0QwQW9pZE53RW5VLUdmejBzVTYyVXFkVlY5STRNbzd6OGV1VF9wZ05FYmFNZS1iOU1qb1ZTRUFEY2tIbXcyek5yVkdpVnZDRWpaekd6UDR6ZGFYbXk0eWpXWjlDNGNaVHRoaWN2YVV3?oc=5",
+        "publishTime": "2025-11-03"
+      }
+    ],
+    "financials": {
+      "pe_ratio": 21.09548,
+      "forward_pe": null,
+      "eps": null,
+      "revenue": null,
+      "profit_margin": null,
+      "beta": null
+    },
+    "data_fetched_at": "2026-04-20T02:21:19.885682"
+  },
+  "RIVN": {
+    "symbol": "RIVN",
+    "company_name": "Rivian Automotive, Inc.",
+    "category": "Elektrikli Araç",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "current_price_usd": 17.23,
+    "currency": "USD",
+    "market_cap": 21382254592,
+    "52week_low": 10.85,
+    "52week_high": 22.69,
+    "performance": {
+      "3_month_pct": 3.36,
+      "6_month_pct": 33.46,
+      "1_year_pct": 54.53
+    },
+    "analyst": {
+      "recommendation": "Tut",
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.57692,
+      "target_price": 18.16,
+      "number_of_analysts": 25
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Better EV Stock: Rivian (RIVN) vs. Lucid (LCID) - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSkY5dWhOZGpmUi1xOUplYzkxNzVMdUNpc3RPQ3AyaG9wRDI3QlR5TDBGTENnUUtDeVVrU3o2VDhyZVVPMHllOGhMYW55SEV0LWt1RWhMcEphcGNFOGZuM1UtN09ZUmVJV2I3V081MGI4YU1pMGNqMjR1bXR3RVdVUGJmOW9OelB6aXRpVQ?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "Rivian (RIVN) Partners with Redwood on Battery Storage Project - Insider Monkey",
+        "publisher": "Insider Monkey",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdXh1Y240RE9ZQUItUXlwWFNSM1k3ZnZISkE1NDBEeFJDS3N0UlFlQXh2RTgxUGE1WnBoLTdSdG45cEphcF83RjVVcEoyMGsxZE5rWHFaNFZ3OU5GMnlKelFEcFNha0VyZUxwanQ0YUJoR1JqdFdZQ3hVanVJcVotU3pjSUItazJmYUxHakFtcWd0WmRNWXczQkk4WnFHeUtzVTkwSXhMSdIBrwFBVV95cUxNMFRYdW5MeGhsWTdJYXN6eTJEcC1tVWgzazRrNHMza0pHVGJPZEh2Mjc0UTE3LUpBWXJYZkZmbExTcEFtQVFTWnh0YXNfaER3ak1vYUNyWkx0UlJnVDNZbldWbmJkdXlOSlhxd3VSM0JMQlFoVXVXYmJXdnFCR3VrNXl0NTRXQTVLUTJHTW13UnRoaElhTXhld2dJX3ZpaXk0T2FNSHQyTlZ0Z3lZdWpB?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Rivian Tumbles 5% After U.S. Sales Plunge 26%, With R2 Launch and April 30 Earnings in Focus - 24/7 Wall St.",
+        "publisher": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYWJCWkwxVVhIUDJGMHdTTVFjNHBkSWRMNS1Ea0R5dGJWZ1FGOVpMVV9hZXY2cjhybWppMTZVT3U2YjZlLVh2Z2Q5NzBfNkkxeVRyTktTcE00bk9QMkZ2VWRMelRGVG5wcWs5cGlldTM0YjFWN1VCS3NOWWtERWhfQl9oZE4zQUVkMFJfdXNmRUpBUEF0Mm5FYUp0MGlYSHZKTmVudFNpOExkTURpRFE3SS1MQXBWSTJtVWFPekxqQ2RYa0l1OUtCVllWYUo?oc=5",
+        "publishTime": "2026-04-07"
+      },
+      {
+        "title": "Better EV Stock: Rivian (RIVN) vs. Lucid (LCID) - The Globe and Mail",
+        "publisher": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNllXV0h2RDJzT3p3TVVJSVRPMldZUzc4YlVGS0RnWXZheEY1SWNHTFhkLWRvMnNJT09ZMXBWOUxSQ19xUVlaTFlseWd4bzI3Y1FTVGNRTGZXMlBPN2d4aG00eV9SOGlNNUp2VkoxbnNqRXdkTzh4bUkwV3cwWnNYWnZzMG54eTVEamxqX3luRUJoUk43M0RxdmRTOHNiZlJXTkU2UlJCWmhFQmlLQkR3TEdpN29hS3RsRVZVMQ?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "Is Rivian Stock a Buy in 2026?​ - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNdm91M0VXVTV6WTc3WUYyMDRmR0NsRHdYc3FEWmhyQ290UWhMVXVxTlhVRkdYN1AtSjA4N2h3NlNoMkRpS3hsMzJpWWFPbXoxLXM3YjhsWXU0TFVXZ1FmNUtob1pCQ3dOeUd4S1VEdVpObl9ITmc?oc=5",
+        "publishTime": "2026-02-18"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -8.927322,
+      "eps": -3.07,
+      "revenue": 5386999808,
+      "profit_margin": -0.67681,
+      "beta": 1.691
+    },
+    "data_fetched_at": "2026-04-20T02:21:21.068406"
+  },
+  "NIO": {
+    "symbol": "NIO",
+    "company_name": "NIO Inc.",
+    "category": "Elektrikli Araç",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "current_price_usd": 6.83,
+    "currency": "USD",
+    "market_cap": 17113705472,
+    "52week_low": 3.34,
+    "52week_high": 8.02,
+    "performance": {
+      "3_month_pct": 45.01,
+      "6_month_pct": 0.0,
+      "1_year_pct": 89.72
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.04,
+      "target_price": 6.5966854,
+      "number_of_analysts": 23
+    },
+    "investor_sentiment": "NÖTR",
+    "top_news": [
+      {
+        "title": "Nio Already Has a European Solution: Finally Time to Buy the Stock? - The Motley Fool",
+        "publisher": "The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdy05aHctMDZoZ21FelRodDJ5NUpSalZ2Q3d5S3dnX1BFTTg1d2RBQl9RLWVBYmZOTlZ6bnZHbFUwWHh3U3N5dURudDNHa3ZTWW9UTUl1WU03MzJCc3FTWUZkaFBlTmZHakI3LTN5cnhQMm5HR2ZnZHdNR19VYkNKUnBiSi10LVlvNkNueWh0QkJFRmlCYnU0?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "China EV Maker NIO Surges; CEO 'Confident' In 2026 Targets - Investor's Business Daily",
+        "publisher": "Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdmJwZHd6N25WTGxhMEF0TGh0SjVlbURNZzNjLVBPaWkwTkc3cE55UW9yaFJ2RHJmYWJKRi1UaW85clBXa29ZaUZvNXpEMVhxUnhyZndSMk9pUmNMQ2xiSlRNOTcwWGpiU0tnSlZYUHBSdUIwOTJ1NzdnRjVSMDREUGd3?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "Citi Raises Nio’s Price Target for First Time in Seven Months - eletric-vehicles.com",
+        "publisher": "eletric-vehicles.com",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbGVqa0dGaFVKY1NoNFFSdG9MU3ZWVFJUR2xha2VkREZOdWpndC1wSHJFYjdWWTRVbmZyeUJOQzMtS0RQYVNneTNNeUxqMm9QdHFrYURvU0xoUWVUSVhHbmIyN2U0VFZJTC16SjE5a1Rxd2ZRdTRGdDJhR3VOUlY0SF9KNl83UTZ5U2dxMXYwcmZJU0JLSERsdVZB?oc=5",
+        "publishTime": "2026-04-13"
+      },
+      {
+        "title": "Nio Stock Price Prediction: 2026, 2027, 2030 - Benzinga",
+        "publisher": "Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zZXNJX3Y2ZXVFazI2X2paV1hUWWRQVkNQUWZwU183MnprNTdjb0tRQ2VQbFNIMVhEaFlOMlA2ZTBnQXFlR0NBMTFrZ0pTR0ZfdzdNZ3NEOEgtRWRDQ1BsOHVfV2dTUEJk?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "Nio Ended a 4 Year-Losing Streak Last Year: What’s the 2026 Forecast for NIO Stock? - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Xa1VLTnlWLWlHOF9rT0FXZnJxSFBtaEIyeGkxemdSeHpDZlhyTXo3a1NaRXA5eE16NjhTU2xETjlCMlJBOFNyWjl4M3NMYkladGhIUzRLMzBzbE5Ga0Juc2dtc18xaE5WQkFnNG1tVUdBcTZXWWZNRi1mdw?oc=5",
+        "publishTime": "2026-01-09"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": -149.81116,
+      "eps": -1.0,
+      "revenue": 87487512576,
+      "profit_margin": -0.17798,
+      "beta": 0.991
+    },
+    "data_fetched_at": "2026-04-20T02:21:22.389999"
+  },
+  "XPEV": {
+    "symbol": "XPEV",
+    "company_name": "XPeng Inc.",
+    "category": "Elektrikli Araç",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "current_price_usd": 18.1,
+    "currency": "USD",
+    "market_cap": 17299089408,
+    "52week_low": 15.38,
+    "52week_high": 28.235,
+    "performance": {
+      "3_month_pct": -12.35,
+      "6_month_pct": -15.3,
+      "1_year_pct": -0.55
+    },
+    "analyst": {
+      "recommendation": "Al",
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.77778,
+      "target_price": 24.783215,
+      "number_of_analysts": 26
+    },
+    "investor_sentiment": "POZİTİF",
+    "top_news": [
+      {
+        "title": "XPeng (XPEV) Reports March Deliveries of 27,415 Vehicles - Yahoo Finance",
+        "publisher": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYUhIMnR5ekJyWE5yY05tQ2hLMHdLUjUxTUY4ajhPeUhCRnk2WDRHb3JpQUhIUTJ0ZWtqUllTQmZkTF9PYjhzVkpFaGxBY2d0S0ZuVmwyX3RoalVXZlBIVV92Nm51S3NkQjFoY3dsMmlxOHNvZHJ5MHBtdVRJTkZtZ201c2hITXphcU1iSTFiX2J2R25YTzFRbS1tZ0FTemdGVEE?oc=5",
+        "publishTime": "2026-04-16"
+      },
+      {
+        "title": "XPEV Stock Quote Price and Forecast - CNN",
+        "publisher": "CNN",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9iOEF2MGNwZWJUeGhMNWFueUttYXltVUlEWE0wdVhNT3RuTTY3aE15dEpGbVlyVTRxTGlUTGU1azFTcEh4MVF2cHVDbUNSMzZt?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "Electric Vehicle Stocks To Consider - April 17th - MarketBeat",
+        "publisher": "MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFp4N3NRYll1OVh3aHJlallaZUt1M3lWdk5CWERLSWhrSEp3aTdGbjZXOXdOa3RCTF9ybXBUNU5KajlFZjdWaXNsd2d3QXdPYzlpUUJBTXpUY21mRXRHcDhZdzEyYm8xRmgwWnhPa0xOdWF0NTFORGdUQ2Fob2ZGUlFRZ0FyWUtRcGxwTXVwdTBnb2dvN1UweUpONXE5cUVOTFE?oc=5",
+        "publishTime": "2026-04-17"
+      },
+      {
+        "title": "NIO, Li Auto Stocks Rise as Deliveries Defy China’s EV Slump. BYD, XPeng Suffer. - Barron's",
+        "publisher": "Barron's",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDR3NHRYWEo0NkVwSUVWcHRENVdTeDhlWVFOZUNrV3VHTDJuMDdyeUw3OXZuNlBYQ0U3Y29LNkhNS1p4T0E5allXREVYaG1FdDA3SGtHYXphVURMbW9FV3ViaEQtR0lBXzVYWDdTSEhsZXFYLWhlWXVwUF9TbUpGMTNFdjFzbEpRaldMbExENUF4bGc?oc=5",
+        "publishTime": "2026-04-01"
+      },
+      {
+        "title": "Is It Time To Reassess XPeng (XPEV) After Recent Share Price Weakness - simplywall.st",
+        "publisher": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdDlkMlpqcFQtVF9lTlN5Ni0wZnVQcS0xS0tRd0xFVjk5N3dSdjBzMVNpazVsUXVMdHY1YVJTR3dsWmk2N3RwMnotQkRZWDkzaklmdTFYZWpFT3VHZ19SdkNQa2UyZ1diMUV6VWpKRmRYVW55QlRfdUozMWtSaHZGZl9lakY3ZXZYU2NaOVFrUkFjajJXeFpxTDF5Ynk4UHRqWUw4RjRGM2h5blNUbEdHb0RsVHBCdU5NNzVKS1VMU2ZhR2_SAcgBQVVfeXFMT1JIRWVJWlJFUFRRclRoVW45YkZZV3c1cHQzZ21KM0NuZngwc252YUR6MXRyeDNudTcxVUlCTnNVaV9mVnpZV0JmNW0zVzB0U1Y1anBZQ3c2OC1wX1lCd3NObC11aERMdDZBaVp2Y3dmMnNobmEzNGJNdXU5MExyYVN6RzJuWTJuczJqOWFYR3VyOU10MzlpY0VyQ0d3ZEEzWVJKRGdzb0pyQmpIblUxY3FJR3BYWFc4aFIwNC04SlhOOXdNaFJCSXY?oc=5",
+        "publishTime": "2026-03-31"
+      }
+    ],
+    "financials": {
+      "pe_ratio": null,
+      "forward_pe": 25.282127,
+      "eps": -0.18,
+      "revenue": 76719742976,
+      "profit_margin": -0.01485,
+      "beta": 1.178
+    },
+    "data_fetched_at": "2026-04-20T02:21:23.994304"
+  }
+}

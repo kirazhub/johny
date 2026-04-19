@@ -1,0 +1,40 @@
+Sembol,Şirket Adı,Kategori,Sektör,Fiyat (USD),52H Düşük,52H Yüksek,3A Perf%,6A Perf%,1Y Perf%,Tavsiye,Hedef Fiyat,Sentiment,P/E,Beta,Piyasa Değeri
+HOOD,"Robinhood Markets, Inc.",Kripto/Fintech,Financial Services,90.75,39.21,153.86,-16.54,-30.96,127.73,Al,101.39625,POZİTİF,44.268295,2.464,$81.7B
+TEM,"Tempus AI, Inc.",Kripto/Fintech,Healthcare,55.87,39.01,104.32,-20.56,-38.62,36.33,Al,72.4,NÖTR,,,$10.0B
+COIN,"Coinbase Global, Inc.",Kripto/Fintech,Financial Services,206.33,139.36,444.65,-14.44,-37.52,17.9,Al,238.94034,POZİTİF,46.262333,3.606,$55.6B
+RIOT,"Riot Platforms, Inc.",Kripto/Fintech,Financial Services,18.11,6.255,23.935,-5.87,-7.37,187.92,Güçlü Al,25.32778,POZİTİF,,3.571,$6.9B
+HUT,Hut 8 Corp.,Kripto/Fintech,Financial Services,74.9,10.61,76.08,25.57,53.55,603.95,Güçlü Al,76.6875,POZİTİF,,5.712,$8.3B
+CLSK,"CleanSpark, Inc.",Kripto/Fintech,Financial Services,11.97,7.44,23.61,-10.47,-40.12,60.24,Güçlü Al,19.375,POZİTİF,,3.539,$3.1B
+MSTR,Strategy Inc,Kripto/Fintech,Technology,166.52,104.17,457.22,-4.14,-41.33,-47.6,Güçlü Al,371.07144,POZİTİF,,3.56,$57.7B
+SQ,SQ,Kripto/Fintech,N/A,,,,,,,N/A,,NÖTR,,,N/A
+PYPL,"PayPal Holdings, Inc.",Kripto/Fintech,Financial Services,50.81,38.46,79.5,-10.42,-22.66,-15.27,Tut,52.84515,NÖTR,9.391868,1.411,$46.8B
+SOFI,"SoFi Technologies, Inc.",Kripto/Fintech,Financial Services,19.43,10.49,32.73,-25.64,-26.95,81.76,Tut,23.525,NÖTR,49.820515,2.251,$24.8B
+AAPL,Apple Inc.,Büyük Teknoloji,Technology,270.23,189.81,288.62,5.85,9.41,40.51,Al,297.4555,POZİTİF,34.249683,1.109,$3971.8B
+MSFT,Microsoft Corporation,Büyük Teknoloji,Technology,422.79,355.67,555.45,-7.85,-17.02,18.63,Güçlü Al,579.5731,POZİTİF,26.457449,1.107,$3142.3B
+GOOGL,Alphabet Inc.,Büyük Teknoloji,Communication Services,341.68,146.1,349.0,3.61,36.06,132.18,Güçlü Al,376.50394,POZİTİF,31.637035,1.128,$4133.3B
+AMZN,"Amazon.com, Inc.",Büyük Teknoloji,Consumer Cyclical,250.56,165.29,258.6,4.78,16.83,49.75,Güçlü Al,281.1797,POZİTİF,34.945606,1.383,$2694.6B
+META,"Meta Platforms, Inc.",Büyük Teknoloji,Communication Services,688.55,479.8,796.25,11.11,-3.14,42.51,Güçlü Al,855.7627,POZİTİF,29.324957,1.309,$1747.8B
+TSLA,"Tesla, Inc.",Büyük Teknoloji,Consumer Cyclical,400.62,222.79,498.83,-8.43,-6.56,76.1,Al,414.58926,NÖTR,370.94443,1.915,$1503.3B
+NVDA,NVIDIA Corporation,Yarı İletken/Yazılım,Technology,201.68,95.04,212.19,8.3,10.94,108.16,Güçlü Al,268.6148,POZİTİF,41.15918,2.335,$4901.8B
+AMD,"Advanced Micro Devices, Inc.",Yarı İletken/Yazılım,Technology,278.39,83.75,281.05,20.08,18.69,225.37,Al,291.52173,POZİTİF,106.25574,1.963,$453.9B
+INTC,Intel Corporation,Yarı İletken/Yazılım,Technology,68.5,18.25,70.33,45.87,85.94,263.59,Tut,52.25732,NÖTR,,1.349,$343.9B
+ARM,Arm Holdings plc,Yarı İletken/Yazılım,Technology,166.73,95.32,183.16,57.62,-2.61,72.19,Al,169.58861,POZİTİF,222.30666,3.338,$177.1B
+QCOM,QUALCOMM Incorporated,Yarı İletken/Yazılım,Technology,136.2,121.99,205.95,-14.02,-16.03,2.39,Tut,151.17857,NÖTR,27.459677,1.279,$145.5B
+CRM,"Salesforce, Inc.",Yarı İletken/Yazılım,Technology,182.14,163.52,296.05,-19.6,-25.65,-22.33,Al,268.8725,POZİTİF,23.351282,1.288,$168.1B
+PLTR,Palantir Technologies Inc.,Yarı İletken/Yazılım,Technology,146.39,89.31,207.52,-14.37,-17.81,61.22,Al,186.4672,POZİTİF,232.36508,1.674,$350.1B
+DDOG,"Datadog, Inc.",Yarı İletken/Yazılım,Technology,126.61,87.695,201.69,6.38,-16.25,42.39,Güçlü Al,179.32777,POZİTİF,422.03333,1.294,$44.8B
+SNOW,Snowflake Inc.,Yarı İletken/Yazılım,Technology,143.98,118.3,280.67,-31.56,-40.02,5.09,Güçlü Al,236.61105,POZİTİF,,1.228,$49.8B
+UPST,"Upstart Holdings, Inc.",Yarı İletken/Yazılım,Financial Services,34.57,23.965,87.3,-28.16,-27.66,-13.03,Al,43.93333,NÖTR,76.82222,2.163,$3.3B
+ENPH,"Enphase Energy, Inc.",Yenilenebilir Enerji,Technology,32.48,25.78,54.72,-7.15,-13.53,-37.08,Tut,45.74643,NÖTR,25.178295,1.381,$4.3B
+RUN,Sunrun Inc.,Yenilenebilir Enerji,Technology,12.4,5.38,22.44,-31.98,-38.43,88.74,Al,20.23684,NÖTR,7.2514615,2.368,$2.9B
+SEDG,"SolarEdge Technologies, Inc.",Yenilenebilir Enerji,Technology,38.3,11.45,53.75,12.95,-4.51,216.53,Tut,37.09091,NEGATİF,,1.346,$2.3B
+JKS,"JinkoSolar Holding Co., Ltd.",Yenilenebilir Enerji,Technology,21.36,15.55,31.88,-27.59,-10.85,38.93,Al,32.95125,NÖTR,,0.545,$1.1B
+DQ,Daqo New Energy Corp.,Yenilenebilir Enerji,Technology,21.86,12.41,36.59,-13.19,-20.01,66.49,Al,31.864,POZİTİF,,0.802,$1.5B
+NEE,"NextEra Energy, Inc.",Yenilenebilir Enerji,Utilities,91.98,63.64,96.21,10.73,9.62,46.44,Al,95.56636,POZİTİF,27.872728,0.733,$191.8B
+PLUG,Plug Power Inc.,Yenilenebilir Enerji,Industrials,2.78,0.69,4.58,17.8,-20.11,251.9,Tut,2.83125,NÖTR,,1.792,$3.9B
+BLDP,Ballard Power Systems Inc.,Yenilenebilir Enerji,Industrials,2.96,1.07,4.1,6.09,-19.35,171.56,Tut,3.255,NEGATİF,,1.538,$891M
+ICLN,iShares Global Clean Energy ETF,Yenilenebilir Enerji,N/A,19.4,11.39,19.94,9.6,16.44,72.27,N/A,,NÖTR,22.003386,,N/A
+TAN,Invesco Solar ETF,Yenilenebilir Enerji,N/A,55.13,27.23,61.03,6.26,14.78,99.67,N/A,,NÖTR,21.09548,,N/A
+RIVN,"Rivian Automotive, Inc.",Elektrikli Araç,Consumer Cyclical,17.23,10.85,22.69,3.36,33.46,54.53,Tut,18.16,NÖTR,,1.691,$21.4B
+NIO,NIO Inc.,Elektrikli Araç,Consumer Cyclical,6.83,3.34,8.02,45.01,0.0,89.72,Al,6.5966854,NÖTR,,0.991,$17.1B
+XPEV,XPeng Inc.,Elektrikli Araç,Consumer Cyclical,18.1,15.38,28.235,-12.35,-15.3,-0.55,Al,24.783215,POZİTİF,,1.178,$17.3B
