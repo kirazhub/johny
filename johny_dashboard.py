@@ -436,7 +436,7 @@ def sayfa_hisse_tarayici(ajan) -> None:
             return f"color: #00c864" if val >= 0 else f"color: #ff4444"
         return ""
 
-    styled = df_tarayici.style.applymap(renk_degisim, subset=["Değişim %", "Sinyal"])
+    styled = df_tarayici.style.map(renk_degisim, subset=["Değişim %", "Sinyal"])
     st.dataframe(styled, use_container_width=True, hide_index=True)
 
     # Mini bar chart

@@ -59,7 +59,7 @@ ISTANBUL_EST_FARK = -7  # İstanbul = EST + 7 (yaz) veya EST + 8 (kış)
 
 # ─── Portföy Parametreleri ───────────────────────────────────────────────────
 PORTFOY_PARAMETRELERI = {
-    "baslangic_sermayesi": 3000.0,       # USD
+    "baslangic_sermayesi": 20000.0,      # USD (20.000 $ — 2026-04-20 güncellendi)
     "max_pozisyon_yuzdesi": 0.25,         # %25 max per position ($3k portföy için yeterli)
     "stop_loss_yuzdesi": 0.04,            # %3 stop-loss
     "take_profit_yuzdesi": 0.025,  # Hızlı kar al          # %5 take-profit
@@ -113,7 +113,7 @@ STRATEJI_AGIRLIKLARI = {
 BACKTEST_PARAMETRELERI = {
     "donem": "2y",                        # 2 yıl
     "benchmark": "SPY",
-    "baslangic_sermayesi": 3000.0,
+    "baslangic_sermayesi": 20000.0,     # 20.000 USD (2026-04-20 güncellendi)
 }
 
 # ─── Veri Kaynakları ─────────────────────────────────────────────────────────
