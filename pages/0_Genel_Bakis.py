@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Johnny Genel Bakış Sayfası
+Johnny Genel Bakış Sayfası — Cool & Modern Design
 Tüm Tema Hisseleri, İstatistikler, Portföy Özeti
 """
 import streamlit as st
 import pandas as pd
 import json
+import plotly.graph_objects as go
+import plotly.express as px
 
 st.set_page_config(
     page_title="🇺🇸 Johnny — Genel Bakış",
@@ -13,27 +15,145 @@ st.set_page_config(
     layout="wide"
 )
 
-# Tema
+# Modern Tema - Glassmorphism + Gradients
 st.markdown("""
 <style>
-    .stApp { background-color: #0a0e1a; color: #e8eaf0; }
-    h1 { color: #4a9eff; }
-    h2, h3 { color: #8ba7d0; }
-    .stMetric { background-color: #111827; border: 1px solid #1e3a5f; border-radius: 8px; }
-    .hero-header {
-        background: linear-gradient(135deg, #0d1f3c 0%, #1a3a6e 50%, #0d1f3c 100%);
-        border: 1px solid #2a4a8e;
+    /* Ana stil */
+    .stApp { 
+        background: linear-gradient(135deg, #0a0e1a 0%, #0d1226 50%, #0a0e1a 100%);
+        color: #e8eaf0; 
+    }
+    
+    /* Başlık */
+    h1 { color: #4a9eff; text-shadow: 0 0 20px rgba(74, 158, 255, 0.3); font-size: 2.5rem; }
+    h2 { color: #8ba7d0; text-shadow: 0 0 10px rgba(139, 167, 208, 0.2); }
+    h3 { color: #8ba7d0; }
+    
+    /* Metrikler - Glassmorphism */
+    .stMetric {
+        background: rgba(17, 24, 39, 0.6);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(42, 74, 142, 0.3);
         border-radius: 12px;
         padding: 20px;
-        margin-bottom: 20px;
-        text-align: center;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
     }
+    
+    .stMetric:hover {
+        background: rgba(17, 24, 39, 0.8);
+        border: 1px solid rgba(74, 158, 255, 0.5);
+        transform: translateY(-5px);
+        box-shadow: 0 12px 40px rgba(74, 158, 255, 0.15);
+    }
+    
+    .stMetric label { color: #8ba7d0 !important; font-size: 0.8rem !important; text-transform: uppercase; letter-spacing: 1px; }
+    .stMetric [data-testid="stMetricValue"] { color: #4a9eff !important; font-weight: bold; font-size: 2rem; }
+    
+    /* Hero Header */
+    .hero-header {
+        background: linear-gradient(135deg, #0d1f3c 0%, #1a3a6e 50%, #0d1f3c 100%);
+        border: 2px solid;
+        border-image: linear-gradient(135deg, #4a9eff, #2a6aae) 1;
+        border-radius: 16px;
+        padding: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        box-shadow: 0 0 40px rgba(74, 158, 255, 0.1), inset 0 0 20px rgba(74, 158, 255, 0.05);
+        backdrop-filter: blur(10px);
+    }
+    
+    .hero-header h1 { margin: 0; padding: 10px 0; }
+    .hero-subtitle { color: #8ba7d0; font-size: 1.2rem; margin-top: 10px; }
+    
+    /* Card Tasarımı */
     .info-card {
-        background: linear-gradient(135deg, #0d1226, #1a2a4a);
-        border: 1px solid #2a4a8e;
-        border-radius: 8px;
+        background: rgba(13, 18, 38, 0.7);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(42, 74, 142, 0.4);
+        border-radius: 12px;
+        padding: 20px;
+        margin: 15px 0;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+    
+    .info-card:hover {
+        border: 1px solid rgba(74, 158, 255, 0.6);
+        box-shadow: 0 8px 32px rgba(74, 158, 255, 0.15);
+        transform: translateX(5px);
+    }
+    
+    /* Tema Kartları */
+    .tema-card {
+        background: linear-gradient(135deg, rgba(13, 18, 38, 0.8), rgba(26, 42, 74, 0.6));
+        border: 1px solid rgba(74, 158, 255, 0.3);
+        border-radius: 12px;
         padding: 15px;
         margin: 10px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .tema-title { 
+        color: #4a9eff; 
+        font-weight: bold; 
+        font-size: 1.1rem;
+        text-shadow: 0 0 10px rgba(74, 158, 255, 0.2);
+    }
+    
+    .tema-count { color: #8ba7d0; font-size: 0.9rem; }
+    
+    /* Expander */
+    .streamlit-expanderHeader {
+        background: linear-gradient(90deg, rgba(74, 158, 255, 0.1), transparent);
+        border-radius: 8px;
+    }
+    
+    /* Divider */
+    hr { 
+        border: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(74, 158, 255, 0.5), transparent);
+        margin: 30px 0;
+    }
+    
+    /* DataFrame */
+    .stDataFrame {
+        background: rgba(17, 24, 39, 0.5);
+        border: 1px solid rgba(42, 74, 142, 0.3);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+    }
+    
+    /* Download Button */
+    .stDownloadButton > button {
+        background: linear-gradient(135deg, #4a9eff, #2a6aae);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 15px rgba(74, 158, 255, 0.3);
+        transition: all 0.3s ease;
+    }
+    
+    .stDownloadButton > button:hover {
+        box-shadow: 0 6px 25px rgba(74, 158, 255, 0.5);
+        transform: translateY(-2px);
+    }
+    
+    /* Code Block */
+    .stCode {
+        background: rgba(17, 24, 39, 0.8);
+        border: 1px solid rgba(74, 158, 255, 0.2);
+        border-radius: 8px;
+    }
+    
+    /* Info Box */
+    .stInfo {
+        background: linear-gradient(135deg, rgba(0, 200, 100, 0.1), rgba(42, 74, 142, 0.1));
+        border-left: 4px solid #00c864;
+        border-radius: 8px;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -41,264 +161,264 @@ st.markdown("""
 # Hero Header
 st.markdown("""
 <div class="hero-header">
-    <h1>🇺🇸 JOHNNY — ABD Borsası Simülasyon Ajanı</h1>
-    <p style="color: #8ba7d0; font-size: 1.1rem;">
-        NYSE & NASDAQ | Teknik Analiz + Tema Odaklı Yatırım | 20.000 USD Portföy
-    </p>
+    <h1>🇺🇸 JOHNNY</h1>
+    <div class="hero-subtitle">ABD Borsası Simülasyon Ajanı</div>
+    <div style="color: #4a9eff; margin-top: 15px; font-size: 0.95rem;">
+        💰 20.000 USD • 📊 39 Tema Hissesi • 🤖 Teknik + YZ Analiz
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
-# Tema Hisseleri Veri Tabanı
+# Tema Hisseleri
 tema_hisseler = {
     "🔗 Blockchain & Kripto": {
-        "açıklama": "Blockchain teknolojisi, kripto paraları ve merkezi olmayan finans",
+        "emoji": "⛓️",
+        "açıklama": "Blockchain, kripto paraları ve merkezi olmayan finans",
         "hisseler": [
-            {"kod": "COIN", "şirket": "Coinbase", "açıklama": "Kripto exchange platform"},
+            {"kod": "COIN", "şirket": "Coinbase", "açıklama": "Kripto exchange"},
             {"kod": "RIOT", "şirket": "Riot Platforms", "açıklama": "Bitcoin madenciliği"},
-            {"kod": "HUT", "şirket": "Hut 8 Mining", "açıklama": "Bitcoin madenciliği + YZ datacenter"},
-            {"kod": "CLSK", "şirket": "CleanSpark", "açıklama": "Bitcoin madenciliği (yenilenebilir)"},
-            {"kod": "MSTR", "şirket": "MicroStrategy", "açıklama": "Bitcoin treasury + BI yazılımı"},
-            {"kod": "SQ", "şirket": "Block (Square)", "açıklama": "Kripto ödeme + fintek"},
-            {"kod": "PYPL", "şirket": "PayPal", "açıklama": "Kripto transfer, stablecoin"},
-            {"kod": "HOOD", "şirket": "Robinhood", "açıklama": "Kripto trading platformu"},
-            {"kod": "SOFI", "şirket": "SoFi Technologies", "açıklama": "Fintek + kripto"},
+            {"kod": "HUT", "şirket": "Hut 8 Mining", "açıklama": "BTC + YZ datacenter"},
+            {"kod": "CLSK", "şirket": "CleanSpark", "açıklama": "Yeşil Bitcoin"},
+            {"kod": "MSTR", "şirket": "MicroStrategy", "açıklama": "BTC treasury"},
+            {"kod": "SQ", "şirket": "Block", "açıklama": "Kripto ödeme"},
+            {"kod": "PYPL", "şirket": "PayPal", "açıklama": "Stablecoin"},
+            {"kod": "HOOD", "şirket": "Robinhood", "açıklama": "Kripto trading"},
+            {"kod": "SOFI", "şirket": "SoFi", "açıklama": "Fintek + kripto"},
         ]
     },
     
-    "💻 Teknoloji (Mega Cap)": {
+    "💻 Teknoloji Mega Cap": {
+        "emoji": "🖥️",
         "açıklama": "Dünyanın en büyük teknoloji şirketleri",
         "hisseler": [
-            {"kod": "AAPL", "şirket": "Apple", "açıklama": "Donanım, yazılım, hizmetler"},
-            {"kod": "MSFT", "şirket": "Microsoft", "açıklama": "Cloud, AI, yazılım"},
-            {"kod": "GOOGL", "şirket": "Alphabet", "açıklama": "Arama, reklam, cloud"},
-            {"kod": "AMZN", "şirket": "Amazon", "açıklama": "E-ticaret, AWS cloud"},
-            {"kod": "META", "şirket": "Meta", "açıklama": "Sosyal medya, VR"},
-            {"kod": "TSLA", "şirket": "Tesla", "açıklama": "EV, enerji depolama"},
+            {"kod": "AAPL", "şirket": "Apple", "açıklama": "Donanım + yazılım"},
+            {"kod": "MSFT", "şirket": "Microsoft", "açıklama": "Cloud + AI"},
+            {"kod": "GOOGL", "şirket": "Alphabet", "açıklama": "Arama + reklam"},
+            {"kod": "AMZN", "şirket": "Amazon", "açıklama": "E-ticaret + AWS"},
+            {"kod": "META", "şirket": "Meta", "açıklama": "Sosyal medya + VR"},
+            {"kod": "TSLA", "şirket": "Tesla", "açıklama": "EV + enerji"},
         ]
     },
     
-    "🤖 Yapay Zeka & İleri Teknoloji": {
-        "açıklama": "Yapay zeka, makine öğrenmesi, veri analitik odaklı şirketler",
+    "🤖 Yapay Zeka & İleri Tech": {
+        "emoji": "🧠",
+        "açıklama": "YZ, makine öğrenmesi, veri analitik şirketleri",
         "hisseler": [
             {"kod": "NVDA", "şirket": "NVIDIA", "açıklama": "AI GPU çipleri"},
-            {"kod": "AMD", "şirket": "AMD", "açıklama": "MI300 YZ GPU'ları"},
-            {"kod": "INTC", "şirket": "Intel", "açıklama": "Gaudi YZ işlemciler"},
-            {"kod": "ARM", "şirket": "ARM Holdings", "açıklama": "YZ-optimized CPU mimarisi"},
-            {"kod": "QCOM", "şirket": "Qualcomm", "açıklama": "On-device AI çipleri"},
-            {"kod": "CRM", "şirket": "Salesforce", "açıklama": "Enterprise AI (Einstein)"},
-            {"kod": "PLTR", "şirket": "Palantir", "açıklama": "Veri analitik, savunma YZ"},
-            {"kod": "DDOG", "şirket": "Datadog", "açıklama": "YZ-powered monitoring"},
-            {"kod": "SNOW", "şirket": "Snowflake", "açıklama": "Data warehouse, YZ pipeline"},
-            {"kod": "UPST", "şirket": "Upstart", "açıklama": "AI-powered kredi platformu"},
+            {"kod": "AMD", "şirket": "AMD", "açıklama": "MI300 GPU"},
+            {"kod": "INTC", "şirket": "Intel", "açıklama": "Gaudi işlemciler"},
+            {"kod": "ARM", "şirket": "ARM Holdings", "açıklama": "CPU mimarisi"},
+            {"kod": "QCOM", "şirket": "Qualcomm", "açıklama": "On-device AI"},
+            {"kod": "CRM", "şirket": "Salesforce", "açıklama": "Einstein AI"},
+            {"kod": "PLTR", "şirket": "Palantir", "açıklama": "Veri analitik"},
+            {"kod": "DDOG", "şirket": "Datadog", "açıklama": "AI monitoring"},
+            {"kod": "SNOW", "şirket": "Snowflake", "açıklama": "Data warehouse"},
+            {"kod": "UPST", "şirket": "Upstart", "açıklama": "AI kredi"},
         ]
     },
     
     "⚡ Yenilenebilir Enerji": {
-        "açıklama": "Güneş, rüzgar, pil, yakıt hücresi ve yeşil enerji teknolojileri",
+        "emoji": "☀️",
+        "açıklama": "Güneş, rüzgar, pil, yakıt hücresi teknolojileri",
         "hisseler": [
-            {"kod": "ENPH", "şirket": "Enphase Energy", "açıklama": "Güneş inverter"},
-            {"kod": "RUN", "şirket": "Sunrun", "açıklama": "Güneş panel kurulum"},
-            {"kod": "SEDG", "şirket": "SolarEdge", "açıklama": "Güneş optimizasyonu"},
-            {"kod": "JKS", "şirket": "Jinko Solar", "açıklama": "Güneş panel üretimi"},
-            {"kod": "DQ", "şirket": "Daqo New Energy", "açıklama": "Polisilikon (güneş malz.)"},
-            {"kod": "NEE", "şirket": "NextEra Energy", "açıklama": "Rüzgar + güneş üretimi"},
+            {"kod": "ENPH", "şirket": "Enphase", "açıklama": "Güneş inverter"},
+            {"kod": "RUN", "şirket": "Sunrun", "açıklama": "Güneş kurulum"},
+            {"kod": "SEDG", "şirket": "SolarEdge", "açıklama": "Güneş optimizasyon"},
+            {"kod": "JKS", "şirket": "Jinko Solar", "açıklama": "Panel üretimi"},
+            {"kod": "DQ", "şirket": "Daqo", "açıklama": "Polisilikon"},
+            {"kod": "NEE", "şirket": "NextEra", "açıklama": "Rüzgar + güneş"},
             {"kod": "PLUG", "şirket": "Plug Power", "açıklama": "Yakıt hücresi"},
-            {"kod": "BLDP", "şirket": "Ballard Power", "açıklama": "Yakıt hücresi tech"},
-            {"kod": "ICLN", "şirket": "iShares Clean Energy ETF", "açıklama": "Temiz enerji ETF"},
-            {"kod": "TAN", "şirket": "Invesco Solar ETF", "açıklama": "Güneş ETF"},
+            {"kod": "BLDP", "şirket": "Ballard", "açıklama": "Hücre teknolojisi"},
+            {"kod": "ICLN", "şirket": "iShares ETF", "açıklama": "Clean energy"},
+            {"kod": "TAN", "şirket": "Invesco ETF", "açıklama": "Solar ETF"},
         ]
     },
     
-    "🚗 Elektrikli Araçlar & Mobilite": {
-        "açıklama": "Elektrikli araç üreticileri ve otonom sürüş teknolojisi",
+    "🚗 Elektrikli Araçlar": {
+        "emoji": "⚡🚗",
+        "açıklama": "EV üreticileri ve otonom sürüş teknolojisi",
         "hisseler": [
-            {"kod": "TSLA", "şirket": "Tesla", "açıklama": "EV lider, otonom sürüş"},
-            {"kod": "RIVN", "şirket": "Rivian", "açıklama": "Elektrikli pickup/SUV"},
-            {"kod": "NIO", "şirket": "NIO", "açıklama": "Çin EV markası"},
-            {"kod": "XPEV", "şirket": "XPeng", "açıklama": "Çin EV, otonom tech"},
+            {"kod": "TSLA", "şirket": "Tesla", "açıklama": "EV lider"},
+            {"kod": "RIVN", "şirket": "Rivian", "açıklama": "Pickup/SUV"},
+            {"kod": "NIO", "şirket": "NIO", "açıklama": "Çin EV"},
+            {"kod": "XPEV", "şirket": "XPeng", "açıklama": "Otonom tech"},
         ]
     },
 }
 
-# ===== ÖZETİ METRİKLER =====
+# ===== ÖZET METRİKLER =====
 st.subheader("📊 Portföy Özeti")
-col1, col2, col3, col4, col5 = st.columns(5)
 
 total_stocks = sum(len(tema["hisseler"]) for tema in tema_hisseler.values())
-with col1:
-    st.metric("📋 Takip Edilen Hisse", total_stocks)
-with col2:
-    st.metric("🎯 Tema Sayısı", len(tema_hisseler))
-with col3:
-    st.metric("💰 Portföy Boyutu", "20.000 USD")
-with col4:
-    st.metric("⭐ Mega Cap", "6")
-with col5:
-    st.metric("🔗 Blockchain", "9")
+col1, col2, col3, col4, col5 = st.columns(5)
 
-st.divider()
+metrics_data = [
+    ("📋 Hisse", str(total_stocks), "tema"),
+    ("🎯 Tema", str(len(tema_hisseler)), "tema"),
+    ("💰 Portföy", "20.000 USD", "para"),
+    ("⭐ Mega Cap", "6", "hisse"),
+    ("🔗 Blockchain", "9", "hisse")
+]
 
-# ===== TEMA HİSSELERİ =====
-st.subheader("🎯 Tema Bazlı Hisseler — Detaylı Liste")
+for i, (label, value, _) in enumerate(metrics_data):
+    with [col1, col2, col3, col4, col5][i]:
+        st.metric(label, value)
 
-# Tema özeti
-tema_col1, tema_col2, tema_col3 = st.columns(3)
+st.markdown("---")
 
-with tema_col1:
-    st.markdown("#### 🔗 Blockchain & Kripto")
-    st.markdown("**9 hisse**")
-    coins = ", ".join([h["kod"] for h in tema_hisseler["🔗 Blockchain & Kripto"]["hisseler"]])
-    st.code(coins, language="csv")
+# ===== TEMA HİSSELERİ PREVIEW =====
+st.subheader("🎯 Tema Portföyü — Hisseler")
 
-with tema_col2:
-    st.markdown("#### 🤖 Yapay Zeka & Tech")
-    st.markdown("**10 hisse**")
-    ai = ", ".join([h["kod"] for h in tema_hisseler["🤖 Yapay Zeka & İleri Teknoloji"]["hisseler"]])
-    st.code(ai, language="csv")
+tema_cols = st.columns(len(tema_hisseler))
 
-with tema_col3:
-    st.markdown("#### ⚡ Yenilenebilir Enerji")
-    st.markdown("**10 hisse**")
-    energy = ", ".join([h["kod"] for h in tema_hisseler["⚡ Yenilenebilir Enerji"]["hisseler"]])
-    st.code(energy, language="csv")
+for idx, (tema_adı, tema_data) in enumerate(tema_hisseler.items()):
+    with tema_cols[idx]:
+        st.markdown(f"""
+        <div class="tema-card">
+            <div class="tema-title">{tema_adı}</div>
+            <div class="tema-count">• {len(tema_data['hisseler'])} hisse</div>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Hisse kodları
+        hisse_kodlar = ", ".join([h["kod"] for h in tema_data["hisseler"]])
+        st.code(hisse_kodlar, language="csv")
 
-st.divider()
+st.markdown("---")
 
-# ===== TÜMEL HİSSELER TABLOSU =====
+# ===== DETAYLI TABLO =====
 st.subheader("📊 Tüm Tema Hisseleri — Detaylı Tablo")
 
 all_stocks = []
 for tema_adı, tema_data in tema_hisseler.items():
     for hisse in tema_data["hisseler"]:
         all_stocks.append({
-            "Tema": tema_adı,
-            "Sembol": hisse["kod"],
-            "Şirket": hisse["şirket"],
-            "Açıklama": hisse["açıklama"]
+            "🎯 Tema": tema_adı,
+            "📌 Sembol": hisse["kod"],
+            "🏢 Şirket": hisse["şirket"],
+            "📝 Açıklama": hisse["açıklama"]
         })
 
-df_all = pd.DataFrame(all_stocks).sort_values("Sembol").reset_index(drop=True)
+df_all = pd.DataFrame(all_stocks).sort_values("📌 Sembol").reset_index(drop=True)
 st.dataframe(df_all, use_container_width=True, height=400, hide_index=True)
 
-st.divider()
+st.markdown("---")
 
-# ===== SİSTEM BİLGİLERİ =====
+# ===== SİSTEM KARTLERİ =====
 st.subheader("🔧 Sistem Bilgileri")
 
-info_col1, info_col2, info_col3 = st.columns(3)
+col1, col2, col3 = st.columns(3)
 
-with info_col1:
+with col1:
     st.markdown("""
-    **Piyasa Bilgileri:**
-    - Piyasa: NYSE + NASDAQ
-    - Zaman Dilimi: America/New_York (EST)
-    - Veri Kaynağı: yfinance
-    - Başlangıç: 20.000 USD
-    """)
+    <div class="info-card">
+    <b>📊 Piyasa Bilgileri</b><br>
+    ✓ NYSE + NASDAQ<br>
+    ✓ EST Zamanı<br>
+    ✓ yfinance Veri<br>
+    ✓ 20.000 USD
+    </div>
+    """, unsafe_allow_html=True)
 
-with info_col2:
+with col2:
     st.markdown("""
-    **Teknik Analiz:**
-    - RSI (14)
-    - MACD (12/26/9)
-    - Bollinger Bands (20/2σ)
-    - Moving Averages (20/50/200)
-    - Volume Analysis
-    """)
+    <div class="info-card">
+    <b>📈 Teknik Analiz</b><br>
+    ✓ RSI (14)<br>
+    ✓ MACD (12/26/9)<br>
+    ✓ Bollinger (20/2σ)<br>
+    ✓ EMA (20/50/200)
+    </div>
+    """, unsafe_allow_html=True)
 
-with info_col3:
+with col3:
     st.markdown("""
-    **Risk Yönetimi:**
-    - Max Pozisyon: %25
-    - Stop-Loss: -%4
-    - Take-Profit: +%2.5
-    - Trailing Stop: -%2
-    - Portfolio Stop: -%10
-    """)
+    <div class="info-card">
+    <b>⚔️ Risk Yönetimi</b><br>
+    ✓ Max Pos: %25<br>
+    ✓ SL: -%4<br>
+    ✓ TP: +%2.5<br>
+    ✓ Portfolio: -%10
+    </div>
+    """, unsafe_allow_html=True)
 
-st.divider()
+st.markdown("---")
 
-# ===== PORTFÖY ÖĞÜŞÜ =====
-st.subheader("📌 Önerilen Portföy Dağılımı")
+# ===== PORTFÖY DAĞILIMI =====
+st.subheader("💼 Önerilen Portföy Dağılımı")
 
-portfoyu_col1, portfoyu_col2, portfoyu_col3, portfoyu_col4 = st.columns(4)
+# Pie Chart
+portfoy_data = {
+    "🔗 Blockchain": 25,
+    "💻 Mega Cap Tech": 30,
+    "🤖 YZ & Tech": 25,
+    "⚡ Enerji": 20
+}
 
-with portfoyu_col1:
-    st.metric("🔗 Blockchain", "25%", "5.000 USD")
-with portfoyu_col2:
-    st.metric("💻 Mega Cap Tech", "30%", "6.000 USD")
-with portfoyu_col3:
-    st.metric("🤖 YZ & Tech", "25%", "5.000 USD")
-with portfoyu_col4:
-    st.metric("⚡ Enerji", "20%", "4.000 USD")
+fig = go.Figure(data=[go.Pie(
+    labels=list(portfoy_data.keys()),
+    values=list(portfoy_data.values()),
+    hole=0.3,
+    marker=dict(
+        colors=["#4a9eff", "#00c864", "#ff9500", "#ff4444"],
+        line=dict(color="#0a0e1a", width=2)
+    )
+)])
 
-st.info("""
-### 📚 Tema Stratejisi
+fig.update_layout(
+    title_text="Tema Dağılımı (% cinsinden)",
+    template="plotly_dark",
+    paper_bgcolor="rgba(10, 14, 26, 0.5)",
+    plot_bgcolor="rgba(10, 14, 26, 0.5)",
+    font=dict(color="#8ba7d0"),
+    height=400
+)
 
-**Johnny, tema bazlı yatırım yapar:**
+st.plotly_chart(fig, use_container_width=True)
 
-1. **Tema Seçimi** — Blockchain, YZ, Enerji, Tech
-2. **Hisse Seçimi** — Her tema içinde en iyi performans gösterenler
-3. **Teknik Sinyal** — RSI, MACD, Bollinger, MA
-4. **Risk Kontrol** — Stop-loss, take-profit, max position
-5. **Portföy Dinamikliği** — Sektör rotasyonu, tema taşımacılığı
+# Metrikler
+col1, col2, col3, col4 = st.columns(4)
+dolarlar = [("🔗 Blockchain", "25%", "5.000 USD"),
+            ("💻 Mega Cap", "30%", "6.000 USD"),
+            ("🤖 YZ & Tech", "25%", "5.000 USD"),
+            ("⚡ Enerji", "20%", "4.000 USD")]
 
-**Avantajları:**
-- ✅ Çeşitlendirme (5 tema)
-- ✅ Trend takibi (teknik analiz)
-- ✅ Risk kontrollü (stop-loss, position size)
-- ✅ Gerçekçi komisyonlar (%0.30)
+for col, (label, pct, usd) in zip([col1, col2, col3, col4], dolarlar):
+    with col:
+        st.metric(label, pct, usd)
 
----
-**NOT:** Bu sistem kağıt portföy simülasyonudur. Gerçek para işlemi yapmaz.
-""")
+st.markdown("---")
 
-st.divider()
-
-# ===== DOWNLOAD =====
+# ===== EXPORT =====
 st.subheader("💾 Dışa Aktar")
 
-# CSV
-csv_data = df_all.to_csv(index=False)
-st.download_button(
-    label="📥 CSV İndir",
-    data=csv_data,
-    file_name="johnny_tema_hisseler.csv",
-    mime="text/csv"
-)
+col1, col2 = st.columns(2)
 
-# JSON
-json_data = json.dumps({
-    "sistem": {
-        "ad": "Johnny",
-        "piyasa": "NYSE + NASDAQ",
-        "portfoy": "20.000 USD",
-        "temalar": len(tema_hisseler),
-        "hisseler": total_stocks
-    },
-    "temalar": {
-        tema_adı: {
-            "açıklama": tema_data["açıklama"],
-            "hisseler": tema_data["hisseler"]
-        }
-        for tema_adı, tema_data in tema_hisseler.items()
-    }
-}, indent=2, ensure_ascii=False)
+with col1:
+    csv_data = df_all.to_csv(index=False)
+    st.download_button(
+        label="📥 CSV İndir",
+        data=csv_data,
+        file_name="johnny_tema_hisseler.csv",
+        mime="text/csv"
+    )
 
-st.download_button(
-    label="📥 JSON İndir",
-    data=json_data,
-    file_name="johnny_tema_hisseler.json",
-    mime="application/json"
-)
+with col2:
+    json_data = json.dumps(tema_hisseler, indent=2, ensure_ascii=False)
+    st.download_button(
+        label="📥 JSON İndir",
+        data=json_data,
+        file_name="johnny_tema_hisseler.json",
+        mime="application/json"
+    )
 
-st.divider()
+st.markdown("---")
 
 # Footer
 st.markdown("""
----
-**Johnny v1.0** — ABD Borsası Simülasyon Ajanı  
-🔗 GitHub: https://github.com/kirazhub/johny  
-📊 Dashboard Port: 8511  
-⏰ Güncellenmiş: 2026-04-20
-""")
+<div style="text-align: center; color: #8ba7d0; margin-top: 40px; padding: 20px; border-top: 1px solid rgba(42, 74, 142, 0.2);">
+    <p>🇺🇸 <b>Johnny v1.0</b> — ABD Borsası Simülasyon Ajanı</p>
+    <p>🔗 <a href="https://github.com/kirazhub/johny" target="_blank" style="color: #4a9eff;">GitHub</a> • 
+    📊 Port 8511 • ⏰ 2026-04-20</p>
+</div>
+""", unsafe_allow_html=True)

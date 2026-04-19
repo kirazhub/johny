@@ -28,6 +28,10 @@ US_SEMBOLLER: List[str] = [
     "AMD", "INTC", "QCOM", "AVGO", "MU",
     # Growth/ARK-style
     "PLTR", "COIN", "HOOD", "SOFI", "RBLX",
+    # Özel Takip (2026-04-20)
+    # Fintek + Kripto
+    "HOOD",  # Robinhood (zaten var)
+    "TEM",   # Tempus AI — AI-powered precision oncology
     # ETFs
     "SPY", "QQQ", "IWM",
 ]
@@ -43,6 +47,7 @@ SEKTOR_GRUPLARI: Dict[str, List[str]] = {
     "Yarı İletkenler": ["AMD", "INTC", "QCOM", "AVGO", "MU"],
     "Büyüme": ["PLTR", "COIN", "HOOD", "SOFI", "RBLX"],
     "ETF": ["SPY", "QQQ", "IWM"],
+    "Özel Takip (Raif)": ["HOOD", "TEM"],  # Robinhood + Tempus AI
 }
 
 # ─── Piyasa Saatleri (EST) ───────────────────────────────────────────────────
